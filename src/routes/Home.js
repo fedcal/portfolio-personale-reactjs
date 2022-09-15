@@ -1,10 +1,12 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
+import HeroImg from '../components/Hero/HeroImg';
+import Navbar from '../components/Navbar/Navbar';
 
 function Home() {
   return (
     <>
-      <Navbar/>  
+      <Navbar/> 
+      <HeroImg/> 
     </>
   )
 }
