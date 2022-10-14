@@ -4,6 +4,7 @@ import Home from "./routes/Home";
 import About from "./routes/About";
 import Contatti from "./routes/Contact";
 import Progetti from "./routes/Project";
+import Servizi from "./routes/Servizi";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
       <Routes>
         <Route path='/'element={<Home/>}/>
         <Route path='/progetti'element={<Progetti/>}/>
-        <Route path='/mipresento'element={<About/>}/>
+        <Route path='/presentazioni'element={<About/>}/>
+        <Route path='/servizi'element={<Servizi/>}/>
         <Route path='/contatti'element={<Contatti/>}/>
       </Routes>
     </>

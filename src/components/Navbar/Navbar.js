@@ -24,10 +24,13 @@ function Navbar() {
                 <Link to={"/"}>Home</Link>
             </li>
             <li>
-                <Link to={"/mipresento"}>Chi sono</Link>
+                <Link to={"/presentazioni"}>Chi sono</Link>
             </li>
             <li>
                 <Link to={"/progetti"}>Progetti</Link>
+            </li>
+            <li>
+                <Link to={"/servizi"}>Servizi</Link>
             </li>
             <li>
                 <Link to={"/contatti"}>Contatti</Link>

@@ -1,13 +1,14 @@
 import React from 'react';
 import Footer from '../components/Footer/Footer';
 import Navbar from '../components/Navbar/Navbar';
-function About() {
+
+function Servizi() {
   return (
     <div>
-      <Navbar/>
-      <Footer/>
+        <Navbar/>
+        <Footer/>
     </div>
   )
 }
 
-export default About;
+export default Servizi
