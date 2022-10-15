@@ -20,12 +20,18 @@
 .location{
     display: flex;
     margin-bottom: 0.8rem;
+    align-items: center;
 }
 .location p{
     line-height: 30px;
+    align-items: center;
 }
 .phone{
+    margin-top: 0.8rem;
     margin-bottom: 0.8rem;
+}
+.email{
+    margin-top: 0.8rem;
 }
 .right{
     height: 100%;

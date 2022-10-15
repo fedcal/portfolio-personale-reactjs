@@ -19,13 +19,13 @@ function Footer() {
                 </div>
                 <div className='phone'>
                     <h4>
-                        <FaPhone size={20} style={{color: "#fff", marginRight:'2rem'}}/>
-                        <Link to={"/"} onClick={(e)=>{window.location.href='https://wa.me/393332673965'; e.preventDefault();}}>+39 3332673965</Link>
+                        <FaPhone size={18} style={{color: "#fff", marginRight:'2rem'}}/>
+                        <Link to={"/"} onClick={(e)=>{window.location.href='https://wa.me/393332673965'; e.preventDefault();}}>39 3332673965</Link>
                     </h4>
                 </div>
                 <div className='email'>
                     <h4>
-                        <FiMail size={20} style={{color: "#fff", marginRight:'2rem'}}/>
+                        <FiMail size={18} style={{color: "#fff", marginRight:'2rem'}}/>
                         <Link to={"/"} onClick={(e)=>{window.location.href='mailto:fedcal01@gmail.com'; e.preventDefault();}}>fedcal01@gmail.com</Link>
                     </h4>
                 </div>
@@ -34,7 +34,7 @@ function Footer() {
                 <h4>Federico Calò</h4>
                 <p>Sviluppatore software per soluzioni personalizzate di siti web e applicazioni desktop.</p>
                 <div className='social'>
-                    <FaLinkedin size={20} style={{color: "#fff", marginRight:'1rem'}}/>
+                   <a href='https://www.linkedin.com/in/federico-calo/'target='_blank'> <FaLinkedin size={20} style={{color: "#fff", marginRight:'1rem'}}/></a>
                 </div>
             </div>
         </div>
