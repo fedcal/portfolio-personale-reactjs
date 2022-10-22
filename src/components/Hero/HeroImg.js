@@ -1,6 +1,6 @@
 import "./HeroImgStyle.css";
 import React from 'react';
-import IntroImg from "../assets/hero.jpg";
+import IntroImg from "../assets/hero.webp";
 import {Link} from "react-router-dom";
 
 function HeroImg() {

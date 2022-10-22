@@ -6,7 +6,7 @@
 }
 .hero-img::before{
     content: "";
-    background: url('../assets/progetti-img.jpg');
+    background: url('../assets/progetti-img.webp');
     background-size: cover;
     background-position: center;
     object-fit: cover;

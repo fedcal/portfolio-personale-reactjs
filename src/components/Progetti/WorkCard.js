@@ -3,12 +3,12 @@ import React from 'react';
 import abitareMicocci from '../assets/abitaremicocci.webp';
 import portfolioTemplate1 from '../assets/PortfolioTamplate1.webp';
 import worldsInn from '../assets/worldsinn.webp';
-import gestionaleDipendenti from '../assets/gestionaleDipendenti.PNG';
-import casaMagnolie from '../assets/casaMagnolie.png';
-import portfolio from '../assets/portfolio.PNG';
-import regressionTree from '../assets/tree3.png';
-import tcp from '../assets/tcp.PNG';
-import udp from '../assets/udp.PNG';
+import gestionaleDipendenti from '../assets/gestionaleDipendenti.webp';
+import casaMagnolie from '../assets/casaMagnolie.webp';
+import portfolio from '../assets/portfolio.webp';
+import regressionTree from '../assets/tree3.webp';
+import tcp from '../assets/tcp.webp';
+import udp from '../assets/udp.webp';
 
 function WorkCard() {
   return (
