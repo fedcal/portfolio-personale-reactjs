@@ -17,7 +17,7 @@ function WorkCardPreview() {
                 <div className='pro-details'>
                     <p>Nato come progetto sviluppato nel tempo libero, questo mio sito web è stato realizzato interamente con la 
                         libreria ReactJs e svariate librerie Javascript. La principale è la libreria Helmet.js, la quale supporta 
-                        lo svilupo web per la gestione dinamica delle keyword delle varie pagine, migliorando significativamente la 
+                        lo sviluppo web per la gestione dinamica delle keyword delle varie pagine, migliorando significativamente la 
                         SEO del sito.
                     </p>
                 </div>
@@ -48,7 +48,7 @@ function WorkCardPreview() {
                 <h2 className='project-title'>Regression Tree Mining</h2>
                 <div className='pro-details'>
                     <p>Progetto universitario sviluppato in Java. Consiste nel creare un albero di regressione da dei dati che vengono
-                        letti da un database o da un file testuale. L'albero viene successivamente percorso attraverso delle regole selezonate
+                        letti da un database o da un file testuale. L'albero viene successivamente percorso attraverso delle regole selezionate
                         dall'utente e infine verrà predetto un dato.
                     </p>
                 </div>

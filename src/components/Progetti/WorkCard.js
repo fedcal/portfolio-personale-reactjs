@@ -22,7 +22,7 @@ function WorkCard() {
                 <div className='pro-details'>
                     <p>Nato come progetto sviluppato nel tempo libero, questo mio sito web è stato realizzato interamente con la 
                         libreria ReactJs e svariate librerie Javascript. La principale è la libreria Helmet.js, la quale supporta 
-                        lo svilupo web per la gestione dinamica delle keyword delle varie pagine, migliorando significativamente la 
+                        lo sviluppo web per la gestione dinamica delle keyword delle varie pagine, migliorando significativamente la 
                         SEO del sito.
                     </p>
                 </div>
@@ -53,7 +53,7 @@ function WorkCard() {
                 <h2 className='project-title'>Regression Tree Mining</h2>
                 <div className='pro-details'>
                     <p>Progetto universitario sviluppato in Java. Consiste nel creare un albero di regressione da dei dati che vengono
-                        letti da un database o da un file testuale. L'albero viene successivamente percorso attraverso delle regole selezonate
+                        letti da un database o da un file testuale. L'albero viene successivamente percorso attraverso delle regole selezionate
                         dall'utente e infine verrà predetto un dato.
                     </p>
                 </div>
@@ -68,7 +68,7 @@ function WorkCard() {
                 <div className='pro-details'>
                     <p>Un esempio di gestionale creato con ReactJs per quanto riguarda l'interfaccia web, mentre per il lato backend
                         ho utilizzato la libreria SpringBoot di Java. I dati vengono salvati su un database MySQL in locale. Il pattern
-                        co cui è stato creato il progetto è il mvc.
+                        co cui è stato creato il progetto è il MVC.
                     </p>
                 </div>
                 <div className='pro-btns'>
@@ -81,7 +81,7 @@ function WorkCard() {
                 <h2 className='project-title'>Protocollo TCP</h2>
                 <div className='pro-details'>
                     <p>Per la prova in itinere dell'esame di Reti di Calcolatori, ci è stata fornita una traccia per 
-                        l'implementazione di una calcolatrice che sfrutasse il protocollo TCP tra un client e un server
+                        l'implementazione di una calcolatrice che sfruttasse il protocollo TCP tra un client e un server
                         in locale. Il client richiedeva sotto forma di stringa l'operazione da calcolare e la inviava al 
                         server, dopo aver stabilito la connessione. Il server restituiva la stringa con l'operazione calcolata. 
                     </p>
@@ -97,7 +97,7 @@ function WorkCard() {
                 <div className='pro-details'>
                     <p>Un esempio di gestionale creato con ReactJs per quanto riguarda l'interfaccia web, mentre per il lato backend
                         ho utilizzato la libreria SpringBoot di Java. I dati vengono salvati su un database MySQL in locale. Il pattern
-                        co cui è stato creato il progetto è il mvc.
+                        co cui è stato creato il progetto è il MVC.
                     </p>
                 </div>
                 <div className='pro-btns'>

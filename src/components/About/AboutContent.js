@@ -11,7 +11,7 @@ function AboutContent() {
                 <h1>Mi presento</h1>
                 <p>Sono Federico Calò, sviluppatore software. Studio informatica presso l'università Aldo Moro di Bari. Durante gli Studi
                     ho iniziato a lavorare come analista software e sviluppatore software. Mi piace molto ciò che faccio, approfondisco
-                    sempre ogni argomento e mi paice sperimentare nuove tecnologie. Oltre allo sviluppo di software per le aziende ho anche 
+                    sempre ogni argomento e mi piace sperimentare nuove tecnologie. Oltre allo sviluppo di software per le aziende ho anche 
                     altri interessi, quali l'analisi di dati e lo sviluppo di siti web. Mi diverto a integrare le varie conoscenze, quindi
                     ogni software o sito web che realizzo, ha una sezione legata allo studio dei dati che vengono raccolti. La cura dei 
                     dettagli è essenziale e nulla va lasciato al caso.
