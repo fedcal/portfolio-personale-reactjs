@@ -3,6 +3,7 @@ import './FooterStyle.css';
 import React from 'react';
 import {FaHome, FaLinkedin, FaPhone} from "react-icons/fa";
 import {FiMail} from "react-icons/fi";
+import {FaGithub} from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
 function Footer() {
@@ -35,6 +36,7 @@ function Footer() {
                 <p>Sviluppatore software per soluzioni personalizzate di siti web e applicazioni desktop.</p>
                 <div className='social'>
                    <a href='https://www.linkedin.com/in/federico-calo/'target='_blank'rel="noopener noreferrer"> <FaLinkedin size={20} style={{color: "#fff", marginRight:'1rem'}}/></a>
+                   <a href='https://github.com/fedcal'target='_blank'rel="noopener noreferrer"> <FaGithub size={20} style={{color: "#fff", marginRight:'1rem'}}/></a>
                 </div>
             </div>
         </div>
