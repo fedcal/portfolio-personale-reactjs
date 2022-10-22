@@ -1,6 +1,7 @@
 import './FormStyle.css';
 import emailjs from '@emailjs/browser';
 import React, { useRef }  from 'react';
+import { Link } from 'react-router-dom';
 
 function Form() {
   const form = useRef();
@@ -20,7 +21,7 @@ function Form() {
             <input type="text" name='oggetto'></input>
             <label>Testo</label>
             <textarea rows="6" cols="Inserisci il messaggio" name='testo'></textarea> 
-            <button className='btn' type='submit'value="Send">Invia</button>
+            <Link to="/"className='btn' type='submit'value="Send">Invia</Link>
         </form>
     </div>
   )
