@@ -1,0 +1,132 @@
+/**.about{
+    width: 100%;
+    margin: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+    height: 100%;
+}
+.about .left{
+    padding: 1rem;
+    width: 50%;
+    padding: 0 1rem 0 1rem;
+    margin: auto;
+    max-width: 900px;
+}
+.about .left h1{
+    color: rgb(248, 217, 15);
+}
+.about .left p{
+    margin: 1.2rem 0;
+    text-align: justify;
+}
+.about .left ul{
+    margin-left: 15px;
+    margin-top: 15px;
+    list-style: none;
+    color:white;
+}
+.about .left ul li::before{
+    content: "\2022"; 
+    color: rgb(248, 217, 15); 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
+}
+.about .right{
+    
+    width: 50%;
+}
+.right .img-container{
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+.right img{
+    max-width: 100%;
+    border: 1px solid #333;
+    border-radius: 50%;
+}**/
+
+.about{
+    width: 100%;
+    display: flex;
+    margin: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.about .content img{
+    height: auto;
+    width: 500px;
+    max-width: 100%;
+    margin: 0 100px;
+    border-radius: 48%;
+}
+
+.about .text{
+    width: 700px;
+    max-width: 100%;
+    padding: 0 10px;
+    color: white;
+}
+.text  ul{
+    margin-left: 15px;
+    margin-top: 15px;
+    list-style: none;
+    color:white;
+}
+.text  ul li::before{
+    content: "\2022"; 
+    color: rgb(248, 217, 15); 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
+}
+.about .content{
+    max-width: 100%;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.text h1{
+    color: rgb(248, 217, 15);
+}
+
+@media screen and (max-width:1180px){
+    .about{
+        width: 100%;
+        height: auto;
+        padding: 70px 0px;
+    }
+}
+
+@media screen and (max-width:1499px){
+    .about .content img{
+        margin-bottom: 35px;
+     }
+}
+
+@media screen and (max-width:700px){
+    .about .text{
+       margin: 20px;
+    }
+}
+
+@media screen and (max-width:650px){
+    .about .content img{
+       margin-bottom: 35px;
+    }
+}
+@media screen and (max-width:480px){
+    .about .content img{
+       max-width: 80%;
+    }
+}
