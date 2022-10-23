@@ -69,5 +69,17 @@
         <image:loc>https://www.federicocalo.it/static/media/casaMagnolie.4e47bf2903bb93dcd39a.webp</image:loc>
       </image:image>
   </url>
+   <!-- Immagini /servizi -->
+  <url>
+    <loc>https://www.federicocalo.it/servizi</loc>
+    <changefreq>monthly</changefreq>
+    <priority>01.0</priority>
+  </url>
+  <!-- Immagini /contatti -->
+  <url>
+    <loc>https://www.federicocalo.it/contatti</loc>
+    <changefreq>monthly</changefreq>
+    <priority>01.0</priority>
+  </url>
   
 </urlset>
