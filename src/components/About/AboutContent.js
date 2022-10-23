@@ -22,6 +22,8 @@ function AboutContent() {
                         <li>Python, per l'analisi di dati e la loro visualizzazione</li>
                         <li>HTML, per lo sviluppo di siti web</li>
                         <li>CSS, per creare fogli di stile per il web</li>
+                        <li>MySQL, per la gestione di basi di dati relazionali</li>
+                        <li>MongoDB, per la gestione di basi di dati non relazionali</li>
                         <li>Javascript, per alcuni effetti che migliorano la navigabilità all'interno dei siti</li>
                     </ul>
                     <br/><br/>
