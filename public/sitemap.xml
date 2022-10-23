@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="https://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://www.federicocalo.it/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>01.0</priority>
+    <!-- Immagini / -->
+      <image:image>
+        <image:loc></image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.federicocalo.it/static/media/profilo.2c4f71b705f5e3674fb2.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.federicocalo.it/static/media/hero.9019e18c7b2687f218c9.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.federicocalo.it/img/SpaceInvaders.webp</image:loc>
+      </image:image>
+  </url>
+  
+</urlset>

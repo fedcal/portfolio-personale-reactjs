@@ -1,8 +1,8 @@
 import React from 'react';
 import './WorkCard.css';
 import abitareMicocci from '../assets/abitaremicocci.webp';
-import portfolio from '../assets/portfolio.PNG';
-import regressionTree from '../assets/tree3.png';
+import portfolio from '../assets/portfolio.webp';
+import regressionTree from '../assets/tree3.webp';
 import {Link} from 'react-router-dom'
 
 function WorkCardPreview() {
