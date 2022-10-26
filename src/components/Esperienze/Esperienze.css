@@ -84,8 +84,8 @@
     font-size: 16px;
     text-align: justify;
 }
-ul li{margin-top: 10px;}
-ul li::before{
+.container .row ul li{margin-top: 10px;}
+.container .row ul li::before{
     content: "\2022"; 
     color: rgb(248, 217, 15); 
     font-weight: bold; 
