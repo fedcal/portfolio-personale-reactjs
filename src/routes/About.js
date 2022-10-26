@@ -4,12 +4,13 @@ import Navbar from '../components/Navbar/Navbar';
 import HeroImg2 from '../components/Hero/HeroImg2';
 import AboutContent from '../components/About/AboutContent';
 import {Helmet} from "react-helmet";
+import Esperienze from '../components/Esperienze/Esperienze';
 function About() {
   return (
     <div>
       <Helmet>
         <title>Federico Calò - Mi presento</title>
-        <meta name='keywords' content='HTML, ReactJs, sito web, website, Java, Spring Boot, Css, Javascript, Helmet, JavaScript, MySQL, Portfolio, Università di Bari, Università Aldo Moro di Bari, Università Aldo Moro, JavaFX, Python'/>
+        <meta name='keywords' content='Analisi software, analista software, sviluppatore junior, analisi as-is, analisi to-be, evolutive SEO, Liferay, LAurea informatica,HTML, ReactJs, sito web, website, Java, Spring Boot, Css, Javascript, Helmet, JavaScript, MySQL, Portfolio, Università di Bari, Università Aldo Moro di Bari, Università Aldo Moro, JavaFX, Python'/>
         <meta name='description' content='Presentazopni di Federico Calò, dove ha studiato e le sue abilità principali.'/>
         <meta name='robots' content='index,follow'/>
         <meta name='language' content='IT'/>
@@ -22,10 +23,12 @@ function About() {
         <meta name="apple-mobile-web-app-title" content="Federico Calò - Mi presento"/> 
         <meta name='apple-mobile-web-app-capable' content='yes'/>
         <meta name='apple-touch-fullscreen' content='yes'/>
+        <link rel="canonical" href="https://www.federicocalo.it/presentazioni" />
       </Helmet>
       <Navbar/>
       <HeroImg2 heading="Eccomi,"text="mi presento."/>
       <AboutContent/>
+      <Esperienze/>
       <Footer/>
     </div>
   )
