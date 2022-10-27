@@ -24,7 +24,7 @@ function Home() {
         <meta name="apple-mobile-web-app-title" content="Federico Calò - Progetti sviluppati"/> 
         <meta name='apple-mobile-web-app-capable' content='yes'/>
         <meta name='apple-touch-fullscreen' content='yes'/>
-        <link rel="canonical" href="https://www.federicocalo.it/presentazioni" />
+        <link rel="canonical" href="https://www.federicocalo.dev/presentazioni" />
       </Helmet>
       <Navbar/> 
       <HeroImg/> 

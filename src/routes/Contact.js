@@ -8,7 +8,7 @@ function Contact() {
   return (
     <div>
       <Helmet>
-      <link rel="canonical" href="https://www.federicocalo.it/contatti" />
+      <link rel="canonical" href="https://www.federicocalo.dev/contatti" />
       </Helmet>
      <Navbar/>
      <HeroImg2 heading="CONTATTAMI"text="Compila il forum per lasciarmi un messaggio."/>
