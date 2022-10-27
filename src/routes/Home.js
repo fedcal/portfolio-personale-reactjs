@@ -21,10 +21,8 @@ function Home() {
         <meta name='og:description' content='Raccolta di progetti sviluppati in diverse tecnologie, le principali sono: Java, ReactJs, SpringBoot, HTML, CSS, Helmet.'/>
         <meta name='og:email' content='fedcal01@gmail.com'/>
         <meta name='og:phone_number' content='+39 3332673965'/>
-        <meta name="apple-mobile-web-app-title" content="Federico Calò - Progetti sviluppati"/> 
         <meta name='apple-mobile-web-app-capable' content='yes'/>
         <meta name='apple-touch-fullscreen' content='yes'/>
-        <link rel="canonical" href="https://www.federicocalo.dev/presentazioni" />
       </Helmet>
       <Navbar/> 
       <HeroImg/> 

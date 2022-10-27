@@ -23,7 +23,6 @@ function About() {
         <meta name="apple-mobile-web-app-title" content="Federico Calò - Mi presento"/> 
         <meta name='apple-mobile-web-app-capable' content='yes'/>
         <meta name='apple-touch-fullscreen' content='yes'/>
-        <link rel="canonical" href="https://www.federicocalo.dev/presentazioni" />
       </Helmet>
       <Navbar/>
       <HeroImg2 heading="Eccomi,"text="mi presento."/>
