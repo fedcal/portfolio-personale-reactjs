@@ -2,82 +2,82 @@
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="https://www.google.com/schemas/sitemap-image/1.1">
   <!-- Immagini / -->
   <url>
-    <loc>https://www.federicocalo.it/</loc>
+    <loc>https://www.federicocalo.dev/</loc>
     <changefreq>monthly</changefreq>
     <priority>01.0</priority>
       <image:image>
-        <image:loc>https://www.federicocalo.it/static/media/profilo.webp</image:loc>
+        <image:loc>https://www.federicocalo.dev/static/media/profilo.webp</image:loc>
       </image:image>
       <image:image>
-        <image:loc>https://www.federicocalo.it/static/media/hero.webp</image:loc>
+        <image:loc>https://www.federicocalo.dev/static/media/hero.webp</image:loc>
       </image:image>
       <image:image>
-        <image:loc>https://www.federicocalo.it/static/media/portfolio.webp</image:loc>
+        <image:loc>https://www.federicocalo.dev/static/media/portfolio.webp</image:loc>
       </image:image>
       <image:image>
-        <image:loc>https://www.federicocalo.it/static/media/abitaremicocci.webp</image:loc>
+        <image:loc>https://www.federicocalo.dev/static/media/abitaremicocci.webp</image:loc>
       </image:image>
       <image:image>
-        <image:loc>https://www.federicocalo.it/static/media/tree3.webp</image:loc>
+        <image:loc>https://www.federicocalo.dev/static/media/tree3.webp</image:loc>
       </image:image>
   </url>
   <!-- Immagini /presentazioni -->
   <url>
-    <loc>https://www.federicocalo.it/presentazioni</loc>
+    <loc>https://www.federicocalo.dev/presentazioni</loc>
     <changefreq>monthly</changefreq>
     <priority>01.0</priority>
       <image:image>
-        <image:loc>https://www.federicocalo.it/static/media/progetti-img.webp</image:loc>
+        <image:loc>https://www.federicocalo.dev/static/media/progetti-img.webp</image:loc>
       </image:image>
       <image:image>
-        <image:loc>https://www.federicocalo.it/static/media/profilo.webp</image:loc>
+        <image:loc>https://www.federicocalo.dev/static/media/profilo.webp</image:loc>
       </image:image>
   </url>
   <!-- Immagini /progetti -->
   <url>
-    <loc>https://www.federicocalo.it/progetti</loc>
+    <loc>https://www.federicocalo.dev/progetti</loc>
     <changefreq>monthly</changefreq>
     <priority>01.0</priority>
       <image:image>
-        <image:loc>https://www.federicocalo.it/static/media/progetti-img.webp</image:loc>
+        <image:loc>https://www.federicocalo.dev/static/media/progetti-img.webp</image:loc>
       </image:image>
       <image:image>
-        <image:loc>https://www.federicocalo.it/static/media/portfolio.webp</image:loc>
+        <image:loc>https://www.federicocalo.dev/static/media/portfolio.webp</image:loc>
       </image:image>
       <image:image>
-        <image:loc>https://www.federicocalo.it/static/media/abitaremicocci.webp</image:loc>
+        <image:loc>https://www.federicocalo.dev/static/media/abitaremicocci.webp</image:loc>
       </image:image>
       <image:image>
-        <image:loc>https://www.federicocalo.it/static/media/tree3.webp</image:loc>
+        <image:loc>https://www.federicocalo.dev/static/media/tree3.webp</image:loc>
       </image:image>
       <image:image>
-        <image:loc>https://www.federicocalo.it/static/media/gestionaleDipendenti.webp</image:loc>
+        <image:loc>https://www.federicocalo.dev/static/media/gestionaleDipendenti.webp</image:loc>
       </image:image>
       <image:image>
-        <image:loc>https://www.federicocalo.it/static/media/tcp.webp</image:loc>
+        <image:loc>https://www.federicocalo.dev/static/media/tcp.webp</image:loc>
       </image:image>
       <image:image>
-        <image:loc>https://www.federicocalo.it/static/media/udp.webp</image:loc>
+        <image:loc>https://www.federicocalo.dev/static/media/udp.webp</image:loc>
       </image:image>
       <image:image>
-        <image:loc>https://www.federicocalo.it/static/media/PortfolioTamplate1.webp</image:loc>
+        <image:loc>https://www.federicocalo.dev/static/media/PortfolioTamplate1.webp</image:loc>
       </image:image>
       <image:image>
-        <image:loc>https://www.federicocalo.it/static/media/worldsinn.webp</image:loc>
+        <image:loc>https://www.federicocalo.dev/static/media/worldsinn.webp</image:loc>
       </image:image>
       <image:image>
-        <image:loc>https://www.federicocalo.it/static/media/casaMagnolie.webp</image:loc>
+        <image:loc>https://www.federicocalo.dev/static/media/casaMagnolie.webp</image:loc>
       </image:image>
   </url>
    <!-- Immagini /servizi -->
   <url>
-    <loc>https://www.federicocalo.it/servizi</loc>
+    <loc>https://www.federicocalo.dev/servizi</loc>
     <changefreq>monthly</changefreq>
     <priority>01.0</priority>
   </url>
   <!-- Immagini /contatti -->
   <url>
-    <loc>https://www.federicocalo.it/contatti</loc>
+    <loc>https://www.federicocalo.dev/contatti</loc>
     <changefreq>monthly</changefreq>
     <priority>01.0</priority>
   </url>
