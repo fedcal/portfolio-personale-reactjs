@@ -12,7 +12,7 @@ function WorkCardPreview() {
         <div className='project-container'>
             
             <div className='project-card'>
-                <img src={portfolio} alt=""/>
+                <img src={portfolio} alt="preview del sito personale"/>
                 <h2 className='project-title'>Portfolio Personale</h2>
                 <div className='pro-details'>
                     <p>Nato come progetto sviluppato nel tempo libero, questo mio sito web è stato realizzato interamente con la 
@@ -28,7 +28,7 @@ function WorkCardPreview() {
             </div>
 
             <div className='project-card'>
-                <img src={abitareMicocci} alt=""/>
+                <img src={abitareMicocci} alt="Preview del sito di Abitare Micocci"/>
                 <h2 className='project-title'>Abitare Micocci</h2>
                 <div className='pro-details'>
                     <p>Sito web realizzato per un negozio di arredamento attraverso i linguaggi HTML, CSS e Javascript. Attraverso l'utilizzo
@@ -44,7 +44,7 @@ function WorkCardPreview() {
             </div>
 
             <div className='project-card'>
-                <img src={regressionTree} alt=""/>
+                <img src={regressionTree} alt="Immagine di un regression Tree Mining"/>
                 <h2 className='project-title'>Regression Tree Mining</h2>
                 <div className='pro-details'>
                     <p>Progetto universitario sviluppato in Java. Consiste nel creare un albero di regressione da dei dati che vengono

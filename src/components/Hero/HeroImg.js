@@ -7,7 +7,7 @@ function HeroImg() {
   return (
     <div className="hero">
         <div className="mask">
-            <img className="into-img" src={IntroImg} alt="sfondo"/>
+            <img className="into-img" src={IntroImg} alt="Sfondo di un pc per la sezione"/>
         </div>
         <div className="content">
             <h1>Federico Calò</h1>

@@ -6,7 +6,7 @@ function AboutContent() {
   return (
     <div className='about'>
         <div className='content'>
-            <img src={profilo} alt=""/>
+            <img src={profilo} alt="Foto immagine profilo Federico Calò, sviluppaotre software"/>
             <div className='text'>
                 <h1>Mi presento</h1>
                 <p>Sono Federico Calò, sviluppatore software. Studio informatica presso l'università Aldo Moro di Bari. Durante gli Studi
