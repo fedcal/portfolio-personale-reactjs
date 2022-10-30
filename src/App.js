@@ -7,6 +7,7 @@ import Progetti from "./routes/Project";
 import Servizi from "./routes/Servizi";
 import { Routes, Route } from "react-router-dom";
 import Blog from "./routes/Blog";
+import Reti01 from "./components/Blog/articoli/Reti/Reti01";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/servizi'element={<Servizi/>}/>
         <Route path='/blog'element={<Blog/>}/>
         <Route path='/contatti'element={<Contatti/>}/>
+        <Route path='/reti01'element={<Reti01/>}/>
       </Routes>
     </>
   );
