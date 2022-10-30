@@ -28,7 +28,7 @@ function WorkCard() {
                 </div>
                 <div className='pro-btns'>
                     <a href='https://github.com/fedcal/portfolio-personale-reactjs' className='btn'>GitHub</a>
-                    <a href='https://federicocalo.it/' className='btn'>Sito</a>
+                    <a href='https://federicocalo.dev/' className='btn'>Sito</a>
                 </div>
             </div>
 
