@@ -30,6 +30,9 @@ function Navbar() {
                 <Link to={"/progetti"}>Progetti</Link>
             </li>
             <li>
+                <Link to={"/blog"}>Blog</Link>
+            </li>
+            <li>
                 <Link to={"/servizi"}>Servizi</Link>
             </li>
             <li>
