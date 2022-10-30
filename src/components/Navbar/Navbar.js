@@ -29,6 +29,7 @@ function Navbar() {
             <li>
                 <Link to={"/progetti"}>Progetti</Link>
             </li>
+            
             <li>
                 <Link to={"/servizi"}>Servizi</Link>
             </li>
@@ -42,5 +43,10 @@ function Navbar() {
     </div>
   )
 }
+/*
+<li>
+    <Link to={"/blog"}>Blog</Link>
+</li>
+*/
 
 export default Navbar
