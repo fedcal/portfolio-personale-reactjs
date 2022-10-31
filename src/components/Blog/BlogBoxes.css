@@ -7,9 +7,7 @@
     --post-title:rgb(248, 217, 15);
     --post-date:rgb(74, 185, 250);
 }
-img{
-    width: 100%;
-}
+
 section{
     padding: 3rem 0 2rem;
 }
