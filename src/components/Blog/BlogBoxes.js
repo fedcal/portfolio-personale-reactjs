@@ -1,7 +1,7 @@
 import React from 'react';
 import './BlogBoxes.css';
 import {Link} from "react-router-dom";
-import LogoRDC from '../assets/RetiDiCalcolatori 500.png';
+import LogoRDC from '../assets/RetiDiCalcolatori 500.webp';
 
 function BlogBoxes() {
    

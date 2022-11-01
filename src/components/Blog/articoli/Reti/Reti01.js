@@ -2,9 +2,8 @@ import React from 'react'
 import '../Articoli.css'
 import Navbar from '../../../Navbar/Navbar.js';
 import Footer from '../../../Footer/Footer.js'
-import BgImg from '../../../assets/hero.webp';
 import SchemaRete from '../../../assets/SchemaReti.webp';
-import HomeReti from '../../../assets/rdc 1900.png';
+import HomeReti from '../../../assets/rdc 1900.webp';
 import './Reti01.css';
 import AccessoViaCavo from '../../../assets/AccessoViaCavo.webp';
 import AccessoAziendale from '../../../assets/AccessoAziendale.webp';
