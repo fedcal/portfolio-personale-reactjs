@@ -18,10 +18,11 @@ function Contact() {
         <meta name='og:description' content='Sezione in cui contattare Federico Calò tramite e-mail o su Whatsapp'/>
         <meta name='og:email' content='fedcal01@gmail.com'/>
         <meta name='og:phone_number' content='+39 3332673965'/>
-        <meta name="apple-mobile-web-app-title" content="Federico Calò - Progetti sviluppati"/> 
+        <meta name="apple-mobile-web-app-title" content="Federico Calò - Contatti"/> 
         <meta name='apple-mobile-web-app-capable' content='yes'/>
         <meta name='apple-touch-fullscreen' content='yes'/>
         <title>Federico Calò - Contatti</title>
+        <link rel="canonical" href="https://www.federicocalo.dev/contatti" />
       </Helmet>
      <Navbar/>
      <HeroImg2 heading="CONTATTAMI"text="Compila il forum per lasciarmi un messaggio."/>

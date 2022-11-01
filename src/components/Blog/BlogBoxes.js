@@ -1,7 +1,7 @@
 import React from 'react';
 import './BlogBoxes.css';
-import tcp from '../assets/tcp.webp';
 import {Link} from "react-router-dom";
+import LogoRDC from '../assets/RetiDiCalcolatori 500.png';
 
 function BlogBoxes() {
    
@@ -16,7 +16,7 @@ function BlogBoxes() {
             <section className='post container'>
 
                 <div className='post-box uni all'>
-                    <img src={tcp} alt="" className='post-img'/>
+                    <img src={LogoRDC} alt="" className='post-img'/>
                     <h3 className='category'>Appunti Universitari - Reti di Calcolatori</h3>
                     <h1 className='post-title'>1. Introduzione alle reti </h1>
                     <span className='post-date'> 12 Novembre 2022</span>
