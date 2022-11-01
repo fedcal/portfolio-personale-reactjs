@@ -74,12 +74,36 @@
     <loc>https://www.federicocalo.dev/servizi</loc>
     <changefreq>monthly</changefreq>
     <priority>01.0</priority>
+    <image:image>
+        <image:loc>https://www.federicocalo.dev/static/media/progetti-img.webp</image:loc>
+      </image:image>
   </url>
   <!-- Immagini /contatti -->
   <url>
     <loc>https://www.federicocalo.dev/contatti</loc>
     <changefreq>monthly</changefreq>
     <priority>01.0</priority>
+    <image:image>
+        <image:loc>https://www.federicocalo.dev/static/media/progetti-img.webp</image:loc>
+      </image:image>
+  </url>
+  <!-- Immagini /blog -->
+  <url>
+    <loc>https://www.federicocalo.dev/blog</loc>
+    <changefreq>monthly</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+        <image:loc>https://www.federicocalo.dev/static/media/progetti-img.webp</image:loc>
+      </image:image>
+  </url>
+  <!-- Immagini //Reti-di-Calcolatori-Introduzione -->
+  <url>
+    <loc>https://www.federicocalo.dev//Reti-di-Calcolatori-Introduzione</loc>
+    <changefreq>monthly</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+        <image:loc>https://www.federicocalo.dev/static/media/SchemaReti.webp</image:loc>
+    </image:image>
   </url>
   
 </urlset>

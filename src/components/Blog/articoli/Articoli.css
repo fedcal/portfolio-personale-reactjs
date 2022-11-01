@@ -20,7 +20,7 @@
     width: 90%;
     font-size: 2.6rem;
     text-align: center;
-    margin-bottom: 1rem;
+
     color: rgb(248, 217, 15);
 }
 .header-content .header-img{
@@ -28,11 +28,10 @@
     height: 420px;
     object-fit: cover;
     object-position: center;
+    margin-bottom: 2rem;
 }
 .post-content{
-    padding: 0 15px 0 15px;
-    margin-top: 15px;
-    margin-bottom: 50px;
+    margin: 15px 25px 50px 25px;
 }
 .post-content .sub-heading{
     font-size: 1.2rem;
@@ -49,12 +48,35 @@
     text-align: center;
     margin-bottom: 15px;
 }
+.post-content strong{
+    color: rgb(248, 198, 15);
+}
+.post-content i{
+    text-decoration: underline;
+    text-decoration-color: rgb(248, 198, 15);
+    text-decoration-thickness:2px ;
+}
+.post-content ul{
+    margin-left: 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    list-style: none;
+    color:white;
+}
+.post-content ul li::before{
+    content: "\2022"; 
+    color: rgb(248, 217, 15); 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
+}
 .post-content .image-capture{
-    color: rgb(248, 198, 15);;
+    color: rgb(248, 198, 15);
 }
 .post-content .box-image .post-img{
     width: 450px;
-    height: 350px;
+    height: 480px;
 }
 
 @media screen and (max-width:550px){
