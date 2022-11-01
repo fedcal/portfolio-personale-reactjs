@@ -16,10 +16,10 @@ function BlogBoxes() {
             <section className='post container'>
 
                 <div className='post-box uni all'>
-                    <img src={LogoRDC} alt="" className='post-img'/>
+                    <img src={LogoRDC} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
                     <h3 className='category'>Appunti Universitari - Reti di Calcolatori</h3>
                     <h1 className='post-title'>1. Introduzione alle reti </h1>
-                    <span className='post-date'> 12 Novembre 2022</span>
+                    <span className='post-date'> 1 Novembre 2022</span>
                     <p className='post-description'>Introduzione alle reti di calcolatori, fornendo un'immagine di come si è evoluta l'infrastruttura di Internet, analizzando i due tipi di commutazione delle informazioni presenti in essa e i vari parametri di valutazione.</p>
                     <div className='link'>
                         <Link to="/Reti-di-Calcolatori-Introduzione" className="btn">Leggi Post</Link>

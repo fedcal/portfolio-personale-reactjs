@@ -90,7 +90,7 @@
   <!-- Immagini /blog -->
   <url>
     <loc>https://www.federicocalo.dev/blog</loc>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>01.0</priority>
     <image:image>
         <image:loc>https://www.federicocalo.dev/static/media/progetti-img.webp</image:loc>
@@ -102,7 +102,7 @@
   <!-- Immagini //Reti-di-Calcolatori-Introduzione -->
   <url>
     <loc>https://www.federicocalo.dev//Reti-di-Calcolatori-Introduzione</loc>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>01.0</priority>
     <image:image>
         <image:loc>https://www.federicocalo.dev/static/media/SchemaReti.webp</image:loc>
