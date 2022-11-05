@@ -51,7 +51,7 @@ function Libri01() {
                 con le skills tecniche necessarie ad affrontarne lo sviluppo. </p>
                 
                 <h2 className='sub-heading'>Clean Code</h2>
-                <p className='post-text'>Libro scritto da Robert MArtin attraverso il quale vengono esposte le cosidette best practice mediante le quali si scrive codice pulito, garantendo una corretta leggibilità del codice, non solo dai diversi svilupaptori che possono essere interessati al progetto, ma anche dallo stesso sviluppatore. Queste pratiche aiutano 
+                <p className='post-text'>Libro scritto da Robert Martin attraverso il quale vengono esposte le cosiddette best practice mediante le quali si scrive codice pulito, garantendo una corretta leggibilità del codice, non solo dai diversi sviluppatori che possono essere interessati al progetto, ma anche dallo stesso sviluppatore. Queste pratiche aiutano 
                 il team di sviluppo a correggere più velocemente gli errori e semplificano il refactoring. Il volume è diviso in tre parti. La prima descrive i principi, i modelli e le pratiche per la scrittura di un codice pulito. La seconda presenta casi di studio di complessità crescente: ognuno è un esercizio che mira a trasformare del codice problematico in codice efficiente.
                 La terza, racchiusa in un unico capitolo, raccoglie e sintetizza tutti gli insegnamenti della seconda parte. E' molto esaustivo e spiega in maniera progressiva, partendo dalla gestione dei commenti, delle funzioni e della formattazione, fino ad arrivare a concetti più avanzati quali la concorrenza, i casi di test, l'architettura client/server e molto altro.
                 </p><br/>
@@ -64,14 +64,14 @@ function Libri01() {
                 <a href="https://amzn.to/3WCghNk"className='btn-shop' target="_blank" rel="noopener noreferrer">Link acquisto</a>
                 
                 <h2 className='sub-heading'>L'arte del refactoring</h2>
-                <p className='post-text'>Questo libro, redatto da Martin Fowler, software developer per applicazioni enterprise, si concentra sulla capacità di riscrivere il codice per renderlo più leggibile ed efficiente. L'argomento viene affrontato passo passo, arrichendo la teoria di numerosi esempi pratici in diversi linguaggi. Indubbiamente vengono analizzati i principi del refactoring
+                <p className='post-text'>Questo libro, redatto da Martin Fowler, software developer per applicazioni enterprise, si concentra sulla capacità di riscrivere il codice per renderlo più leggibile ed efficiente. L'argomento viene affrontato passo passo, arricchendo la teoria di numerosi esempi pratici in diversi linguaggi. Indubbiamente vengono analizzati i principi del refactoring
                 andando anche ad analizzare i vari test del codice. Si fa riferimento ai vari principi della programmazione ad oggetti (incapsulamento ed ereditarietà), per poi affrontare argomenti quali l'organizzazione dei dati e delle varie funzioni, la semplificazione della logica condizionale,
                 la rifattorizzazione delle API. </p><br/>
                 <a href="https://amzn.to/3U8TFSQ"className='btn-shop' target="_blank" rel="noopener noreferrer">Link acquisto</a>
 
                 <h2 className='sub-heading'>Il Pragmatic Programmer</h2>
                 <p className='post-text'>L'ultimo libro che mi sento di consigliarvi è "Il Pragmatic Programmer" di David Thomas e Andrew Hunt. Questo libro illustra un approccio strutturale alla pianificazione di un progetto software, andando ad analizzare i relativi componenti. Vengono fatti molti cenni teorici a teorie informatiche per 
-                introdurre i concetti e analizzarli sotto i diversi aspetti (temporale, programmazione modulare, GUI). Analizza inoltre alcuni tools utili alla progettazione e individua le varie fasi del progetto.</p>
+                introdurre i concetti e analizzarli sotto i diversi aspetti (temporale, programmazione modulare, GUI). Analizza inoltre alcuni tools utili alla progettazione e individua le varie fasi del progetto.</p><br/>
                 <a href="https://amzn.to/3UirIHU"className='btn-shop' target="_blank" rel="noopener noreferrer">Link acquisto</a>
             </section>
         </div>
