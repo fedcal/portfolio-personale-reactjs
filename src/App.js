@@ -7,7 +7,8 @@ import Progetti from "./routes/Project";
 import Servizi from "./routes/Servizi";
 import { Routes, Route } from "react-router-dom";
 import Blog from "./routes/Blog";
-import Reti01 from "./components/Blog/articoli/Reti/Reti01";
+import Reti01 from "./components/Blog/articoli/Reti/Reti01/Reti01";
+import Libri01 from "./components/Blog/articoli/Libri/Libri01/Libri01";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path='/blog'element={<Blog/>}/>
         <Route path='/contatti'element={<Contatti/>}/>
         <Route path='/Reti-di-Calcolatori-Introduzione'element={<Reti01/>}/>
+        <Route path='/Libri-consigliati-01'element={<Libri01/>}/>
       </Routes>
     </>
   );

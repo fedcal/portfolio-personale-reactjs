@@ -52,9 +52,10 @@
     text-align: center;
     margin-bottom: 15px;
 }
-.post-content strong{
+.post-content .link, .post-content strong{
     color: rgb(248, 198, 15);
 }
+
 .post-content i{
     text-decoration: underline;
     text-decoration-color: rgb(248, 198, 15);
@@ -87,6 +88,15 @@
 .post-content .box-image .post-img{
     width: 450px;
     height: 480px;
+}
+.btn-shop{
+    padding: 12px 10px;
+    font-size: .85rem;
+    background: rgb(248, 217, 15);
+    color:#222;
+    border: 1px solid #fff;
+    font-weight: 600;
+    cursor: pointer;
 }
 @media screen and (max-width:900px){
     .post-content{

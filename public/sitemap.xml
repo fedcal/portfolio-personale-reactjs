@@ -98,6 +98,9 @@
     <image:image>
         <image:loc>https://www.federicocalo.dev/static/media/RetiDiCalcolatori 500.webp</image:loc>
     </image:image>
+    <image:image>
+        <image:loc>https://www.federicocalo.dev/static/media/libri 500.webp</image:loc>
+    </image:image>
   </url>
   <!-- Immagini //Reti-di-Calcolatori-Introduzione -->
   <url>
@@ -115,6 +118,16 @@
     </image:image>
     <image:image>
         <image:loc>https://www.federicocalo.dev/static/media/AccessoAziendale.webp</image:loc>
+    </image:image>
+  </url>
+
+   <!-- Immagini /Libri-consigliati-01 -->
+  <url>
+    <loc>https://www.federicocalo.dev/Libri-consigliati-01</loc>
+    <changefreq>monthly</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/libri 1900.webp</image:loc>
     </image:image>
   </url>
   
