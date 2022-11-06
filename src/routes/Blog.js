@@ -28,6 +28,8 @@ function Blog() {
       <HeroImg2 heading="Blog,"text="condivisione di esperienze e sapere."/>
       <BlogBoxes/>
       <Footer/>
+      <script  src="https://code.jquery.com/jquery-3.6.1.js"  integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="  crossorigin="anonymous"></script>
+      <script src="./script.js"></script>
     </div>
   )
 }
