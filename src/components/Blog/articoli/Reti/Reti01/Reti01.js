@@ -13,6 +13,7 @@ function Reti01() {
   return (
     <div>
         <Helmet>
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
             <title>Federico Calò Blog - 1. Introduzione alle reti</title>
             <meta name='keywords' content='Internet, host, sistemi periferici, rete di collegamenti, commutatori di pacchetti, internet service provider, ISP, TCP, transmission control protocol, IP, internet protocol, accesso aziendale, LAN, accesso via cavo'/>
             <meta name='description' content='Articolo che introduce alla materia di reti di calcolatori, andando a definire le nozioni di base quali ISP, TCP, IP, router etc.'/>

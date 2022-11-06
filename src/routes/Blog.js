@@ -10,6 +10,7 @@ function Blog() {
     <div>
       <Helmet>
         <title>Federico Calò - Blog Personale</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name='keywords' content='Mondo informatico, blog personale, libri settoriali, libri informatica, hard skills, soft skills,blog informatica, appunti università, appunti universitari, reti di calcolatori, Libri'/>
         <meta name='description' content='Blog personale di Federico Calò relativo al mondo informatico, in cui si condividono anche appunti universitari e letture interessanti che aiutano a sviluppare le skill tecniche del settore.'/>
         <meta name='robots' content='index,follow'/>
@@ -28,8 +29,7 @@ function Blog() {
       <HeroImg2 heading="Blog,"text="condivisione di esperienze e sapere."/>
       <BlogBoxes/>
       <Footer/>
-      <script  src="https://code.jquery.com/jquery-3.6.1.js"  integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="  crossorigin="anonymous"></script>
-      <script src="./script.js"></script>
+     
     </div>
   )
 }

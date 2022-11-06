@@ -10,6 +10,7 @@ function About() {
     <div>
       <Helmet>
         <title>Federico Calò - Mi presento</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name='keywords' content='Analisi software, analista software, sviluppatore junior, analisi as-is, analisi to-be, evolutive SEO, Liferay, LAurea informatica,HTML, ReactJs, sito web, website, Java, Spring Boot, Css, Javascript, Helmet, JavaScript, MySQL, Portfolio, Università di Bari, Università Aldo Moro di Bari, Università Aldo Moro, JavaFX, Python'/>
         <meta name='description' content='Presentazopni di Federico Calò, dove ha studiato e le sue abilità principali.'/>
         <meta name='robots' content='index,follow'/>
