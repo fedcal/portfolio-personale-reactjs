@@ -9,6 +9,7 @@ import { Routes, Route } from "react-router-dom";
 import Blog from "./routes/Blog";
 import Reti01 from "./components/Blog/articoli/Reti/Reti01/Reti01";
 import Libri01 from "./components/Blog/articoli/Libri/Libri01/Libri01";
+import IUM1 from "./components/Blog/articoli/IUM/IUM1/IUM1";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path='/contatti'element={<Contatti/>}/>
         <Route path='/Reti-di-Calcolatori-Introduzione'element={<Reti01/>}/>
         <Route path='/Libri-consigliati-01'element={<Libri01/>}/>
+        <Route path='/Interazione-uomo-macchina-Introduzione'element={<IUM1/>}/>
       </Routes>
     </>
   );

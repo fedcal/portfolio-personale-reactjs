@@ -3,6 +3,7 @@ import './BlogBoxes.css';
 import {Link} from "react-router-dom";
 import LogoRDC from '../assets/RetiDiCalcolatori 500.webp';
 import LogoLibri from '../assets/libri 500.webp';
+import LogoIum from '../assets/ium 500.png';
 
 function BlogBoxes() {
    
@@ -34,6 +35,18 @@ function BlogBoxes() {
                     <p className='post-description'>Primo articolo dedicato a consigli su libri settoriali per migliorare le proprie hard skills e soft skills legate al mondo della programmazione.</p>
                     <div className='link'>
                         <Link to="/Libri-consigliati-01" className="btn">Leggi Post</Link>
+                    </div>
+                </div>
+
+                <div className='post-box libri all'>
+                    <img src={LogoIum} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
+                    <h3 className='category'>Appunti Universitari - Interazione Uomo macchina</h3>
+                    <h1 className='post-title'>1 - introduzione all' Interazione Uomo Macchina </h1>
+                    <span className='post-date'> 12 Novembre 2022</span>
+                    <p className='post-description'>Primo articolo dedicato agli appunti relativi alla materia Interazione Uomo Macchina, il cui studio si incentra sul ruolo dell'utente all'interno dello sviluppo del software, ponendo una nuova visione incentrata
+                    sui suoi bisogni e necessità.</p>
+                    <div className='link'>
+                        <Link to="/Interazione-uomo-macchina-Introduzione" className="btn">Leggi Post</Link>
                     </div>
                 </div>
 
