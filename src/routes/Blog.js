@@ -9,6 +9,7 @@ function Blog() {
   return (
     <div>
       <Helmet>
+        <script src="./script.js" crossorigin="anonymous"/>
         <title>Federico Calò - Blog Personale</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name='keywords' content='Mondo informatico, blog personale, libri settoriali, libri informatica, hard skills, soft skills,blog informatica, appunti università, appunti universitari, reti di calcolatori, Libri, interazione uomo macchina.'/>

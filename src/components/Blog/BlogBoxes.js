@@ -5,8 +5,8 @@ import LogoRDC from '../assets/RetiDiCalcolatori_500.webp';
 import LogoLibri from '../assets/libri_500.webp';
 import LogoIum from '../assets/ium_500.webp';
 
+
 function BlogBoxes() {
-   
     return (
         <div className='container'>
             <div className='post-filter container' >
@@ -38,7 +38,7 @@ function BlogBoxes() {
                     </div>
                 </div>
 
-                <div className='post-box libri all'>
+                <div className='post-box uni all'>
                     <img src={LogoIum} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
                     <h3 className='category'>Appunti Universitari - Interazione Uomo macchina</h3>
                     <h1 className='post-title'>1 - introduzione all' Interazione Uomo Macchina </h1>
@@ -52,6 +52,7 @@ function BlogBoxes() {
 
             </section>
         </div>
+        
     )
 }
 
