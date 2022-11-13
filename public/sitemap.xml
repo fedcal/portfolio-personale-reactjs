@@ -3,7 +3,7 @@
   <!-- Immagini / -->
   <url>
     <loc>https://www.federicocalo.dev/</loc>
-    <changefreq>monthly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>01.0</priority>
       <image:image>
         <image:loc>https://www.federicocalo.dev/static/media/profilo.webp</image:loc>
@@ -24,7 +24,7 @@
   <!-- Immagini /presentazioni -->
   <url>
     <loc>https://www.federicocalo.dev/presentazioni</loc>
-    <changefreq>monthly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>01.0</priority>
       <image:image>
         <image:loc>https://www.federicocalo.dev/static/media/progetti-img.webp</image:loc>
@@ -36,7 +36,7 @@
   <!-- Immagini /progetti -->
   <url>
     <loc>https://www.federicocalo.dev/progetti</loc>
-    <changefreq>monthly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>01.0</priority>
       <image:image>
         <image:loc>https://www.federicocalo.dev/static/media/progetti-img.webp</image:loc>
@@ -72,7 +72,7 @@
    <!-- Immagini /servizi -->
   <url>
     <loc>https://www.federicocalo.dev/servizi</loc>
-    <changefreq>monthly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>01.0</priority>
     <image:image>
         <image:loc>https://www.federicocalo.dev/static/media/progetti-img.webp</image:loc>
@@ -90,7 +90,7 @@
   <!-- Immagini /blog -->
   <url>
     <loc>https://www.federicocalo.dev/blog</loc>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>01.0</priority>
     <image:image>
         <image:loc>https://www.federicocalo.dev/static/media/progetti-img.webp</image:loc>
@@ -108,7 +108,7 @@
   <!-- Immagini //Reti-di-Calcolatori-Introduzione -->
   <url>
     <loc>https://www.federicocalo.dev//Reti-di-Calcolatori-Introduzione</loc>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>01.0</priority>
     <image:image>
         <image:loc>https://www.federicocalo.dev/static/media/SchemaReti.webp</image:loc>
@@ -127,7 +127,7 @@
    <!-- Immagini /Libri-consigliati-01 -->
   <url>
     <loc>https://www.federicocalo.dev/Libri-consigliati-01</loc>
-    <changefreq>monthly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>01.0</priority>
     <image:image>
        <image:loc>https://www.federicocalo.dev/static/media/libri_1900.webp</image:loc>
@@ -137,7 +137,7 @@
   <!-- Immagini /Interazione-uomo-macchina-Introduzione -->
   <url>
     <loc>https://www.federicocalo.dev/Interazione-uomo-macchina-Introduzione</loc>
-    <changefreq>monthly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>01.0</priority>
     <image:image>
        <image:loc>https://www.federicocalo.dev/static/media/ium_1900.webp</image:loc>
