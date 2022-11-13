@@ -6,7 +6,9 @@ import Navbar from '../../../../Navbar/Navbar';
 import Footer from '../../../../Footer/Footer';
 import Norman1 from '../../../../assets/ModelloNormanSod.webp';
 
+
 function IUM1() {
+
   return (
     <div>
         <Helmet>
