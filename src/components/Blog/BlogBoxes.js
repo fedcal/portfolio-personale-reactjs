@@ -1,9 +1,9 @@
 import React from 'react';
 import './BlogBoxes.css';
 import {Link} from "react-router-dom";
-import LogoRDC from '../assets/RetiDiCalcolatori 500.webp';
-import LogoLibri from '../assets/libri 500.webp';
-import LogoIum from '../assets/ium 500.png';
+import LogoRDC from '../assets/RetiDiCalcolatori_500.webp';
+import LogoLibri from '../assets/libri_500.webp';
+import LogoIum from '../assets/ium_500.webp';
 
 function BlogBoxes() {
    

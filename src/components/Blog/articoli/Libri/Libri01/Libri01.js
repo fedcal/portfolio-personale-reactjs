@@ -2,7 +2,7 @@ import React from 'react'
 import Footer from '../../../../Footer/Footer'
 import Navbar from '../../../../Navbar/Navbar'
 import '../../Articoli.css'
-import HomeLibri from '../../../../assets/libri 1900.webp';
+import HomeLibri from '../../../../assets/libri_1900.webp';
 import {Helmet} from "react-helmet";
 
 function Libri01() {

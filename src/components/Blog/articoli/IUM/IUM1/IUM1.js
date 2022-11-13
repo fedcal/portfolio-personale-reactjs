@@ -1,10 +1,10 @@
 import React from 'react';
 import '../../Articoli.css';
-import HomeIum from '../../../../assets/ium 1900.png';
+import HomeIum from '../../../../assets/ium_1900.webp';
 import {Helmet} from "react-helmet";
 import Navbar from '../../../../Navbar/Navbar';
 import Footer from '../../../../Footer/Footer';
-import Norman1 from '../../../../assets/ModelloNormanSod.PNG';
+import Norman1 from '../../../../assets/ModelloNormanSod.webp';
 
 function IUM1() {
   return (

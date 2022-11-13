@@ -99,7 +99,10 @@
         <image:loc>https://www.federicocalo.dev/static/media/RetiDiCalcolatori 500.webp</image:loc>
     </image:image>
     <image:image>
-        <image:loc>https://www.federicocalo.dev/static/media/libri 500.webp</image:loc>
+        <image:loc>https://www.federicocalo.dev/static/media/libri_500.webp</image:loc>
+    </image:image>
+    <image:image>
+        <image:loc>https://www.federicocalo.dev/static/media/ium_500.webp</image:loc>
     </image:image>
   </url>
   <!-- Immagini //Reti-di-Calcolatori-Introduzione -->
@@ -111,7 +114,7 @@
         <image:loc>https://www.federicocalo.dev/static/media/SchemaReti.webp</image:loc>
     </image:image>
     <image:image>
-        <image:loc>https://www.federicocalo.dev/static/media/rdc 1900.webp</image:loc>
+        <image:loc>https://www.federicocalo.dev/static/media/rdc_1900.webp</image:loc>
     </image:image>
     <image:image>
         <image:loc>https://www.federicocalo.dev/static/media/AccessoViaCavo.webp</image:loc>
@@ -127,7 +130,20 @@
     <changefreq>monthly</changefreq>
     <priority>01.0</priority>
     <image:image>
-       <image:loc>https://www.federicocalo.dev/static/media/libri 1900.webp</image:loc>
+       <image:loc>https://www.federicocalo.dev/static/media/libri_1900.webp</image:loc>
+    </image:image>
+  </url>
+
+  <!-- Immagini /Interazione-uomo-macchina-Introduzione -->
+  <url>
+    <loc>https://www.federicocalo.dev/Interazione-uomo-macchina-Introduzione</loc>
+    <changefreq>monthly</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/ium_1900.webp</image:loc>
+    </image:image>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/ModelloNormanSod.webp</image:loc>
     </image:image>
   </url>
   
