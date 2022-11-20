@@ -50,6 +50,17 @@ function BlogBoxes() {
                     </div>
                 </div>
 
+                <div className='post-box uni all'>
+                    <img src={LogoRDC} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
+                    <h3 className='category'>Appunti Universitari - Reti di Calcolatori</h3>
+                    <h1 className='post-title'>2. I due tipi di commutazione </h1>
+                    <span className='post-date'> 20 Novembre 2022</span>
+                    <p className='post-description'>Analizziamo come le applicazioni si scambiano i pacchetti, esaminando la commutazione di circuito e la commutazione di pacchetto. Confrontiamo i due tipi di commutazione ed esminiamo le varie problematiche di ciascuno </p>
+                    <div className='link'>
+                        <Link to="/Reti-di-Calcolatori-Vari-Tipi-Di-Commutazione" className="btn">Leggi Post</Link>
+                    </div>
+                </div>
+
             </section>
         </div>
         

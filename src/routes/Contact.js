@@ -8,6 +8,8 @@ function Contact() {
   return (
     <div>
       <Helmet>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9556331893712433"
+     crossorigin="anonymous"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name='keywords' content='siti web, servizi, sviluppo software, analisi tecnica, Studio SEO, ottimizzazione, SEO, design, gestionali, Data mining, analisi dei dait, documentazione dettagliata, modelli di regressione, Data Visualitation'/>
         <meta name='description' content='Servizi offerti da Fedeirco Calò per la creazione di siti web, gestionali o software per la propria azienda. Analisi dei dati e documentazione tecnica funzionale.'/>

@@ -24,6 +24,8 @@ function Servizi() {
         <meta name='apple-touch-fullscreen' content='yes'/>
         <title>Federico Calò - Servizi</title>
         <link rel="canonical" href="https://www.federicocalo.dev/servizi" />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9556331893712433"
+     crossorigin="anonymous"></script>
       </Helmet>
         <Navbar/>
         <HeroImg2 heading="SERVIZI"text="Ecco in cosa posso esserti d'aiuto"/>

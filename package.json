@@ -13,6 +13,7 @@
     "react-ga": "^3.3.1",
     "react-helmet": "^6.1.0",
     "react-icons": "^4.4.0",
+    "react-latex": "^2.0.0",
     "react-router-dom": "^6.3.0",
     "react-script-hook": "^1.7.2",
     "react-scripts": "^5.0.1",

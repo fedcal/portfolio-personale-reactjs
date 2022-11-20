@@ -105,9 +105,9 @@
         <image:loc>https://www.federicocalo.dev/static/media/ium_500.webp</image:loc>
     </image:image>
   </url>
-  <!-- Immagini //Reti-di-Calcolatori-Introduzione -->
+  <!-- Immagini /Reti-di-Calcolatori-Introduzione -->
   <url>
-    <loc>https://www.federicocalo.dev//Reti-di-Calcolatori-Introduzione</loc>
+    <loc>https://www.federicocalo.dev/Reti-di-Calcolatori-Introduzione</loc>
     <changefreq>daily</changefreq>
     <priority>01.0</priority>
     <image:image>
@@ -121,6 +121,19 @@
     </image:image>
     <image:image>
         <image:loc>https://www.federicocalo.dev/static/media/AccessoAziendale.webp</image:loc>
+    </image:image>
+  </url>
+
+  <!-- Immagini /Reti-di-Calcolatori-Vari-Tipi-Di-Commutazione -->
+  <url>
+    <loc>https://www.federicocalo.dev/Reti-di-Calcolatori-Vari-Tipi-Di-Commutazione</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+        <image:loc>https://www.federicocalo.dev/static/media/Figura1.webp</image:loc>
+    </image:image>
+    <image:image>
+        <image:loc>https://www.federicocalo.dev/static/media/rdc_1900.webp</image:loc>
     </image:image>
   </url>
 

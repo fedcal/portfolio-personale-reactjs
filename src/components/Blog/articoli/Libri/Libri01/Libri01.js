@@ -9,6 +9,8 @@ function Libri01() {
   return (
     <div>
         <Helmet>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9556331893712433"
+     crossorigin="anonymous"></script>
             <title>Federico Calò Blog - Consigli su libri settoriali - Pt. 1</title>
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <meta name='keywords' content='libri, libri informatica, libri settoriali, libri settoriali informatica, pragmatic programmer, refactoring, arte del refactoring, clean architecture, Robert Martin, clean code, design pattern, codice pulito, principio SRP, principio OCP, principio LSP, best practice'/>

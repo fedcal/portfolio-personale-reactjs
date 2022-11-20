@@ -24,6 +24,8 @@ function Project() {
         <meta name='apple-mobile-web-app-capable' content='yes'/>
         <meta name='apple-touch-fullscreen' content='yes'/>
         <link rel="canonical" href="https://www.federicocalo.dev/progetti" />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9556331893712433"
+     crossorigin="anonymous"></script>
       </Helmet>
       <Navbar/>
       <HeroImg2 heading="PROGETTI" text="Una panoramica sui progetti che ho sviluppato."/>

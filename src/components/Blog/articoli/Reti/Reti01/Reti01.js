@@ -1,18 +1,21 @@
-import React from 'react'
-import '../../Articoli.css'
+import React from 'react';
+import '../../Articoli.css';
 import Navbar from '../../../../Navbar/Navbar.js';
-import Footer from '../../../../Footer/Footer.js'
+import Footer from '../../../../Footer/Footer.js';
 import SchemaRete from '../../../../assets/SchemaReti.webp';
 import HomeReti from '../../../../assets/rdc_1900.webp';
-import './Reti01.css';
+import '../Reti.css';
 import AccessoViaCavo from '../../../../assets/AccessoViaCavo.webp';
 import AccessoAziendale from '../../../../assets/AccessoAziendale.webp';
 import {Helmet} from "react-helmet";
+import { Link } from 'react-router-dom';
 
 function Reti01() {
   return (
     <div>
         <Helmet>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9556331893712433"
+     crossorigin="anonymous"></script>
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <title>Federico Calò Blog - 1. Introduzione alle reti</title>
             <meta name='keywords' content='Internet, host, sistemi periferici, rete di collegamenti, commutatori di pacchetti, internet service provider, ISP, TCP, transmission control protocol, IP, internet protocol, accesso aziendale, LAN, accesso via cavo'/>
@@ -97,7 +100,7 @@ function Reti01() {
                 
                 <p className='post-text'>A differenza della DSL, l'<strong>accesso a Internet via cavo</strong> sfrutta le infrastrutture della televisione, attraverso delle fibre ottiche che connettono la terminazione del cavo a giunzioni a livello di quartiere, dalle quali parte il cavo coassiale per la distribuzione mediante la quale si raggiungono le singole case e appartamenti. Tale sistema viene generalmente 
                 definito <i>hybrud fiber coax (HFC)</i>. L'accesso a Internet viene supportato attraverso particolari modem definiti <strong>cable modem</strong>, al quale ci si connette attraverso una porta Ethernet. La rete viene divisa in due canali: uno per il <i>dowstream</i> e uno per il <i>upstream</i>. A questi canali si accede in maniera asimmetrica. In America sta prendendo piede la tecnologia <strong>FTTH</strong> 
-                (fiber to the home), con velocità maggiori in quanto viene fornita la fibra ottica direttamente all'abitazione. Quest'ultima utilizza un terminale ottico denominato <strong>ONT</strong>, al quale viene connesso un separatore ottico di quartiere al quale viene dedicata una fibra ottica.</p>
+                 (fiber to the home), con velocità maggiori in quanto viene fornita la fibra ottica direttamente all'abitazione. Quest'ultima utilizza un terminale ottico denominato <strong>ONT</strong>, al quale viene connesso un separatore ottico di quartiere al quale viene dedicata una fibra ottica.</p>
                 
                 <div className='box-image'>
                     <img src={AccessoAziendale} alt="Schema di rete ad accesso aziendale e residenziale" className='post-img2'/>
@@ -108,6 +111,10 @@ function Reti01() {
                 All'interno di una rete LAN wirless gli utenti trasmettono e ricevono pacchetti entro un raggio di poche decine di metri da e verso un access point wireless connesso a una rete aziendale.</p>
                 
                 <p className='post-text'>Un'ultima tipologia di accesso ad Internet è rappresentata dall'<strong>accesso wireless su scala geografica</strong> attraverso tecnologie 3G, 4G, 5G e LTE che forniscono l'accesso a dispositivi mobili a diverse velocità.</p>    
+
+                <div className="succ-post">
+                    <Link to="/Reti-di-Calcolatori-Vari-Tipi-Di-Commutazione">Post successivo &#8594;</Link>
+                </div>
             </section>
         </div>
         <Footer/>

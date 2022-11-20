@@ -9,6 +9,8 @@ function Blog() {
   return (
     <div>
       <Helmet>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9556331893712433"
+     crossorigin="anonymous"></script>
         <script src="./script.js" crossorigin="anonymous"/>
         <title>Federico Calò - Blog Personale</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
