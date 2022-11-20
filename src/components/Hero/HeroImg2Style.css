@@ -39,4 +39,7 @@
     .hero-img h1{
         font-size:2rem;
     }
+    .hero-img p{
+        font-size:1.5rem;
+    }
 }
