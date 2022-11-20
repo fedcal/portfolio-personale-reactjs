@@ -7,6 +7,7 @@
     justify-content: center;
     flex-wrap: wrap;
     height: 100%;
+    line-height: 27px;
 }
 .about .content img{
     height: auto;
