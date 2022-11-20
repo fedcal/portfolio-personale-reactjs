@@ -47,7 +47,7 @@ function IUM1() {
             </section>
             <section className='post-content post-container'>
                 <h1 className='header-title' itemprop="headline">1 - Introduzione all' Interazione Uomo Macchina</h1>
-                <span  itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href='https://www.federicocalo.dev' className='autore'><span itemprop="name">Federico Calò</span></a></span> <span className='data' itemprop="datePublished" content="2022-11-01T07:30:00+08:00">1/11/2022</span>
+                <span  itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href='https://www.federicocalo.dev' className='autore'><span itemprop="name">Federico Calò</span></a></span> <span className='data' itemprop="datePublished" content="2022-11-01T07:30:00+08:00">12/11/2022</span>
                                 
                 <p className='post-text first-text'> Prima di entrare nel vivo della materia occorre definire alcuni concetti chiave sulla base dei quali si basa l'interazione uomo macchina. Con l'evoluzione tecnologica sono aumentati i prodotti che supportano le attività quotidiane dell'uomo e per migliorare l'interazione con essi sono
                 state create delle interfacce d'uso tramite le quali si instaura una sorta di dialogo tra l'utente e il sistema. Per <strong>sistema interattivo</strong> intendiamo, in maniera generale, qualsiasi combinazione di componenti hardware e software che ricevono input da un utente umano e gli forniscono un output, allo scopo di supportare

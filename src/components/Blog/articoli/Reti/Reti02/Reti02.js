@@ -53,7 +53,7 @@ function Reti02() {
                 </div>
                 
                 <h1 className='header-title' itemprop="headline">2. I due tipi di commutazione</h1>
-                <span  itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href='https://www.federicocalo.dev' className='autore'><span itemprop="name">Federico Calò</span></a></span> <span className='data' itemprop="datePublished" content="2022-11-01T07:30:00+08:00">1/11/2022</span>
+                <span  itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href='https://www.federicocalo.dev' className='autore'><span itemprop="name">Federico Calò</span></a></span> <span className='data' itemprop="datePublished" content="2022-11-01T07:30:00+08:00">20/11/2022</span>
                 
                 <h2 className='sub-heading'>Commutazione di pacchetto</h2>
                 
