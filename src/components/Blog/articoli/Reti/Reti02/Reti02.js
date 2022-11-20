@@ -59,8 +59,8 @@ function Reti02() {
                 
                 <p className='post-text'>Le applicazioni distribuite in rete scambiano dei messaggi, strutturati secondo le regole stabilite dallo sviluppatore, per poter comunicare tra loro. A prescindere dalle informazioni che il messaggio può contenere
                 la sorgente suddivide quest'ultimo in parti più piccole note come <strong>pacchetti</strong>. Tra la sorgente e la destinazione, i pacchetti viaggiano attraverso collegamenti e <strong>commutatori di pacchetto</strong>, i quali sono costituiti da
-                <strong>router</strong> e <strong>commutatori a livello di collegamento</strong>. I pacchetti vengono trasmessi su ciascun collegamento a una velocità pari alla velocità totale di trasmissione del collegamento stesso. Indicando con L la
-                dimensione del pacchetto in <i>bit</i> e con R la velocità del canale di trasmissione in <i>bps</i>, il tempo di trasmissione sarà pari a <Latex className='latex'>{frazione1}</Latex> secondi. La metodologia di trasmissione nella coomutazione
+                 <strong>router</strong> e <strong>commutatori a livello di collegamento</strong>. I pacchetti vengono trasmessi su ciascun collegamento a una velocità pari alla velocità totale di trasmissione del collegamento stesso. Indicando con L la
+                dimensione del pacchetto in <i>bit</i> e con R la velocità del canale di trasmissione in <i>bps</i>, il tempo di trasmissione sarà pari a <Latex className='latex'>{frazione1}</Latex> secondi. La metodologia di trasmissione nella commutazione
                 di pacchetti è la <strong>trasmissione store-and-forward</strong>, in base alla quale il commutatore di pacchetto deve ricevere l'intero pacchetto prima di poterne cominciare a trasmettere sul collegamento in uscita. La funzione di un router è
                 quella di instradare i pacchetti in entrata verso il collegamento in uscita. </p>    
                 
@@ -75,7 +75,7 @@ function Reti02() {
                 relativi ad esso. All'istante 2<Latex>{frazione1}</Latex> il pacchetto sarà arrivato al destinatario. Quindi il <i>ritardo</i> di un pacchetto durante la trasmissione store-and-forward è di 2<Latex>{frazione1}</Latex>, mentre se il router riuscisse a inoltrare il 
                 pacchetti appena lo riceve, il ritardo sarebbe pari a <Latex>{frazione1}</Latex>.</p>
 
-                <p className='post-text'>Nella realtà, ogni commutatore di pacchetto può connettere più collegamenti, per ciascuno dei quali mantiene un <strong>buffer di output</strong>, anche detto communamente coda di output, per mantenere i pacchetti da inoltrare. Questi buffer ricoprono un 
+                <p className='post-text'>Nella realtà, ogni commutatore di pacchetto può connettere più collegamenti, per ciascuno dei quali mantiene un <strong>buffer di output</strong>, anche detto comunamente coda di output, per mantenere i pacchetti da inoltrare. Questi buffer ricoprono un 
                 importante ruolo nell'instradamento dei pacchetti, in quanto bisogna gestire una coda nel caso in cui un pacchetto in arrivo debba essere inoltrato su un canale già occupato. Si crea, quindi, un <i>ritardo di accodamento</i> nei buffer di output. Questo ritardo può accumularsi
                 e il buffer prima o poi si saturerà, comportando la <strong>perdita dei pacchetti</strong> che verranno ricevuti successivamente.</p>
 
@@ -91,8 +91,8 @@ function Reti02() {
                 di un collegamento viene suddiviso tra le connessioni stabilite, dedicando a ciascuna di essa una banda di frequenza. Mentre nel TDM il tempo viene suddiviso in frame di durata fissa, a loro volta ripartiti in un numero fisso di slot temporali. In questo caso quando viene effettuato un collegamento, 
                 la rete dedica uno slot temporale in ogni frame, i quali verranno dedicati esclusivamente a quella connessione. Un problema della commutazione di circuito è il <strong>periodo di silenzio</strong>, nel quale le risorse sono occupate ma inutilizzate.</p>
 
-                <p className='post-text'>La commutazione di pachetto non è adatta ai servizi in tempo reale a causa dei suoi ritardi end-to-end variabili e non determinabili a priori, ma allo stesso tempo viene offerta una migliore condivisione della larghezza di banda rispetto alla commutazione di circuito, infine 
-                la commutazione di pacchetto risulta più semplice, più efficente e meno costosa da implementare. Un difetto della commutazione a circuito è il fatto di preallocare l'uso del mezzo trasmissivo indipendentemente dalla richiesta attraverso collegamenti garantiti, ma non utilizzati, con una conseguente perdita
+                <p className='post-text'>La commutazione di pacchetto non è adatta ai servizi in tempo reale a causa dei suoi ritardi end-to-end variabili e non determinabili a priori, ma allo stesso tempo viene offerta una migliore condivisione della larghezza di banda rispetto alla commutazione di circuito, infine 
+                la commutazione di pacchetto risulta più semplice, più efficiente e meno costosa da implementare. Un difetto della commutazione a circuito è il fatto di pre-allocare l'uso del mezzo trasmissivo indipendentemente dalla richiesta attraverso collegamenti garantiti, ma non utilizzati, con una conseguente perdita
                 di tempo.</p>
             </section>
         </div>
