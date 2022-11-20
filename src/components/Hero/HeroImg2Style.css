@@ -27,10 +27,11 @@
     align-items: center;
 }
 .hero-img h1{
-    font-size:2.4rem;
+    font-size:2.8rem;
+    margin-bottom: 10px;
 }
 .hero-img p{
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     text-align: center;
 }
 
