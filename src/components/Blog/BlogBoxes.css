@@ -28,7 +28,7 @@ section{
     margin-top: 2rem;
 }
 .post-filter .filter-item{
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     font-weight: 600;
     cursor: pointer;
     margin: 5px;
@@ -67,34 +67,35 @@ section{
 }
 
 .post .post-box .category{
-    font-size: 0.9rem;
+    font-size: 1.05rem;
     color: var(--post-categori);
     font-weight: 500;
     margin-top: 15px;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
 }
 
 .post .post-box .post-title{
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     color: var(--post-title);
     margin-bottom: 5px;
     font-weight: 700;
     display: -webkit-box;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
 
 .post .post-box .post-date{
     display: flex;
-    font-size: 0.875rem;
+    font-size: 1rem;
     font-weight: 400;
     margin-top: 5px;
+    margin-bottom: 5px;
     color: var(--post-date);
 }
 
 .post .post-box .post-description{
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     line-height: 25px;
     margin: 5px 0 25px;
 }

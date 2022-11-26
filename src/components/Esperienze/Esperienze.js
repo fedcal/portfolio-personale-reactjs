@@ -5,32 +5,7 @@ function Esperienze() {
   return (
     <div className='container'>
         <div className='row'>
-            <div className='education'>
-                <h1>Formazione</h1>
-                <div className='row'>
-                    <div className='timeline-box'>
-                        <div className='timeline'>
-
-                            <div className='timeline-item'>
-                                <div className='circle-dot'></div>
-                                <h4 className='timeline-date'><AiOutlineCalendar size={18} style={{color: "#fff", marginRight:'0.5rem'}}/>2017</h4>
-                                <h2 className='timeline-title'> Inizio studi universitari in Informatic</h2>
-                                <p className='timeline-text'>Immatricolazione presso l'università Aldo Moro di Bari, facoltà di Informatica. Classe di laurea L31</p>
-                            </div>
-
-                            <div className='timeline-item'>
-                                <div className='circle-dot'></div>
-                                <h4 className='timeline-date'><AiOutlineCalendar size={18} style={{color: "#fff", marginRight:'0.5rem'}}/>2012-2017</h4>
-                                <h2 className='timeline-title'>Diploma di scuola superiore I.T.C Cezzi De Castro Moro</h2>
-                                <p className='timeline-text'>Diploma di maturità conseguito presso l'Istituto Tecnico Commerciale Cezzi De Castro Moro, con indirizzo Sistemi Informativi Aziendali.</p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-            <div className='experience'>
+        <div className='experience'>
                 <h1>Esperienze Lavorative</h1>
                 <div className='row'>
                     <div className='timeline-box'>
@@ -66,6 +41,31 @@ function Esperienze() {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className='education'>
+                <h1>Formazione</h1>
+                <div className='row'>
+                    <div className='timeline-box'>
+                        <div className='timeline'>
+
+                            <div className='timeline-item'>
+                                <div className='circle-dot'></div>
+                                <h4 className='timeline-date'><AiOutlineCalendar size={18} style={{color: "#fff", marginRight:'0.5rem'}}/>2017</h4>
+                                <h2 className='timeline-title'> Inizio studi universitari in Informatic</h2>
+                                <p className='timeline-text'>Immatricolazione presso l'università Aldo Moro di Bari, facoltà di Informatica. Classe di laurea L31</p>
+                            </div>
+
+                            <div className='timeline-item'>
+                                <div className='circle-dot'></div>
+                                <h4 className='timeline-date'><AiOutlineCalendar size={18} style={{color: "#fff", marginRight:'0.5rem'}}/>2012-2017</h4>
+                                <h2 className='timeline-title'>Diploma di scuola superiore I.T.C Cezzi De Castro Moro</h2>
+                                <p className='timeline-text'>Diploma di maturità conseguito presso l'Istituto Tecnico Commerciale Cezzi De Castro Moro, con indirizzo Sistemi Informativi Aziendali.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </div>
