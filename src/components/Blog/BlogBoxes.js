@@ -41,7 +41,7 @@ function BlogBoxes() {
                 <div className='post-box uni all'>
                     <img src={LogoIum} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
                     <h3 className='category'>Appunti Universitari - Interazione Uomo macchina</h3>
-                    <h1 className='post-title'>1 - introduzione all' Interazione Uomo Macchina </h1>
+                    <h1 className='post-title'>1. Introduzione all' Interazione Uomo Macchina </h1>
                     <span className='post-date'> 12 Novembre 2022</span>
                     <p className='post-description'>Primo articolo dedicato agli appunti relativi alla materia Interazione Uomo Macchina, il cui studio si incentra sul ruolo dell'utente all'interno dello sviluppo del software, ponendo una nuova visione incentrata
                     sui suoi bisogni e necessità.</p>
@@ -58,6 +58,18 @@ function BlogBoxes() {
                     <p className='post-description'>Analizziamo come le applicazioni si scambiano i pacchetti, esaminando la commutazione di circuito e la commutazione di pacchetto. Confrontiamo i due tipi di commutazione ed esminiamo le varie problematiche di ciascuno </p>
                     <div className='link'>
                         <Link to="/Reti-di-Calcolatori-Vari-Tipi-Di-Commutazione" className="btn">Leggi Post</Link>
+                    </div>
+                </div>
+
+                <div className='post-box uni all'>
+                    <img src={LogoIum} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
+                    <h3 className='category'>Appunti Universitari - Interazione Uomo macchina</h3>
+                    <h1 className='post-title'>2. Interazione Uomo Macchina - L'usabilità </h1>
+                    <span className='post-date'> 29 Novembre 2022</span>
+                    <p className='post-description'> Dopo una breve overview della materia, descritta nel primo articolo, iniziamo ad approfondire i vari argomenti, iniziando dal concetto di <strong>usabilità</strong> e del modello di interazione, fino 
+                    ad addentrarci nel golfo di esecuzione e nel golfo di valutazione.</p>
+                    <div className='link'>
+                        <Link to="/Interazione-uomo-macchina-Usabilita-e-Modello-di-iterazione" className="btn">Leggi Post</Link>
                     </div>
                 </div>
 

@@ -45,7 +45,7 @@
 }
 .post-content .post-text{
     font-size: 1rem;
-    line-height: 30px !important;
+    line-height: 25px !important;
     text-align: justify;
     margin-bottom: 15px;
 }
@@ -75,7 +75,7 @@
     font-size: 2rem!important;
 }
 .post-content p{
-    font-size: 1.25rem!important;
+    font-size: 1.15rem!important;
 }
 .post-content ul{
     margin-left: 30px;
@@ -83,6 +83,21 @@
     margin-top: 15px;
     list-style: none;
     color:white;
+    counter-reset: item;
+}
+.numerata ul li{
+    counter-increment: item;
+    font-size: 1.15rem!important;
+}
+.numerata ul li::before{
+    content: counter(item)!important;
+}
+.post-content ul li{
+    margin-bottom: 5px;
+    line-height: 25px;
+}
+.post-content ul {
+    font-size: 1.15rem!important;
 }
 .post-content ul li::before{
     content: "\2022"; 
@@ -127,6 +142,7 @@
     font-weight: 600;
     cursor: pointer;
 }
+
 @media screen and (max-width:900px){
     .post-content{
         margin: 15px 25px 50px 25px;

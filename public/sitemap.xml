@@ -159,5 +159,18 @@
        <image:loc>https://www.federicocalo.dev/static/media/ModelloNormanSod.webp</image:loc>
     </image:image>
   </url>
+
+  <!-- Immagini /Interazione-uomo-macchina-Usabilita-e-Modello-di-iterazione -->
+  <url>
+    <loc>https://www.federicocalo.dev/Interazione-uomo-macchina-Usabilita-e-Modello-di-iterazione</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/ium_1900.webp</image:loc>
+    </image:image>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/modelloDiNorman.webp</image:loc>
+    </image:image>
+  </url>
   
 </urlset>

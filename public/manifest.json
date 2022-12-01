@@ -1,6 +1,7 @@
 {
   "short_name": "Federico Calò",
   "name": "Portfolio di Federico Calò",
+  "description": "Portfolio di Federico Calò, sviluppatore web e software",
   "icons": [
     {
       "src": "favc.png",
@@ -8,7 +9,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": ".",
+  "start_url": "https://www.federicocalo.dev/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#000000"

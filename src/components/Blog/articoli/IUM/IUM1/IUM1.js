@@ -5,6 +5,7 @@ import {Helmet} from "react-helmet";
 import Navbar from '../../../../Navbar/Navbar';
 import Footer from '../../../../Footer/Footer';
 import Norman1 from '../../../../assets/ModelloNormanSod.webp';
+import { Link } from 'react-router-dom';
 
 
 function IUM1() {
@@ -29,7 +30,7 @@ function IUM1() {
             <meta name="apple-mobile-web-app-title" content="Federico Calò Blog - 1. Introduzione all interazione uomo macchina"/> 
             <meta name='apple-mobile-web-app-capable' content='yes'/>
             <meta name='apple-touch-fullscreen' content='yes'/>
-            <link rel="canonical" href="https://www.federicocalo.dev/Reti-di-Calcolatori-Introduzione" />
+            <link rel="canonical" href="https://www.federicocalo.dev/Interazione-uomo-macchina-Introduzione" />
         </Helmet>
         <Navbar/>
         <div itemscope itemtype="https://schema.org/NewsArticle">
@@ -79,6 +80,9 @@ function IUM1() {
 
                 <p className='post-text'>La disciplina che si occupa della progettazione, valutazione e realizzazione di sistemi interattivi basati su computer destinati all'uso umano e dello studio dei principali fenomeni che li circondano, prende il nome di <strong>HCI</strong> (Human Computer Interaction). Questa disciplina ne coinvolge altre, quali l'ingegneria, la psicologia, la sociologia,
                 l'antropologia e l'industrial design.</p>
+                <div className="succ-post">
+                    <Link to="/Interazione-uomo-macchina-Usabilita-e-Modello-di-iterazione">Post successivo &#8594;</Link>
+                </div>
                 </section>
         </div>
         <Footer/>
