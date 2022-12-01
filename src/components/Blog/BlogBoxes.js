@@ -65,7 +65,7 @@ function BlogBoxes() {
                     <img src={LogoIum} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
                     <h3 className='category'>Appunti Universitari - Interazione Uomo macchina</h3>
                     <h1 className='post-title'>2. Interazione Uomo Macchina - L'usabilità </h1>
-                    <span className='post-date'> 29 Novembre 2022</span>
+                    <span className='post-date'> 01 Dicembre 2022</span>
                     <p className='post-description'> Dopo una breve overview della materia, descritta nel primo articolo, iniziamo ad approfondire i vari argomenti, iniziando dal concetto di <strong>usabilità</strong> e del modello di interazione, fino 
                     ad addentrarci nel golfo di esecuzione e nel golfo di valutazione.</p>
                     <div className='link'>

@@ -49,7 +49,7 @@ function IUM2() {
                     <Link to="/Interazione-uomo-macchina-Introduzione"> &#8592; Post precendente</Link>
                 </div>
                 <h1 className='header-title' itemprop="headline">2. Interazione Uomo Macchina - L'usabilità</h1>
-                <span  itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href='https://www.federicocalo.dev' className='autore'><span itemprop="name">Federico Calò</span></a></span> <span className='data' itemprop="datePublished" content="2022-11-01T07:30:00+08:00">29/11/2022</span>
+                <span  itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href='https://www.federicocalo.dev' className='autore'><span itemprop="name">Federico Calò</span></a></span> <span className='data' itemprop="datePublished" content="2022-11-01T07:30:00+08:00">01/12/2022</span>
                                 
                 <p className='post-text first-text'>Nel mondo della progettazione del software incentrato sull'utente, è fondamentale analizzare il modo con l'utente comune che andrà ad interagire con il sistema, permettendo di individuare le cause delle difficoltà durante il suo utilizzo, per poi andarle a risolvere.
                  Il modello più semplice di interazione fra un sistema e l'utente è il <i>ciclo di feedback</i>, nel quale l'utente fornisce un input al sistema per raggiungere il proprio scopo, ricevendo da quest'ultimo una risposta o feedback che viene interpretato e confrontato con lo scopo iniziale. Il risultato del
