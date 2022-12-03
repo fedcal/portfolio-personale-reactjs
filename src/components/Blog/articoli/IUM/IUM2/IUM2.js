@@ -6,6 +6,7 @@ import HomeIum from '../../../../assets/ium_1900.webp';
 import ModelloNorman from './modelloDiNorman.webp';
 import { Link } from 'react-router-dom';
 import '../IUM.css';
+import '../../Articoli.css';
 
 function IUM2() {
   return (

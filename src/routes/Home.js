@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar/Navbar';
 import AboutContent from '../components/About/AboutContent';
 import WorkCardPreview from '../components/Progetti/WorkCardPreview';
 import {Helmet} from "react-helmet";
+import BlogPreview from '../components/BlogPreview/BlogPreview';
 
 function Home() {
   return (
@@ -39,6 +40,7 @@ function Home() {
       <HeroImg/> 
       <AboutContent/>
       <WorkCardPreview/>
+      <BlogPreview/>
       <Footer/>
     </>
   )

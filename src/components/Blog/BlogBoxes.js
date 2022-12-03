@@ -13,6 +13,7 @@ function BlogBoxes() {
                 <span className='filter-item active-filter' data-filter='all'>Tutti</span>
                 <span className='filter-item' data-filter='uni'>Appunti Università</span>
                 <span className='filter-item' data-filter='libri'>Libri</span>
+                <span className='filter-item' data-filter='libri'>Case Sudy</span>
             </div>
             <section className='post container'>
 
@@ -72,6 +73,8 @@ function BlogBoxes() {
                         <Link to="/Interazione-uomo-macchina-Usabilita-e-Modello-di-iterazione" className="btn">Leggi Post</Link>
                     </div>
                 </div>
+
+                
 
             </section>
         </div>
