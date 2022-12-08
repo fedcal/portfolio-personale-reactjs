@@ -53,7 +53,7 @@ function Intro() {
 
                 <ul>
                   <li><i>Java</i> come linguaggio per implementare la logica all'interno del programma;</li>
-                  <li><i>JavaFX</i>, per implementarte l'interfaccia grafica</li>
+                  <li><i>JavaFX</i>, per implementare l'interfaccia grafica</li>
                   <li><i>SQL</i> per la modellazione del database in cui verranno rappresentati i dati</li>
                 </ul>
 
@@ -62,11 +62,11 @@ function Intro() {
                 <ul>
                   <li>Area soci: area relativa alla gestione dei dati degli associati;</li>
                   <li>Area eventi: area dedita alla gestione degli eventi;</li>
-                  <li>Area contabile: nella quale si redicontano le spese, i ricavi e l'inventario</li>
+                  <li>Area contabile: nella quale si rendicontano le spese, i ricavi e l'inventario</li>
                   <li>Area dev: contenente diverse funzionalità importanti per l'esportazione dei dati dal database o per il supporto di operazioni quali il ripristino di dati a causa di errori</li>
                 </ul>
                 
-                <p className='post-text'>Si è anche espresso la volontà di avere delle statistiche sui dati raccolti, funzionalità che verrà implementata attraverso opportune integrazioni di oppurtune librerie sviluppate in Python o in Java. Entrando maggiormente nei dettagli delle varie aree.
+                <p className='post-text'>Si è anche espresso la volontà di avere delle statistiche sui dati raccolti, funzionalità che verrà implementata attraverso opportune integrazioni di opportune librerie sviluppate in Python o in Java. Entrando maggiormente nei dettagli delle varie aree.
                  <i>l'area soci</i> racchiuderà operazioni quali:</p>
                  <ul>
                     <li>L'aggiunta di nuovi soci</li>
@@ -80,7 +80,7 @@ function Intro() {
                  <ul>
                   <li>Aggiunta degli eventi con le relative informazioni</li>
                   <li>Visualizzazione degli eventi in corso e passati</li>
-                  <li>Redicontazione dei costi e ricavi di ciascuno degli eventi</li>
+                  <li>Rendicontazione dei costi e ricavi di ciascuno degli eventi</li>
                   <li>Storico degli eventi</li>
                  </ul>
                  <p className='post-text'><i>La sezione contabile</i>, dovrà implementare:</p>
