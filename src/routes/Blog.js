@@ -27,6 +27,7 @@ function Blog() {
         <meta name="apple-mobile-web-app-title" content="Federico Calò - Blog Personale"/> 
         <meta name='apple-mobile-web-app-capable' content='yes'/>
         <meta name='apple-touch-fullscreen' content='yes'/>
+        <link rel="canonical" href="https://www.federicocalo.dev/blog" />
       </Helmet>
       <Navbar/>
       <HeroImg2 heading="Blog,"text="condivisione di esperienze e sapere."/>

@@ -34,12 +34,10 @@ function Reti02() {
             <link rel="canonical" href="https://www.federicocalo.dev/Reti-di-Calcolatori-Vari-Tipi-Di-Commutazione" />
         </Helmet>
         <Navbar/>
-        <div itemscope itemtype="https://schema.org/NewsArticle">
+        <div itemscope itemtype="https://schema.org/BlogPosting">
 
-            <meta itemprop="image" content="https://www.federicocalo.dev/static/media/rdc 1900.webp" />
-            <meta itemprop="image" content="https://www.federicocalo.dev/static/media/SchemaReti.webp" />
-            <meta itemprop="image" content="https://www.federicocalo.dev/static/media/AccessoViaCavo.webp" />
-            <meta itemprop="image" content="https://www.federicocalo.dev/static/media/AccessoAziendale.webp" />
+            <meta itemprop="image" content="https://www.federicocalo.dev/static/media/rdc_1900.webp" />
+            <meta itemprop="image" content="https://www.federicocalo.dev/static/media/Figura1.webp" />
 
             <section className='post-header'>
                 <div className='header-content post-container'>
@@ -53,7 +51,7 @@ function Reti02() {
                 </div>
                 
                 <h1 className='header-title' itemprop="headline">2. I due tipi di commutazione</h1>
-                <span  itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href='https://www.federicocalo.dev' className='autore'><span itemprop="name">Federico Calò</span></a></span> <span className='data' itemprop="datePublished" content="2022-11-01T07:30:00+08:00">20/11/2022</span>
+                <span  itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href='https://www.federicocalo.dev' className='autore'><span itemprop="name">Federico Calò</span></a></span> <span className='data' itemprop="datePublished" content="2022-11-20T07:30:00+08:00">20/11/2022</span>
                 
                 <h2 className='sub-heading'>Commutazione di pacchetto</h2>
                 

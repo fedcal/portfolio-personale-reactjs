@@ -12,6 +12,7 @@ import Libri01 from "./components/Blog/articoli/Libri/Libri01/Libri01";
 import IUM1 from "./components/Blog/articoli/IUM/IUM1/IUM1";
 import Reti02 from "./components/Blog/articoli/Reti/Reti02/Reti02";
 import IUM2 from "./components/Blog/articoli/IUM/IUM2/IUM2";
+import Intro from "./components/Blog/articoli/StudyCase/GestionaleAssociativo/Intro";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path='/Interazione-uomo-macchina-Introduzione'element={<IUM1/>}/>
         <Route path='/Reti-di-Calcolatori-Vari-Tipi-Di-Commutazione'element={<Reti02/>}/>
         <Route path='/Interazione-uomo-macchina-Usabilita-e-Modello-di-iterazione'element={<IUM2/>}/>
+        <Route path='/Gestionale-associazione-intro'element={<Intro/>}/>
       </Routes>
     </>
   );

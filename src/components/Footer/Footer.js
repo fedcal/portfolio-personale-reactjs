@@ -35,8 +35,8 @@ function Footer() {
                 <h4>Federico Calò</h4>
                 <p>Sviluppatore software per soluzioni personalizzate di siti web e applicazioni desktop.</p>
                 <div className='social'>
-                   <a href='https://www.linkedin.com/in/federico-calo/'target='_blank'rel="noopener noreferrer" aria-label={FaLinkedin}> <FaLinkedin size={20} style={{color: "rgb(248, 198, 15)", marginRight:'1rem'}}/></a>
-                   <a href='https://github.com/fedcal'target='_blank'rel="noopener noreferrer" aria-label={FaGithub}> <FaGithub size={20} style={{color: "rgb(248, 198, 15)", marginRight:'1rem'}}/></a>
+                   <a href='https://www.linkedin.com/in/federico-calo/'target='_blank'rel="noopener noreferrer" aria-label="Linkedin page"> <FaLinkedin size={20} style={{color: "rgb(248, 198, 15)", marginRight:'1rem'}}/></a>
+                   <a href='https://github.com/fedcal'target='_blank'rel="noopener noreferrer" aria-label="Github page"> <FaGithub size={20} style={{color: "rgb(248, 198, 15)", marginRight:'1rem'}}/></a>
                 </div>
             </div>
         </div>

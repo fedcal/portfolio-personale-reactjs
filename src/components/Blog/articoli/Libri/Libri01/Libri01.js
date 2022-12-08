@@ -29,15 +29,15 @@ function Libri01() {
             <link rel="canonical" href="https://www.federicocalo.dev/Libri-consigliati-01" />
         </Helmet>
         <Navbar/>
-        <div itemscope itemtype="https://schema.org/NewsArticle">
+        <div itemscope itemtype="https://schema.org/BlogPosting">
 
-            <meta itemprop="image" content="https://www.federicocalo.dev/static/media/rdc 1900.webp" />
+            <meta itemprop="image" content="https://www.federicocalo.dev/static/media/libri_1900.webp" />
             <meta itemprop="image" content="https://www.federicocalo.dev/static/media/SchemaReti.webp" />
             <meta itemprop="image" content="https://www.federicocalo.dev/static/media/AccessoViaCavo.webp" />
             <meta itemprop="image" content="https://www.federicocalo.dev/static/media/AccessoAziendale.webp" />
 
             <section className='post-header'>
-                <div className='header-content post-container'>
+                <div className='header-content post-container' itemscope itemtype="https://schema.org/ImageObject">
                     
                     <img src={HomeLibri} alt="Logo della pagina riferita ai post sui libri" className='header-img'/>
                 </div>

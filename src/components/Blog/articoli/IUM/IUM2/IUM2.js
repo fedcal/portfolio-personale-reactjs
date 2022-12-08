@@ -32,12 +32,10 @@ function IUM2() {
             <link rel="canonical" href="https://www.federicocalo.dev/Interazione-uomo-macchina-Usabilita-e-Modello-di-iterazione" />
         </Helmet>
         <Navbar/>
-        <div itemscope itemtype="https://schema.org/NewsArticle">
+        <div itemscope itemtype="https://schema.org/BlogPosting">
 
-            <meta itemprop="image" content="https://www.federicocalo.dev/static/media/rdc 1900.webp" />
-            <meta itemprop="image" content="https://www.federicocalo.dev/static/media/SchemaReti.webp" />
-            <meta itemprop="image" content="https://www.federicocalo.dev/static/media/AccessoViaCavo.webp" />
-            <meta itemprop="image" content="https://www.federicocalo.dev/static/media/AccessoAziendale.webp" />
+            <meta itemprop="image" content="https://www.federicocalo.dev/static/media/ium_1900.webp" />
+            <meta itemprop="image" content="https://www.federicocalo.dev/static/media/modelloDiNorman.webp" />
 
             <section className='post-header'>
                 <div className='header-content post-container'>
@@ -50,9 +48,9 @@ function IUM2() {
                     <Link to="/Interazione-uomo-macchina-Introduzione"> &#8592; Post precendente</Link>
                 </div>
                 <h1 className='header-title' itemprop="headline">2. Interazione Uomo Macchina - L'usabilità</h1>
-                <span  itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href='https://www.federicocalo.dev' className='autore'><span itemprop="name">Federico Calò</span></a></span> <span className='data' itemprop="datePublished" content="2022-11-01T07:30:00+08:00">01/12/2022</span>
+                <span  itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href='https://www.federicocalo.dev' className='autore'><span itemprop="name">Federico Calò</span></a></span> <span className='data' itemprop="datePublished" content="2022-12-01T07:30:00+08:00">01/12/2022</span>
                                 
-                <p className='post-text first-text'>Nel mondo della progettazione del software incentrato sull'utente, è fondamentale analizzare il modo con l'utente comune che andrà ad interagire con il sistema, permettendo di individuare le cause delle difficoltà durante il suo utilizzo, per poi andarle a risolvere.
+                <p className='post-text first-text'>Nel mondo della progettazione del software incentrato sull'utente, è fondamentale analizzare il modo con l'utente comune andrà ad interagire con il sistema, permettendo di individuare le cause delle difficoltà durante il suo utilizzo, per poi andarle a risolvere.
                  Il modello più semplice di interazione fra un sistema e l'utente è il <i>ciclo di feedback</i>, nel quale l'utente fornisce un input al sistema per raggiungere il proprio scopo, ricevendo da quest'ultimo una risposta o feedback che viene interpretato e confrontato con lo scopo iniziale. Il risultato del
                  confronto porta ad una successiva azione dell'utente, innescando un continuo ciclo di domanda e risposta. Donald Norman si interessò a questo ciclo di feedback e realizzò uno schema molto dettagliato, che prende il nome di <strong>modello di Norman</strong>. </p>
                 
@@ -72,7 +70,7 @@ function IUM2() {
                         <li><i>Valutare il risultato</i>: decide se lo scopo iniziale è stato raggiunto.</li>
                     </ul>
                 </div>
-                <p className='post-text'>I punti 2, 3 e 4 prendono parte della fase di esecuzione in cui si pianificano e si effettuano le azioni, mentre i punti 5, 6 e 7 fanno parte della fase di valutazione in cui 
+                <p className='post-text'>I punti 2, 3 e 4 prendono parte della fase di esecuzione, in cui si pianificano e si effettuano le azioni, mentre i punti 5, 6 e 7 fanno parte della fase di valutazione, in cui 
                  si valutano le azioni eseguite. Questo modello può essere applicato a qualsiasi tipo di azione, anche se Norman lo considera un modello approssimativo. Attraverso questo modello, però, si riescono a
                   individuare i momenti in cui si possono presentarsi dei problemi. Ci sono due golfi difficili da superare:</p>
                 
@@ -81,7 +79,7 @@ function IUM2() {
                     <li><i>il golfo della valutazione</i>, che separa lo stadio della percezione dello stato del mondo da quello della valutazione dei risultati</li>
                 </ul>
 
-                <p className='post-text'>Quindi il golfo dell'esecuzione è che separa le intenzioni dalle azioni che permettono di realizzarle, per superarlo si dovranno identificare fra le azioni che è possibile eseguire con il sistema, quelle 
+                <p className='post-text'>Quindi il golfo dell'esecuzione separa le intenzioni dalle azioni che permettono di realizzarle, per superarlo si dovranno identificare fra le azioni che è possibile eseguire con il sistema, quelle 
                 che permettono all'utente di raggiungere lo scopo. Mentre il golfo della valutazione è legato alle difficoltà che l'utente deve superare per interpretare lo stato fisico del sistema dopo le azioni effettuate e comprendere se ha raggiunto 
                 o meno lo scopo prefissato. Per superare il golfo dell'esecuzione, un oggetto deve possedere una buona <i>affordance</i>, ovvero la proprietà di un oggetto di influenzare attraverso la sua forma il modo in cui viene utilizzato. Mentre per
                 superare il golfo della valutazione, l'oggetto deve fornire un feedback facilmente interpretabile. </p>

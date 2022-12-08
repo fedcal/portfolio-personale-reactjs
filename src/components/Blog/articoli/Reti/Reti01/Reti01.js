@@ -32,11 +32,12 @@ function Reti01() {
             <meta name='apple-mobile-web-app-capable' content='yes'/>
             <meta name='apple-touch-fullscreen' content='yes'/>
             <link rel="canonical" href="https://www.federicocalo.dev/Reti-di-Calcolatori-Introduzione" />
+            
         </Helmet>
         <Navbar/>
-        <div itemscope itemtype="https://schema.org/NewsArticle">
+        <div itemscope itemtype="https://schema.org/BlogPosting">
 
-            <meta itemprop="image" content="https://www.federicocalo.dev/static/media/rdc 1900.webp" />
+            <meta itemprop="image" content="https://www.federicocalo.dev/static/media/rdc_1900.webp" />
             <meta itemprop="image" content="https://www.federicocalo.dev/static/media/SchemaReti.webp" />
             <meta itemprop="image" content="https://www.federicocalo.dev/static/media/AccessoViaCavo.webp" />
             <meta itemprop="image" content="https://www.federicocalo.dev/static/media/AccessoAziendale.webp" />
@@ -99,7 +100,7 @@ function Reti01() {
                 </div>
                 
                 <p className='post-text'>A differenza della DSL, l'<strong>accesso a Internet via cavo</strong> sfrutta le infrastrutture della televisione, attraverso delle fibre ottiche che connettono la terminazione del cavo a giunzioni a livello di quartiere, dalle quali parte il cavo coassiale per la distribuzione mediante la quale si raggiungono le singole case e appartamenti. Tale sistema viene generalmente 
-                definito <i>hybrud fiber coax (HFC)</i>. L'accesso a Internet viene supportato attraverso particolari modem definiti <strong>cable modem</strong>, al quale ci si connette attraverso una porta Ethernet. La rete viene divisa in due canali: uno per il <i>dowstream</i> e uno per il <i>upstream</i>. A questi canali si accede in maniera asimmetrica. In America sta prendendo piede la tecnologia <strong>FTTH</strong> 
+                definito <i>hybrud fiber coax (HFC)</i>. L'accesso a Internet viene supportato attraverso particolari modem definiti <strong>cable modem</strong>, al quale ci si connette attraverso una porta Ethernet. La rete viene divisa in due canali: uno per il <i>dowstream</i> e uno per il <i>upstream</i>. A questi canali si accede in maniera asimmetrica. In America sta prendendo piede la tecnologia <strong>FTTH </strong> 
                  (fiber to the home), con velocità maggiori in quanto viene fornita la fibra ottica direttamente all'abitazione. Quest'ultima utilizza un terminale ottico denominato <strong>ONT</strong>, al quale viene connesso un separatore ottico di quartiere al quale viene dedicata una fibra ottica.</p>
                 
                 <div className='box-image'>
