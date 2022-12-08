@@ -7,11 +7,82 @@ import HomeStdy from '../caseStudy_1900.webp';
 import '../../Articoli.css';
 
 function Intro() {
+  const schemaData={
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "@id":"https://www.federicocalo.dev/Gestionale-associazione-intro",
+    "mainEntityOfPage":"https://www.federicocalo.dev/Gestionale-associazione-intro",
+    "headline": "1. Introduzione allo sviluppo del gestionale associativo",
+    "name": "1. Introduzione allo sviluppo del gestionale associativo",
+    "description": "Analisi dei requisiti per lo sviluppo di un applicativo desktop per la gestione di un&#39;associazione. Vengono iillustrati i requisiti, lo stack tecnologico e il modello ER.",
+    "datePublished": "2022-12-08",
+    "dateModified": "2022-12-08",
+    "author": {
+      "@type": "Person",
+      "@id": "https://www.federicocalo.dev/",
+      "name": "Federico Calò",
+      "url": "https://www.federicocalo.dev/",
+      "image": {
+          "@type": "ImageObject",
+          "@id": "	https://www.federicocalo.dev/static/media/profilo.webp",
+          "url": "	https://www.federicocalo.dev/static/media/profilo.webp",
+          "height": "96",
+          "width": "96"
+      }
+      },
+      "url": "https://www.federicocalo.dev/Gestionale-associazione-intro",
+      "isPartOf": {
+        "@type" : "Blog",
+        "@id": "https://www.federicocalo.dev/blog/",
+        "name": "Federico Calo Blog",
+        "publisher": {
+          "@type": "Person",
+          name: "Federico Calò",
+          birthDate: "07/051998",
+          email:"fedcal01@gmail.com",
+          jobTitle: "Software Developre",
+          knowsAbout: ["Developer", "Computer Science"],
+          telephone: "+39 3332673965",
+          url: "http://www.federicocalo.dev",
+          hasOccupation:[ {
+            "@type": "Occupation",
+            "name": "Software Developer",
+            "educationRequirements": "PhD in computer science"
+          },
+          {
+            "@type": "Software Developer",
+            "hasOccupation": {
+            "@type": "Occupation",
+            "name": "WebScience",
+            },
+            "startDate": "02022021",
+            "endDate": "29102021"
+          },
+          {
+            "@type": "Software Developer",
+            "hasOccupation": {
+            "@type": "Occupation",
+            "name": "Links Management and Tecnology",
+            },
+            "startDate": "14062022",
+          }
+        ]
+       },
+       "keywords": [
+        "gestionale",
+        "gestionale associativo",
+        "java",
+        "javafx","sql", "modello er", "modello entità relazione", "requisiti",
+        "fase implementativa", "stack tecnologico","integrità"
+    ],
+   },
+  }
   return (
     <div>
         <Helmet>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9556331893712433"
-     crossorigin="anonymous"></script>
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9556331893712433"
+            crossorigin="anonymous"></script>
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <title>Federico Calò Blog - 1. Introduzione allo sviluppo del gestionale associativo</title>
             <meta name='keywords' content='gestionale, gestionale associativo, java, javafx, sql, modello er, modello entità relazione, requisiti, fase implementativa, stack tecnologico, integrità '/>
