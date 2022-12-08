@@ -14,11 +14,11 @@ function BlogBoxes() {
                 <span className='filter-item active-filter' data-filter='all'>Tutti</span>
                 <span className='filter-item' data-filter='uni'>Appunti Università</span>
                 <span className='filter-item' data-filter='libri'>Libri</span>
-                <span className='filter-item' data-filter='libri'>Case Sudy</span>
+                <span className='filter-item' data-filter='casestudy'>Case Sudy</span>
             </div>
             <section className='post container'>
                 
-                <div className='post-box uni all'>
+                <div className='post-box casestudy all'>
                     <img src={LogoStudyCase} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
                     <h3 className='category'>Case Study - Gestionale Associativo</h3>
                     <h1 className='post-title'>1. Introduzione allo sviluppo del gestionale associativo</h1>
