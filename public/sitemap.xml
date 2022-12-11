@@ -104,6 +104,9 @@
     <image:image>
         <image:loc>https://www.federicocalo.dev/static/media/ium_500.webp</image:loc>
     </image:image>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/caseStudy_500.webp</image:loc>
+    </image:image>
   </url>
   <!-- Immagini /Reti-di-Calcolatori-Introduzione -->
   <url>
@@ -180,6 +183,19 @@
     <priority>01.0</priority>
     <image:image>
        <image:loc>https://www.federicocalo.dev/static/media/caseStudy_1900.webp</image:loc>
+    </image:image>
+  </url>
+
+  <!-- Immagini /Gestionale-associazione-diagramma-entita-relazione -->
+  <url>
+    <loc>https://www.federicocalo.dev/Gestionale-associazione-diagramma-entita-relazioneo</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/caseStudy_1900.webp</image:loc>
+    </image:image>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/entita-relazione.webp</image:loc>
     </image:image>
   </url>
   

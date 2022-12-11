@@ -3,8 +3,9 @@ import { Helmet } from 'react-helmet';
 import Footer from '../../../../Footer/Footer';
 import Navbar from '../../../../Navbar/Navbar';
 import '../../Articoli.css';
+import { Link } from 'react-router-dom';
 import HomeStdy from '../caseStudy_1900.webp';
-import '../../Articoli.css';
+
 
 function Intro() {
   const schemaData={
@@ -102,9 +103,9 @@ function Intro() {
         
         </Helmet>
         <Navbar/>
-        <div itemscope itemtype="https://schema.org/NewsArticle">
+        <div itemscope itemType="https://schema.org/NewsArticle">
 
-            <meta itemprop="image" content="https://www.federicocalo.dev/static/media/caseStudy_1900.webp" />
+            <meta itemProp="image" content="https://www.federicocalo.dev/static/media/caseStudy_1900.webp" />
           
 
             <section className='post-header'>
@@ -114,8 +115,8 @@ function Intro() {
                 </div>
             </section>
             <section className='post-content post-container'>
-                <h1 className='header-title' itemprop="headline">1. Introduzione allo sviluppo del gestionale associativo</h1>
-                <span  itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href='https://www.federicocalo.dev' className='autore'><span itemprop="name">Federico Calò</span></a></span> <span className='data' itemprop="datePublished" content="2022-12-08T07:30:00+08:00">08/12/2022</span>
+                <h1 className='header-title' itemProp="headline">1. Introduzione allo sviluppo del gestionale associativo</h1>
+                <span  itemProp="author" itemscope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span> <span className='data' itemProp="datePublished" content="2022-12-08T07:30:00+08:00">08/12/2022</span>
                                 
                 <p className='post-text first-text'>Faccio parte dell'associazione <a href='https://www.instagram.com/onstageaps/' target='_blank' rel="noopener noreferrer" aria-label="Onstage"className='link'>ONstage</a> e recentemente è sorta l'esigenza di organizzare le varie attività dell'associazione attraverso un gestionale 
                 per poterle automatizzare. Così ho preso l'iniziativa e ho deciso di iniziare lo sviluppo. Prima di iniziare la <strong>fase implementativa</strong>,  ho chiesto quali fossero le reali necessità che dovevano essere poi trasformate in funzionalità del programma, chi doveva effettivamente utilizzare il gestionale e dove doveva essere
@@ -165,6 +166,10 @@ function Intro() {
                  ho creato <strong>uno schema ER</strong>, consultabile al <a className='link'  href='https://github.com/fedcal/GestionaleAssociazione/blob/master/schema/Entity%20Relationship%20db-ER%20-%20view%201.drawio.png' target='_blank' rel="noopener noreferrer" aria-label="modello ER">seguente link</a>,
                  andando a definire le varie entità che modellano le informazioni riguardanti i soci, gli eventi, l'inventario, la contabilità e le relative associazioni. Oltre alla forma dei contenitori, ho definito anche dei colori per distinguere le entità dalle relazioni e i relativi attributi. Questo è una 
                  prima bozza della struttura implementativa, in quanto i requisiti funzionali di un sistema sono volatili e quindi potranno cambiare con il tempo.</p>
+                 
+                 <div className="succ-post">
+                    <Link to="/Gestionale-associazione-diagramma-entita-relazione">Post successivo &#8594;</Link>
+                 </div>
                </section>
         </div>
         <Footer/>

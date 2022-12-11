@@ -17,6 +17,18 @@ function BlogBoxes() {
                 <span className='filter-item' data-filter='casestudy'>Case Sudy</span>
             </div>
             <section className='post container'>
+
+                <div className='post-box casestudy all'>
+                    <img src={LogoStudyCase} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
+                    <h3 className='category'>Case Study - Gestionale Associativo</h3>
+                    <h1 className='post-title'>2. Diagramma Entità Relazione</h1>
+                    <span className='post-date'> 11 Dicembre 2022</span>
+                    <p className='post-description'> In relazione al caso di studio del gestionale associativo, in questo articolo entriamo nel dettaglio di uno schema entità relazione delle entità e delle relazioni che dovranno
+                     essere implementate all'interno del database e che rappresentano una prima fotografia di com'è organizzata l'associazione in questa fase.</p>
+                    <div className='link'>
+                        <Link to="/Gestionale-associazione-diagramma-entita-relazione" className="btn">Leggi Post</Link>
+                    </div>
+                </div>
                 
                 <div className='post-box casestudy all'>
                     <img src={LogoStudyCase} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
