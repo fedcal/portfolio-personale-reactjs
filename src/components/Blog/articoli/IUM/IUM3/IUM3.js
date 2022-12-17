@@ -13,7 +13,25 @@ function IUM3() {
   return (
     <div>
         <Helmet>
-        
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9556331893712433"
+            crossorigin="anonymous"></script>
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <title>Federico Calò Blog -  3. Interazione Uomo Macchina - Conoscere l&#39;utente</title>
+            <meta name='keywords' content='interazione uomo macchina, ium, appunti universitari, usabilità, modello di Norman, ciclo di feedback,memorabilità,affordance,apprendibilità, accessibilità '/>
+            <meta name='description' content='Cosa si intende per memorabilità? Che cos&#39;è l&#39;apprendibilià? Andiamo a scoprirlo dandone una definizione in base ai vari standard ISO '/>
+            <meta name='robots' content='index,follow'/>
+            <meta name='language' content='IT'/>
+            <meta name='topic' content='Programmazione e Sviluppo'/>
+            <meta name='author' content='Federico Calò, fedcal01@gmail.com'/>
+            <meta name='og:title' content='Federico Calò Blog - 3. Interazione Uomo Macchina - Conoscere l&#39;utente'/>
+            <meta name='og:description' content='Cosa si intende per memorabilità? Che cos&#39;è l&#39;apprendibilià? Andiamo a scoprirlo dandone una definizione in base ai vari standard ISO'/>
+            <meta name='og:email' content='fedcal01@gmail.com'/>
+            <meta name='og:phone_number' content='+39 3332673965'/>
+            <meta name="apple-mobile-web-app-title" content="Federico Calò Blog -  3. Interazione Uomo Macchina - Conoscere l&#39;utente"/> 
+            <meta name='apple-mobile-web-app-capable' content='yes'/>
+            <meta name='apple-touch-fullscreen' content='yes'/>
+            <link rel="canonical" href="https://www.federicocalo.dev/Interazione-uomo-macchina-Conoscere-l-utente" />
+       
         </Helmet>
         <Navbar/>
         <div itemscope itemtype="https://schema.org/BlogPosting">
