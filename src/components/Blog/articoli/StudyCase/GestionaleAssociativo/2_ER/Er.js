@@ -50,7 +50,7 @@ function Er() {
                     <Link to="/Gestionale-associazione-intro"> &#8592; Post precendente</Link>
                 </div>
             <h1 className='header-title' itemProp="headline">2. Diagramma Entità Relazione</h1>
-            <span  itemProp="author" itemscope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span> <span className='data' itemProp="datePublished" content="2022-12-08T07:30:00+08:00">08/12/2022</span>
+            <span  itemProp="author" itemscope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span> <span className='data' itemProp="datePublished" content="2022-12-11T07:30:00+08:00">11/12/2022</span>
                             
             <p className='post-text first-text'>Come anticipato, in questo articolo entriamo in maniera approfondita nella questione relativa allo <strong>schema entità relazione (ER)</strong> sul quale si baserà l'implementazione del nostro database in cui si memorizzeranno i dati. La creazione dello <strong>strato di persistenza </strong>
              in un'applicazione  è un processo delicato, in quanto su di esso si baserà anche il codice per <i>il recupero delle informazioni</i> dalla base di dati e <i>la rappresentazione del dato</i> all'interno della memoria. Avere una corretta rappresentazione del dato sin dall'inizio, anche se si evolverà con il tempo, facilita le operazioni

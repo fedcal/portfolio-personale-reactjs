@@ -198,5 +198,18 @@
        <image:loc>https://www.federicocalo.dev/static/media/entita-relazione.webp</image:loc>
     </image:image>
   </url>
+
+   <!-- Immagini /Interazione-uomo-macchina-Conoscere-l-utente -->
+  <url>
+    <loc>https://www.federicocalo.dev/Interazione-uomo-macchina-Conoscere-l-utente</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/caseStudy_1900.webp</image:loc>
+    </image:image>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/memorie.webp</image:loc>
+    </image:image>
+  </url>
   
 </urlset>

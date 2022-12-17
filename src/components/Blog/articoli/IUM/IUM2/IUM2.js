@@ -12,8 +12,8 @@ function IUM2() {
   return (
     <div>
         <Helmet>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9556331893712433"
-     crossorigin="anonymous"></script>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9556331893712433"
+            crossorigin="anonymous"></script>
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <title>Federico Calò Blog - 2. Interazione Uomo Macchina - L'usabilità</title>
             <meta name='keywords' content='interazione uomo macchina, ium, appunti universitari, usabilità, modello di Norman, ciclo di feedback,memorabilità,affordance,apprendibilità, accessibilità '/>
@@ -44,7 +44,7 @@ function IUM2() {
                 </div>
             </section>
             <section className='post-content post-container'>
-            <div className="prec-post">
+                <div className="prec-post">
                     <Link to="/Interazione-uomo-macchina-Introduzione"> &#8592; Post precendente</Link>
                 </div>
                 <h1 className='header-title' itemprop="headline">2. Interazione Uomo Macchina - L'usabilità</h1>
@@ -62,9 +62,9 @@ function IUM2() {
                 <div className='numerata'>
                     <ul>
                         <li><i>Formare lo scopo</i>: fase in cui l'utente forma lo scopo che vuole raggiungere</li>
-                        <li><i>Formare l’intenzione</i>: l'utente decide cosa intende fare per raggiungere lo scopo prefissato</li>
-                        <li><i>Specificare un’azione</i>: pianifica nel dettaglio le azioni specifiche da compiere</li>
-                        <li><i>Eseguire l’azione</i>: esegue effettivamente le azioni pianificate</li>
+                        <li><i>Formare l'intenzione</i>: l'utente decide cosa intende fare per raggiungere lo scopo prefissato</li>
+                        <li><i>Specificare un'azione</i>: pianifica nel dettaglio le azioni specifiche da compiere</li>
+                        <li><i>Eseguire l'azione</i>: esegue effettivamente le azioni pianificate</li>
                         <li><i>Percepire lo stato del mondo</i>: osserva come sono cambiati il sistema e il mondo circostante dopo le nostre azioni</li>
                         <li><i>Interpretare lo stato del mondo</i>: pianifica nel dettaglio le azioni specifiche da compiere</li>
                         <li><i>Valutare il risultato</i>: decide se lo scopo iniziale è stato raggiunto.</li>
@@ -120,6 +120,9 @@ function IUM2() {
                 
                 <p className='post-text'>A volte il termine di <i>accessibilità universale</i> per enfatizzare ulteriormente un'accessibilità estesa a tutti i possibili utenti. Inoltre non bisogna confondere l'accessibilità e l'usabilità,
                  sono due concetti diversi. L'usabilità garantisce un uso efficiente, efficace e soddisfacente del sistema, mentre l'usabilità garantisce la possibilità di accedere al sistema.</p>
+                 <div className="succ-post">
+                    <Link to="/Interazione-uomo-macchina-Conoscere-l-utente">Post successivo &#8594;</Link>
+                 </div>
                </section>
         </div>
         <Footer/>
