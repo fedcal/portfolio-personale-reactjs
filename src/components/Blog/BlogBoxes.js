@@ -22,7 +22,7 @@ function BlogBoxes() {
                     <img src={LogoIum} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
                     <h3 className='category'>Appunti Università - Interazione Uomo Macchina</h3>
                     <h1 className='post-title'>3. Conoscere l'utente</h1>
-                    <span className='post-date'> 15 Dicembre 2022</span>
+                    <span className='post-date'> 17 Dicembre 2022</span>
                     <p className='post-description'> All'interno dello sviluppo incentrato sull'utente, possiamo visualizzare l'utente da molteplici punti di vista. E' fondamentale analizzare i processi cognitivi, le caratteristiche personali e il 
                     ruolo dei singoli utenti che interagiscono con il sistema. Il progettista di sistemi interattivi non deve perdere di vista questi obiettivi, vediamo come.</p>
                     <div className='link'>
