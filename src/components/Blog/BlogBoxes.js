@@ -18,7 +18,7 @@ function BlogBoxes() {
             </div>
             <section className='post container'>
 
-                <div className='post-box casestudy all'>
+                <div className='post-box uni all'>
                     <img src={LogoIum} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
                     <h3 className='category'>Appunti Università - Interazione Uomo Macchina</h3>
                     <h1 className='post-title'>3. Conoscere l'utente</h1>
