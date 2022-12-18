@@ -22,7 +22,7 @@ function IUM3() {
             crossorigin="anonymous"></script>
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <title>Federico Calò Blog -  3. Interazione Uomo Macchina - Conoscere l&#39;utente</title>
-            <meta name='keywords' content='interazione uomo macchina, ium, appunti universitari, usabilità, conoscere l&#39;utente, attenzione, task analysis, GOMS, goals, operators, Methods, Selection rules, attenzione selettiva, attenzione divisiva, fattori esogeni, fattori endogeni, memoria sensoriale, memoria a breve termine, memoria a lungo termine, short time memory, STM '/>
+            <meta name='keywords' content='interazione uomo macchina, ium, appunti universitari, usabilità, conoscere l&#39;utente, attenzione, task analysis, GOMS, goals, operators, Methods, Selection rules, attenzione selettiva, attenzione divisiva, fattori esogeni, fattori endogeni, memoria sensoriale, memoria a breve termine, memoria a lungo termine, short time memory, STM, legge di potenza della pratica, Power Law of Practice,  learning curve, curva di apprendimento media, Legge di Fitts'/>
             <meta name='description' content=' All&#39;interno dello sviluppo incentrato sull&#39;utente, possiamo visualizzare l&#39;utente da molteplici punti di vista. E&#39; fondamentale analizzare i processi cognitivi, le caratteristiche personali e il 
                     ruolo dei singoli utenti che interagiscono con il sistema. Il progettista di sistemi interattivi non deve perdere di vista questi obiettivi, vediamo come. '/>
             <meta name='robots' content='index,follow'/>
