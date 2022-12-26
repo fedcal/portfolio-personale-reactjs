@@ -14,7 +14,7 @@ function BlogBoxes() {
                 <span className='filter-item active-filter' data-filter='all'>Tutti</span>
                 <span className='filter-item' data-filter='uni'>Appunti Università</span>
                 <span className='filter-item' data-filter='libri'>Libri</span>
-                <span className='filter-item' data-filter='casestudy'>Case Sudy</span>
+                <span className='filter-item' data-filter='casestudy'>Case Study</span>
             </div>
             <section className='post container'>
 
