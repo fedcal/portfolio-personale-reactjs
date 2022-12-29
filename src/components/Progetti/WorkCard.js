@@ -9,6 +9,7 @@ import portfolio from '../assets/portfolio.webp';
 import regressionTree from '../assets/tree3.webp';
 import tcp from '../assets/tcp.webp';
 import udp from '../assets/udp.webp';
+import pizzeria from '../assets/Pizzeria.webp';
 
 function WorkCard() {
   return (
@@ -43,8 +44,8 @@ function WorkCard() {
                     </p>
                 </div>
                 <div className='pro-btns'>
-                    <a href='https://github.com/AbitareMicocci/abitare.github.io' className='btn'>GitHub</a>
-                    <a href='https://abitaremicocci.com/' className='btn'>Sito</a>
+                    <a href='https://github.com/AbitareMicocci/abitare.github.io' target='_blank'rel="noopener noreferrer" aria-label="Github page" className='btn'>GitHub</a>
+                    <a href='https://abitaremicocci.com/' target='_blank'rel="noopener noreferrer" aria-label="Github page"className='btn'>Sito</a>
                 </div>
             </div>
 
@@ -58,7 +59,7 @@ function WorkCard() {
                     </p>
                 </div>
                 <div className='pro-btns'>
-                    <a href='https://github.com/fedcal/RegressionTreeJava' className='btn'>GitHub</a>
+                    <a href='https://github.com/fedcal/RegressionTreeJava' target='_blank'rel="noopener noreferrer" aria-label="Github page"className='btn'>GitHub</a>
                 </div>
             </div>
 
@@ -72,7 +73,7 @@ function WorkCard() {
                     </p>
                 </div>
                 <div className='pro-btns'>
-                    <a href='https://github.com/fedcal/websiteWorldsInn.github.io' className='btn'>GitHub</a>
+                    <a href='https://github.com/fedcal/websiteWorldsInn.github.io' target='_blank'rel="noopener noreferrer" aria-label="Github page"className='btn'>GitHub</a>
                 </div>
             </div>
 
@@ -87,7 +88,7 @@ function WorkCard() {
                     </p>
                 </div>
                 <div className='pro-btns'>
-                    <a href='https://github.com/fedcal/Server_Client_TCP' className='btn'>GitHub</a>
+                    <a href='https://github.com/fedcal/Server_Client_TCP' target='_blank'rel="noopener noreferrer" aria-label="Github page"className='btn'>GitHub</a>
                 </div>
             </div>
 
@@ -101,7 +102,7 @@ function WorkCard() {
                     </p>
                 </div>
                 <div className='pro-btns'>
-                    <a href='https://github.com/fedcal/Client_Server_UDP' className='btn'>GitHub</a>
+                    <a href='https://github.com/fedcal/Client_Server_UDP' target='_blank'rel="noopener noreferrer" aria-label="Github page" className='btn'>GitHub</a>
                 </div>
             </div>
 
@@ -116,7 +117,8 @@ function WorkCard() {
                     </p>
                 </div>
                 <div className='pro-btns'>
-                    <a href='https://github.com/fedcal/TemplaeteWebsite1.github.io' className='btn'>GitHub</a>
+                    <a href='https://github.com/fedcal/TemplaeteWebsite1.github.io' target='_blank'rel="noopener noreferrer" aria-label="Github page" className='btn'>GitHub</a>
+                    <a href='https://fedcal.github.io/TemplaeteWebsite1.github.io/' target='_blank'rel="noopener noreferrer" aria-label="Site page" className='btn'>Sito</a>
                 </div>
             </div>
 
@@ -130,7 +132,7 @@ function WorkCard() {
                     </p>
                 </div>
                 <div className='pro-btns'>
-                    <a href='https://github.com/fedcal/websiteWorldsInn.github.io' className='btn'>GitHub</a>
+                    <a href='https://github.com/fedcal/websiteWorldsInn.github.io'target='_blank'rel="noopener noreferrer" aria-label="Github page" className='btn'>GitHub</a>
                 </div>
             </div>
 
@@ -144,11 +146,26 @@ function WorkCard() {
                     </p>
                 </div>
                 <div className='pro-btns'>
-                    <a href='https://github.com/fedcal/casadellemagnolie.github.io' className='btn'>GitHub</a>
-                    <a href='https://casadellemagnolie.com/' className='btn'>Sito</a>
+                    <a href='https://github.com/fedcal/casadellemagnolie.github.io' target='_blank'rel="noopener noreferrer" aria-label="Github page"className='btn'>GitHub</a>
+                    <a href='https://casadellemagnolie.com/'target='_blank'rel="noopener noreferrer" aria-label="Github page" className='btn'>Sito</a>
                 </div>
             </div>
 
+            <div className='project-card'>
+                <img src={pizzeria} alt="Preview del sito template per una pizzeria"/>
+                <h2 className='project-title'>Sito template pizzeria</h2>
+                <div className='pro-details'>
+                    <p>Ho realizzato un piccolo sito web rappresentante un template per una pizzeria. E' stato sviluppato
+                        in HTML, CSS e javascript, rendendolo responsive per essere visualizzato su qualsiasi dispositivo. Non è stato
+                        eseguito nessuno studio SEO in merito, in quanto sito prototipo, ciò non toglie che verrà fatto una volta che 
+                        qualcuno commissionerà il lavoro.
+                    </p>
+                </div>
+                <div className='pro-btns'>
+                    <a href='https://github.com/fedcal/template_pizzeria1.github.io' target='_blank'rel="noopener noreferrer" aria-label="Github page"className='btn'>GitHub</a>
+                    <a href='https://fedcal.github.io/template_pizzeria1.github.io/'target='_blank'rel="noopener noreferrer" aria-label="Github page" className='btn'>Sito</a>
+                </div>
+            </div>
         </div>
     </div>
   )
