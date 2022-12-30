@@ -4,6 +4,7 @@ import {Link} from "react-router-dom";
 import LogoRDC from '../assets/RetiDiCalcolatori_500.webp';
 import LogoLibri from '../assets/libri_500.webp';
 import LogoIum from '../assets/ium_500.webp';
+import LogoIcon from '../assets/icon_500.webp';
 import LogoStudyCase from '../assets/caseStudy_500.webp';
 
 
@@ -17,6 +18,18 @@ function BlogBoxes() {
                 <span className='filter-item' data-filter='casestudy'>Case Study</span>
             </div>
             <section className='post container'>
+
+                <div className='post-box uni all'>
+                    <img src={LogoIcon} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
+                    <h3 className='category'>Appunti Università - Ingegneria della conoscenza</h3>
+                    <h1 className='post-title'>1. Intelligenza artificiale e agenti</h1>
+                    <span className='post-date'> 30 Dicembre 2022</span>
+                    <p className='post-description'> Introduzione all'ingegneria della conoscenza, andando a definire che cos'è l'intelligenza artificiale, gli agenti e l'ambiente in cui essi operano. Vedremo i vari algoritmi che vengono applicati in questo settore, 
+                     in quali casi e le varie metodologie di ricerca della soluzione.</p>
+                    <div className='link'>
+                        <Link to="/Introduzione-ingegneria-della-conoscenza" className="btn">Leggi Post</Link>
+                    </div>
+                </div>
 
                 <div className='post-box uni all'>
                     <img src={LogoIum} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>

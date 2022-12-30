@@ -107,6 +107,9 @@
     <image:image>
        <image:loc>https://www.federicocalo.dev/static/media/caseStudy_500.webp</image:loc>
     </image:image>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/icon_500.webp</image:loc>
+    </image:image>
   </url>
   <!-- Immagini /Reti-di-Calcolatori-Introduzione -->
   <url>
@@ -209,6 +212,22 @@
     </image:image>
     <image:image>
        <image:loc>https://www.federicocalo.dev/static/media/memorie.webp</image:loc>
+    </image:image>
+  </url>
+
+  <!-- Immagini /Interazione-uomo-macchina-Conoscere-l-utente -->
+  <url>
+    <loc>https://www.federicocalo.dev/Introduzione-ingegneria-della-conoscenza</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/icon_1900.webp</image:loc>
+    </image:image>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/task.webp</image:loc>
+    </image:image>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/agente-ambiente.webp</image:loc>
     </image:image>
   </url>
   
