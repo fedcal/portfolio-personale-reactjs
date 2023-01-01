@@ -48,7 +48,7 @@ function ICON2() {
             </section>
             <section className='post-content post-container'>
                 <h1 className='header-title' itemprop="headline">2. Spazio di progettazione di un agente</h1>
-                <span  itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href='https://www.federicocalo.dev' className='autore'><span itemprop="name">Federico Calò</span></a></span> <span className='data' itemprop="datePublished" content="2022-12-30T07:30:00+08:00">30/12/2022</span>
+                <span  itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href='https://www.federicocalo.dev' className='autore'><span itemprop="name">Federico Calò</span></a></span> <span className='data' itemprop="datePublished" content="2023-01-01T07:30:00+08:00">01/01/2023</span>
                                 
                 <p className='post-text first-text'>
                     Gli agenti che agiscono in ambienti variano in complessità, ognuno dei quali richiederà un certo livello di complessità nella sua progettazione. Occorre definire uno <strong>spazio di progettazione</strong> in cui operare per lo sviluppo di un agente, ogni spazio avrà diverse <i>dimensioni</i> in cui operare. 
