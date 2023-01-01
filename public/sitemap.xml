@@ -215,7 +215,7 @@
     </image:image>
   </url>
 
-  <!-- Immagini /Interazione-uomo-macchina-Conoscere-l-utente -->
+  <!-- Immagini /Introduzione-ingegneria-della-conoscenza -->
   <url>
     <loc>https://www.federicocalo.dev/Introduzione-ingegneria-della-conoscenza</loc>
     <changefreq>daily</changefreq>
@@ -228,6 +228,16 @@
     </image:image>
     <image:image>
        <image:loc>https://www.federicocalo.dev/static/media/agente-ambiente.webp</image:loc>
+    </image:image>
+  </url>
+
+   <!-- Immagini /Spazio-di-progettazione-di-un-agente -->
+  <url>
+    <loc>https://www.federicocalo.dev/Spazio-di-progettazione-di-un-agente</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/icon_1900.webp</image:loc>
     </image:image>
   </url>
   

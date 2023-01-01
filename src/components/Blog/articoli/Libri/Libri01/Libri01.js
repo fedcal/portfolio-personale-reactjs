@@ -29,7 +29,7 @@ function Libri01() {
             <link rel="canonical" href="https://www.federicocalo.dev/Libri-consigliati-01" />
         </Helmet>
         <Navbar/>
-        <div itemscope itemtype="https://schema.org/BlogPosting">
+        <article itemscope itemtype="https://schema.org/BlogPosting">
 
             <meta itemprop="image" content="https://www.federicocalo.dev/static/media/libri_1900.webp" />
             <meta itemprop="image" content="https://www.federicocalo.dev/static/media/SchemaReti.webp" />
@@ -77,7 +77,7 @@ function Libri01() {
                 introdurre i concetti e analizzarli sotto i diversi aspetti (temporale, programmazione modulare, GUI). Analizza inoltre alcuni tools utili alla progettazione e individua le varie fasi del progetto.</p><br/>
                 <a href="https://amzn.to/3UirIHU"className='btn-shop' target="_blank" rel="noopener noreferrer">Link acquisto</a>
             </section>
-        </div>
+        </article>
         <Footer/>
     </div>
   )

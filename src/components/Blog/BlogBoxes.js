@@ -19,7 +19,19 @@ function BlogBoxes() {
             </div>
             <section className='post container'>
 
-                <div className='post-box uni all'>
+                <article className='post-box uni all'>
+                    <img src={LogoIcon} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
+                    <h3 className='category'>Appunti Università - Ingegneria della conoscenza</h3>
+                    <h1 className='post-title'>2. Spazio di progettazione e applicazioni prototipiche</h1>
+                    <span className='post-date'> 1 Gennaio 2023</span>
+                    <p className='post-description'> In questo articolo andremo ad approfondire lo spazio di progettazione degli agenti, con le relative proprietà e limiti. Infine definiremo alcune applicazioni in cui l'intelligenza artificiale può essere
+                     applicata, descrivendo in maniera generale alcuni esempi.</p>
+                    <div className='link'>
+                        <Link to="/Spazio-di-progettazione-di-un-agente" className="btn">Leggi Post</Link>
+                    </div>
+                </article>
+
+                <article className='post-box uni all'>
                     <img src={LogoIcon} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
                     <h3 className='category'>Appunti Università - Ingegneria della conoscenza</h3>
                     <h1 className='post-title'>1. Intelligenza artificiale e agenti</h1>
@@ -29,9 +41,9 @@ function BlogBoxes() {
                     <div className='link'>
                         <Link to="/Introduzione-ingegneria-della-conoscenza" className="btn">Leggi Post</Link>
                     </div>
-                </div>
+                </article>
 
-                <div className='post-box uni all'>
+                <article className='post-box uni all'>
                     <img src={LogoIum} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
                     <h3 className='category'>Appunti Università - Interazione Uomo Macchina</h3>
                     <h1 className='post-title'>3. Conoscere l'utente</h1>
@@ -41,9 +53,9 @@ function BlogBoxes() {
                     <div className='link'>
                         <Link to="/Interazione-uomo-macchina-Conoscere-l-utente" className="btn">Leggi Post</Link>
                     </div>
-                </div>
+                </article>
 
-                <div className='post-box casestudy all'>
+                <article className='post-box casestudy all'>
                     <img src={LogoStudyCase} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
                     <h3 className='category'>Case Study - Gestionale Associativo</h3>
                     <h1 className='post-title'>2. Diagramma Entità Relazione</h1>
@@ -53,9 +65,9 @@ function BlogBoxes() {
                     <div className='link'>
                         <Link to="/Gestionale-associazione-diagramma-entita-relazione" className="btn">Leggi Post</Link>
                     </div>
-                </div>
+                </article>
                 
-                <div className='post-box casestudy all'>
+                <article className='post-box casestudy all'>
                     <img src={LogoStudyCase} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
                     <h3 className='category'>Case Study - Gestionale Associativo</h3>
                     <h1 className='post-title'>1. Introduzione allo sviluppo del gestionale associativo</h1>
@@ -65,9 +77,9 @@ function BlogBoxes() {
                     <div className='link'>
                         <Link to="/Gestionale-associazione-intro" className="btn">Leggi Post</Link>
                     </div>
-                </div>
+                </article>
 
-                <div className='post-box uni all'>
+                <article className='post-box uni all'>
                     <img src={LogoIum} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
                     <h3 className='category'>Appunti Universitari - Interazione Uomo macchina</h3>
                     <h1 className='post-title'>2. Interazione Uomo Macchina - L'usabilità </h1>
@@ -77,9 +89,9 @@ function BlogBoxes() {
                     <div className='link'>
                         <Link to="/Interazione-uomo-macchina-Usabilita-e-Modello-di-iterazione" className="btn">Leggi Post</Link>
                     </div>
-                </div>
+                </article>
 
-                <div className='post-box uni all'>
+                <article className='post-box uni all'>
                     <img src={LogoRDC} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
                     <h3 className='category'>Appunti Universitari - Reti di Calcolatori</h3>
                     <h1 className='post-title'>2. I due tipi di commutazione </h1>
@@ -88,9 +100,9 @@ function BlogBoxes() {
                     <div className='link'>
                         <Link to="/Reti-di-Calcolatori-Vari-Tipi-Di-Commutazione" className="btn">Leggi Post</Link>
                     </div>
-                </div>
+                </article>
 
-                <div className='post-box uni all'>
+                <article className='post-box uni all'>
                     <img src={LogoIum} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
                     <h3 className='category'>Appunti Universitari - Interazione Uomo macchina</h3>
                     <h1 className='post-title'>1. Introduzione all' Interazione Uomo Macchina </h1>
@@ -100,9 +112,9 @@ function BlogBoxes() {
                     <div className='link'>
                         <Link to="/Interazione-uomo-macchina-Introduzione" className="btn">Leggi Post</Link>
                     </div>
-                </div>
+                </article>
 
-                <div className='post-box libri all'>
+                <article className='post-box libri all'>
                     <img src={LogoLibri} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
                     <h3 className='category'>Libri</h3>
                     <h1 className='post-title'>Consigli su libri settoriali - Pt. 1 </h1>
@@ -111,9 +123,9 @@ function BlogBoxes() {
                     <div className='link'>
                         <Link to="/Libri-consigliati-01" className="btn">Leggi Post</Link>
                     </div>
-                </div>
+                </article>
 
-                <div className='post-box uni all'>
+                <article className='post-box uni all'>
                     <img src={LogoRDC} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
                     <h3 className='category'>Appunti Universitari - Reti di Calcolatori</h3>
                     <h1 className='post-title'>1. Introduzione alle reti </h1>
@@ -122,7 +134,7 @@ function BlogBoxes() {
                     <div className='link'>
                         <Link to="/Reti-di-Calcolatori-Introduzione" className="btn">Leggi Post</Link>
                     </div>
-                </div>
+                </article>
 
             </section>
         </div>

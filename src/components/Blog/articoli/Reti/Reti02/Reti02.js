@@ -34,7 +34,7 @@ function Reti02() {
             <link rel="canonical" href="https://www.federicocalo.dev/Reti-di-Calcolatori-Vari-Tipi-Di-Commutazione" />
         </Helmet>
         <Navbar/>
-        <div itemscope itemtype="https://schema.org/BlogPosting">
+        <article itemscope itemtype="https://schema.org/BlogPosting">
 
             <meta itemprop="image" content="https://www.federicocalo.dev/static/media/rdc_1900.webp" />
             <meta itemprop="image" content="https://www.federicocalo.dev/static/media/Figura1.webp" />
@@ -93,7 +93,7 @@ function Reti02() {
                 la commutazione di pacchetto risulta più semplice, più efficiente e meno costosa da implementare. Un difetto della commutazione a circuito è il fatto di pre-allocare l'uso del mezzo trasmissivo indipendentemente dalla richiesta attraverso collegamenti garantiti, ma non utilizzati, con una conseguente perdita
                 di tempo.</p>
             </section>
-        </div>
+        </article>
         <Footer/>
     </div>
   )

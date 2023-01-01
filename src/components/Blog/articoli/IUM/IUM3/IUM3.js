@@ -41,7 +41,7 @@ function IUM3() {
        
         </Helmet>
         <Navbar/>
-        <div itemscope itemtype="https://schema.org/BlogPosting">
+        <article itemscope itemtype="https://schema.org/BlogPosting">
 
             <meta itemprop="image" content="https://www.federicocalo.dev/static/media/ium_1900.webp" />
             <meta itemprop="image" content="https://www.federicocalo.dev/static/media/modelloDiNorman.webp" />
@@ -115,7 +115,7 @@ function IUM3() {
 
                  </p>
                </section>
-        </div>
+        </article>
         <Footer/>
     </div>
   )

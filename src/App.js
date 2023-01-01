@@ -16,7 +16,7 @@ import Intro from "./components/Blog/articoli/StudyCase/GestionaleAssociativo/In
 import Er from "./components/Blog/articoli/StudyCase/GestionaleAssociativo/2_ER/Er";
 import IUM3 from "./components/Blog/articoli/IUM/IUM3/IUM3";
 import ICON1 from "./components/Blog/articoli/ICON/ICON1/ICON1";
-
+import ICON2 from "./components/Blog/articoli/ICON/ICON2/ICON2";
 
 function App() {
   return (
@@ -37,6 +37,8 @@ function App() {
         <Route path='/Gestionale-associazione-diagramma-entita-relazione'element={<Er/>}/>
         <Route path='/Interazione-uomo-macchina-Conoscere-l-utente' element={<IUM3/>}/>
         <Route path='/Introduzione-ingegneria-della-conoscenza' element={<ICON1/>}/>
+        <Route path='/Spazio-di-progettazione-di-un-agente' element={<ICON2/>}/>
+        
       </Routes>
     </>
   );

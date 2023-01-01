@@ -33,7 +33,7 @@ function IUM1() {
             <link rel="canonical" href="https://www.federicocalo.dev/Interazione-uomo-macchina-Introduzione" />
         </Helmet>
         <Navbar/>
-        <div itemscope itemtype="https://schema.org/BlogPosting">
+        <article itemscope itemtype="https://schema.org/BlogPosting">
 
             <meta itemprop="image" content="https://www.federicocalo.dev/static/media/rdc 1900.webp" />
             <meta itemprop="image" content="https://www.federicocalo.dev/static/media/SchemaReti.webp" />
@@ -84,7 +84,7 @@ function IUM1() {
                     <Link to="/Interazione-uomo-macchina-Usabilita-e-Modello-di-iterazione">Post successivo &#8594;</Link>
                 </div>
                 </section>
-        </div>
+        </article>
         <Footer/>
     </div>
   )

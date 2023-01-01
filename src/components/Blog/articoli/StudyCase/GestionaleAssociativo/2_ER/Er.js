@@ -34,7 +34,7 @@ function Er() {
             <link rel="canonical" href="https://www.federicocalo.dev//Gestionale-associazione-diagramma-entita-relazione" />
        </Helmet>
        <Navbar/>
-        <div itemscope itemType="https://schema.org/NewsArticle">
+       <article itemscope itemType="https://schema.org/NewsArticle">
 
         <meta itemProp="image" content="https://www.federicocalo.dev/static/media/caseStudy_1900.webp" />
 
@@ -153,7 +153,7 @@ function Er() {
             <p className='post-text'>Per non annoiarvi, la descrizione delle altre entità e relazioni che sono rimaste verrà effettuata nel prossimo articolo. Rimanete aggiornati per i futuri progressi e le future novità.</p>
 
             </section>
-        </div>
+        </article>
        <Footer/>
     </div>
   )

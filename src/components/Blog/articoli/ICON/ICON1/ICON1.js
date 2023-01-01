@@ -32,7 +32,7 @@ function ICON1() {
             <link rel="canonical" href="https://www.federicocalo.dev/Introduzione-ingegneria-della-conoscenza" />
         </Helmet>
         <Navbar/>
-        <div itemscope itemtype="https://schema.org/BlogPosting">
+        <article itemscope itemtype="https://schema.org/BlogPosting">
 
             <meta itemprop="image" content="https://www.federicocalo.dev/static/media/rdc 1900.webp" />
             <meta itemprop="image" content="https://www.federicocalo.dev/static/media/SchemaReti.webp" />
@@ -157,7 +157,7 @@ function ICON1() {
                 </p>
                 
                 </section>
-        </div>
+        </article>
         <Footer/>
     </div>
   )

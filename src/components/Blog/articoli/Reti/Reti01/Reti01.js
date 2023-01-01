@@ -35,7 +35,7 @@ function Reti01() {
             
         </Helmet>
         <Navbar/>
-        <div itemscope itemtype="https://schema.org/BlogPosting">
+        <article itemscope itemtype="https://schema.org/BlogPosting">
 
             <meta itemprop="image" content="https://www.federicocalo.dev/static/media/rdc_1900.webp" />
             <meta itemprop="image" content="https://www.federicocalo.dev/static/media/SchemaReti.webp" />
@@ -117,7 +117,7 @@ function Reti01() {
                     <Link to="/Reti-di-Calcolatori-Vari-Tipi-Di-Commutazione">Post successivo &#8594;</Link>
                 </div>
             </section>
-        </div>
+        </article>
         <Footer/>
     </div>
   )

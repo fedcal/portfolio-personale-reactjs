@@ -103,7 +103,7 @@ function Intro() {
         
         </Helmet>
         <Navbar/>
-        <div itemscope itemType="https://schema.org/NewsArticle">
+        <article itemscope itemType="https://schema.org/NewsArticle">
 
             <meta itemProp="image" content="https://www.federicocalo.dev/static/media/caseStudy_1900.webp" />
           
@@ -171,7 +171,7 @@ function Intro() {
                     <Link to="/Gestionale-associazione-diagramma-entita-relazione">Post successivo &#8594;</Link>
                  </div>
                </section>
-        </div>
+        </article>
         <Footer/>
     </div>
   )
