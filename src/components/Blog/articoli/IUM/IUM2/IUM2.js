@@ -18,7 +18,10 @@ function IUM2() {
             <title>Federico Calò Blog - 2. Interazione Uomo Macchina - L'usabilità</title>
             <meta name='keywords' content='interazione uomo macchina, ium, appunti universitari, usabilità, modello di Norman, ciclo di feedback,memorabilità,affordance,apprendibilità, accessibilità '/>
             <meta name='description' content='Cosa si intende per memorabilità? Che cos&#39;è l&#39;apprendibilià? Andiamo a scoprirlo dandone una definizione in base ai vari standard ISO '/>
-            <meta name='robots' content='index,follow'/>
+            <meta name="robots" content="index, follow, max-snippet:[100]" />
+            <meta name="googlebot" content="index, follow,  max-snippet:[100] max-image-preview:[standard]"/>
+            <meta name="googlebot-news" content="index, follow, max-snippet:[100] max-image-preview:[standard]"/>
+            
             <meta name='language' content='IT'/>
             <meta name='topic' content='Programmazione e Sviluppo'/>
             <meta name='author' content='Federico Calò, fedcal01@gmail.com'/>

@@ -19,7 +19,10 @@ function IUM1() {
             <title>Federico Calò Blog - 1. Introduzione all'interazione uomo macchina</title>
             <meta name='keywords' content='interazione uomo macchina, ium, appunti universitari, divario digitale, punto di pareggio, HCI, Human Interaction Design, iperfunzionalismo, complessità interna, complessità esterna, interfaccia d uso, sistema interattivo, punto funzione'/>
             <meta name='description' content='Articolo che introduce alla materia interazione uomo macchina.'/>
-            <meta name='robots' content='index,follow'/>
+            <meta name="robots" content="index, follow, max-snippet:[100]" />
+            <meta name="googlebot" content="index, follow,  max-snippet:[100] max-image-preview:[standard]"/>
+            <meta name="googlebot-news" content="index, follow, max-snippet:[100] max-image-preview:[standard]"/>
+            
             <meta name='language' content='IT'/>
             <meta name='topic' content='Programmazione e Sviluppo'/>
             <meta name='author' content='Federico Calò, fedcal01@gmail.com'/>

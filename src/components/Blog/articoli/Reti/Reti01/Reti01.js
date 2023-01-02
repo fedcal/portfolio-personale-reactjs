@@ -20,7 +20,10 @@ function Reti01() {
             <title>Federico Calò Blog - 1. Introduzione alle reti</title>
             <meta name='keywords' content='Internet, host, sistemi periferici, rete di collegamenti, commutatori di pacchetti, internet service provider, ISP, TCP, transmission control protocol, IP, internet protocol, accesso aziendale, LAN, accesso via cavo'/>
             <meta name='description' content='Articolo che introduce alla materia di reti di calcolatori, andando a definire le nozioni di base quali ISP, TCP, IP, router etc.'/>
-            <meta name='robots' content='index,follow'/>
+            <meta name="robots" content="index, follow, max-snippet:[100]" />
+            <meta name="googlebot" content="index, follow,  max-snippet:[100] max-image-preview:[standard]"/>
+            <meta name="googlebot-news" content="index, follow, max-snippet:[100] max-image-preview:[standard]"/>
+            
             <meta name='language' content='IT'/>
             <meta name='topic' content='Programmazione e Sviluppo'/>
             <meta name='author' content='Federico Calò, fedcal01@gmail.com'/>

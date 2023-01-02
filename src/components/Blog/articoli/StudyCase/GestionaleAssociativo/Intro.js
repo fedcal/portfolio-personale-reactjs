@@ -88,7 +88,10 @@ function Intro() {
             <title>Federico Calò Blog - 1. Introduzione allo sviluppo del gestionale associativo</title>
             <meta name='keywords' content='gestionale, gestionale associativo, java, javafx, sql, modello er, modello entità relazione, requisiti, fase implementativa, stack tecnologico, integrità '/>
             <meta name='description' content='Analisi dei requisiti per lo sviluppo di un applicativo desktop per la gestione di un&#39;associazione. Vengono iillustrati i requisiti, lo stack tecnologico e il modello ER.'/>
-            <meta name='robots' content='index,follow'/>
+            <meta name="robots" content="index, follow, max-snippet:[100]" />
+            <meta name="googlebot" content="index, follow,  max-snippet:[100] max-image-preview:[standard]"/>
+            <meta name="googlebot-news" content="index, follow, max-snippet:[100] max-image-preview:[standard]"/>
+            
             <meta name='language' content='IT'/>
             <meta name='topic' content='Programmazione e Sviluppo'/>
             <meta name='author' content='Federico Calò, fedcal01@gmail.com'/>

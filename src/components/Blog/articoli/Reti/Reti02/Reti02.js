@@ -20,7 +20,10 @@ function Reti02() {
             <title>Federico Calò Blog - 2. I due tipi di commutazione</title>
             <meta name='keywords' content='Internet, host, sistemi periferici, rete di collegamenti, commutatori di pacchetti, internet service provider, ISP, TCP, transmission control protocol, IP, internet protocol, accesso aziendale, LAN, accesso via cavo, commutazione di pacchetto, commutazione di circuito, pacchetti, trasmissione store-and-forward, buffer, buffer di output, tabelle di inoltro, protocolli di instradamento, perdita di pacchetti, multiplexing a divisione di frequenza, FDM, multiplexing a divisione di tempo, TDM'/>
             <meta name='description' content='In questo articolo introduciamo i due tipi di commutazione di dati presenti in internete: la commutazione di pacchetto e la commutazione di circuito. Andremo a descriverle e a confrontare le lor caratteristiche.'/>
-            <meta name='robots' content='index,follow'/>
+            <meta name="robots" content="index, follow, max-snippet:[100]" />
+            <meta name="googlebot" content="index, follow,  max-snippet:[100] max-image-preview:[standard]"/>
+            <meta name="googlebot-news" content="index, follow, max-snippet:[100] max-image-preview:[standard]"/>
+            
             <meta name='language' content='IT'/>
             <meta name='topic' content='Programmazione e Sviluppo'/>
             <meta name='author' content='Federico Calò, fedcal01@gmail.com'/>

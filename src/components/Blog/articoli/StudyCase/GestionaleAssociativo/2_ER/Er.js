@@ -19,7 +19,10 @@ function Er() {
             <meta name='keywords' content='gestionale, gestionale associativo, java, javafx, sql, modello er, modello entità relazione, requisiti, fase implementativa, stack tecnologico, integrità, foreign key, primary key, int, varchar, relazione molti a molti, entità, logica di business, relazione '/>
             <meta name='description' content='In relazione al caso di studio del gestionale associativo, in questo articolo entriamo nel dettaglio di uno schema entità relazione delle entità e delle relazioni che dovranno
                      essere implementate all&#39;interno del database e che rappresentano una prima fotografia di com&#39;è organizzata l&#39;associazione in questa fase.'/>
-            <meta name='robots' content='index,follow'/>
+            <meta name="robots" content="index, follow, max-snippet:[100]" />
+            <meta name="googlebot" content="index, follow,  max-snippet:[100] max-image-preview:[standard]"/>
+            <meta name="googlebot-news" content="index, follow, max-snippet:[100] max-image-preview:[standard]"/>
+            
             <meta name='language' content='IT'/>
             <meta name='topic' content='Programmazione e Sviluppo'/>
             <meta name='author' content='Federico Calò, fedcal01@gmail.com'/>

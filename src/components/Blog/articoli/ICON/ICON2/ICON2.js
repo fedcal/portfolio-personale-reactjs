@@ -18,7 +18,10 @@ function ICON2() {
             dimensione dell&#39;incertezza dell&#39;effetto, dimensione delle preferenze, preferenze ordinali, preferenze carinali, obiettivi di mantenimento, ragionamento online, ragionamento offline'/>
             <meta name='description' content='In questo articolo andremo ad approfondire lo spazio di progettazione degli agenti, con le relative proprietà e limiti. Infine definiremo alcune applicazioni in cui l&#39;intelligenza artificiale può essere
                      applicata, descrivendo in maniera generale alcuni esempi.'/>
-            <meta name='robots' content='index,follow'/>
+            <meta name="robots" content="index, follow, max-snippet:[100]" />
+            <meta name="googlebot" content="index, follow,  max-snippet:[100] max-image-preview:[standard]"/>
+            <meta name="googlebot-news" content="index, follow, max-snippet:[100] max-image-preview:[standard]"/>
+            
             <meta name='language' content='IT'/>
             <meta name='topic' content='Programmazione e Sviluppo'/>
             <meta name='author' content='Federico Calò, fedcal01@gmail.com'/>

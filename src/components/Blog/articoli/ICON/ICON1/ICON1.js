@@ -18,7 +18,10 @@ function ICON1() {
             <meta name='keywords' content='ingegneria della conoscenza, intelligenza artificiale, ai, agente, agente computazionale, sistemi empirici, applicazioni, conoscenza preliminare, cronologia delle interazioni, obiettivi, abilità, belief state, stato interno delle credenze, agenti intenzionali, purposive agents, linguaggio di rappresentazione, knowledge base
             , soluzione ottimale, soluzione soddisfacente, soluzione approssimativamente ottimale, soluzione probabile, sistema di simboli, livello di astrazione, livello di conoscenza, livello del simbolo, spazio di progettazione'/>
             <meta name='description' content='Introduzione all&#39;ingegneria della conoscenza, andando a definire che cos&#39;è l&#39;intelligenza artificiale, gli agenti e l&#39;ambiente in cui essi operano. Vedremo i vari algoritmi che vengono applicati in questo settore, in quali casi e le varie metodologie di ricerca della soluzione.'/>
-            <meta name='robots' content='index,follow'/>
+            <meta name="robots" content="index, follow, max-snippet:[100]" />
+            <meta name="googlebot" content="index, follow,  max-snippet:[100] max-image-preview:[standard]"/>
+            <meta name="googlebot-news" content="index, follow, max-snippet:[100] max-image-preview:[standard]"/>
+            
             <meta name='language' content='IT'/>
             <meta name='topic' content='Programmazione e Sviluppo'/>
             <meta name='author' content='Federico Calò, fedcal01@gmail.com'/>
