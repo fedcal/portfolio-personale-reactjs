@@ -6,6 +6,7 @@ import HomeIcon from '../../../../assets/icon_1900.webp';
 import '../../Articoli.css';
 import img1 from './agente-ambiente.webp';
 import tsk from './task.webp';
+import {Link} from "react-router-dom";
 
 function ICON1() {
   return (
@@ -45,7 +46,7 @@ function ICON1() {
             <section className='post-header'>
                 <div className='header-content post-container'>
                     
-                    <img src={HomeIcon} alt="Logo della pagina riferita alla materia reti di calcolatori" className='header-img'/>
+                    <img src={HomeIcon} alt="Logo della pagina riferita alla materia reti di calcolatori" className='header-img' loading="lazy" decoding="async"/>
                 </div>
             </section>
             <section className='post-content post-container'>
@@ -79,7 +80,7 @@ function ICON1() {
                  anche altri agenti. Gli agenti insieme all'ambiente circostante in cui operano costituiscono il <strong>mondo</strong></p>
                 
                 <div className='box-image'>
-                    <img src={img1} alt="Interazione di un agente con l'ambiente esterno" className='post-img2'/>
+                    <img src={img1} alt="Interazione di un agente con l'ambiente esterno" className='post-img2' loading="lazy" decoding="async"/>
                     <p className='image-capture'>Figura 1: interazione agente-ambiente</p>
                 </div>
 
@@ -115,7 +116,7 @@ function ICON1() {
                 </p>
 
                 <div className='box-image'>
-                    <img src={tsk} alt="Il ruolo delle rappresentazioni nella risoluzione dei compiti" className='post-img2'/>
+                    <img loading="lazy" decoding="async" src={tsk} alt="Il ruolo delle rappresentazioni nella risoluzione dei compiti" className='post-img2'/>
                     <p className='image-capture'>Figura 2: rappresentazione risoluzione compiti</p>
                 </div>
 
@@ -156,8 +157,12 @@ function ICON1() {
                 </ul>
 
                 <p className='post-text'>Concludo il post descrivendo due tipi di livelli: il <strong>livello di conoscenza</strong>, costituito dal livello di astrazione che considera ciò che un agente sa e crede e quali sono i suoi obiettivi, e il <strong>livello del simbolo</strong>, costituito dalla descrizione di un agente in termini di ragionamento che fa.
-                <br/> Nel prossimo articolo continueremo con lo <strong>spazio di progettazione </strong> di un'agente.
+                <br/><br/> Nel prossimo articolo continueremo con lo <strong>spazio di progettazione </strong> di un'agente.
                 </p>
+
+                <div className="succ-post">
+                    <Link to="/All-interno-di-un-agente:-architettura-e-controllo-gerarchico">Post successivo &#8594;</Link>
+                 </div>
                 
                 </section>
         </article>

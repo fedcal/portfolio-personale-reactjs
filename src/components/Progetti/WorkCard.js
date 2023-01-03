@@ -18,7 +18,7 @@ function WorkCard() {
         <div className='project-container'>
             
             <div className='project-card'>
-                <img src={portfolio} alt="preview del sito personale"/>
+                <img loading="lazy" decoding="async" src={portfolio} alt="preview del sito personale"/>
                 <h2 className='project-title'>Portfolio Personale</h2>
                 <div className='pro-details'>
                     <p>Nato come progetto sviluppato nel tempo libero, questo mio sito web è stato realizzato interamente con la 
@@ -34,7 +34,7 @@ function WorkCard() {
             </div>
 
             <div className='project-card'>
-                <img src={abitareMicocci} alt="Preview del sito di Abitare Micocci"/>
+                <img loading="lazy" decoding="async" src={abitareMicocci} alt="Preview del sito di Abitare Micocci"/>
                 <h2 className='project-title'>Abitare Micocci</h2>
                 <div className='pro-details'>
                     <p>Sito web realizzato per un negozio di arredamento attraverso i linguaggi HTML, CSS e Javascript. Attraverso l'utilizzo
@@ -50,7 +50,7 @@ function WorkCard() {
             </div>
 
             <div className='project-card'>
-                <img src={regressionTree} alt="Immagine di un regression Tree Mining"/>
+                <img loading="lazy" decoding="async" src={regressionTree} alt="Immagine di un regression Tree Mining"/>
                 <h2 className='project-title'>Regression Tree Mining</h2>
                 <div className='pro-details'>
                     <p>Progetto universitario sviluppato in Java. Consiste nel creare un albero di regressione da dei dati che vengono
@@ -64,7 +64,7 @@ function WorkCard() {
             </div>
 
             <div className='project-card'>
-                <img src={gestionaleDipendenti} alt="Preview del gestionale dipendenti creato"/>
+                <img loading="lazy" decoding="async" src={gestionaleDipendenti} alt="Preview del gestionale dipendenti creato"/>
                 <h2 className='project-title'>Gestionale Dipendenti</h2>
                 <div className='pro-details'>
                     <p>Un esempio di gestionale creato con ReactJs per quanto riguarda l'interfaccia web, mentre per il lato backend
@@ -78,7 +78,7 @@ function WorkCard() {
             </div>
 
             <div className='project-card'>
-                <img src={tcp} alt="Schema del protocollo TCP"/>
+                <img loading="lazy" decoding="async" src={tcp} alt="Schema del protocollo TCP"/>
                 <h2 className='project-title'>Protocollo TCP</h2>
                 <div className='pro-details'>
                     <p>Per la prova in itinere dell'esame di Reti di Calcolatori, ci è stata fornita una traccia per 
@@ -93,7 +93,7 @@ function WorkCard() {
             </div>
 
             <div className='project-card'>
-                <img src={udp} alt="Schema del protocollo UDP"/>
+                <img loading="lazy" decoding="async" src={udp} alt="Schema del protocollo UDP"/>
                 <h2 className='project-title'>Protocollo UDP</h2>
                 <div className='pro-details'>
                     <p>Un esempio di gestionale creato con ReactJs per quanto riguarda l'interfaccia web, mentre per il lato backend
@@ -107,7 +107,7 @@ function WorkCard() {
             </div>
 
             <div className='project-card'>
-                <img src={portfolioTemplate1} alt="Preview di un template per un portfolio"/>
+                <img loading="lazy" decoding="async" src={portfolioTemplate1} alt="Preview di un template per un portfolio"/>
                 <h2 className='project-title'>Portfolio Template</h2>
                 <div className='pro-details'>
                     <p>Ho realizzato un piccolo sito web rappresentante un template per un portfolio online o un CV. E' stato sviluppato
@@ -123,7 +123,7 @@ function WorkCard() {
             </div>
 
             <div className='project-card'>
-                <img src={worldsInn} alt="Preview del sito di worlds inn"/>
+                <img loading="lazy" decoding="async" src={worldsInn} alt="Preview del sito di worlds inn"/>
                 <h2 className='project-title'>Worlds' Inn</h2>
                 <div className='pro-details'>
                     <p>Sito web riguardante un progetto relativo ai giochi di ruolo. Realizzato con il linguaggio Sass, HTML  e javascript, il sito è
@@ -137,7 +137,7 @@ function WorkCard() {
             </div>
 
             <div className='project-card'>
-                <img src={casaMagnolie} alt="Preview del sito Casa delle Magnolie"/>
+                <img loading="lazy" decoding="async" src={casaMagnolie} alt="Preview del sito Casa delle Magnolie"/>
                 <h2 className='project-title'>Casa Delle Magnolie</h2>
                 <div className='pro-details'>
                     <p>Sito web di una casa vacanza sita a Gallipoli, nel cuore del salento. Sito realizzato con HTML, CSS e Javascript. Anche in questo 
@@ -152,7 +152,7 @@ function WorkCard() {
             </div>
 
             <div className='project-card'>
-                <img src={pizzeria} alt="Preview del sito template per una pizzeria"/>
+                <img loading="lazy" decoding="async" src={pizzeria} alt="Preview del sito template per una pizzeria"/>
                 <h2 className='project-title'>Sito template pizzeria</h2>
                 <div className='pro-details'>
                     <p>Ho realizzato un piccolo sito web rappresentante un template per una pizzeria. E' stato sviluppato

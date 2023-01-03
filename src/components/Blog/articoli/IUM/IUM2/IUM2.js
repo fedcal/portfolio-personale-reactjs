@@ -43,7 +43,7 @@ function IUM2() {
             <section className='post-header'>
                 <div className='header-content post-container'>
                     
-                    <img src={HomeIum} alt="Logo della pagina riferita alla materia reti di calcolatori" className='header-img'/>
+                    <img loading="lazy" decoding="async" src={HomeIum} alt="Logo della pagina riferita alla materia reti di calcolatori" className='header-img'/>
                 </div>
             </section>
             <section className='post-content post-container'>
@@ -58,7 +58,7 @@ function IUM2() {
                  confronto porta ad una successiva azione dell'utente, innescando un continuo ciclo di domanda e risposta. Donald Norman si interessò a questo ciclo di feedback e realizzò uno schema molto dettagliato, che prende il nome di <strong>modello di Norman</strong>. </p>
                 
                 <div className='box-image'>
-                    <img src={ModelloNorman} alt="Schema di rete ad accesso in forma ibrida" className='post-img2'/>
+                    <img loading="lazy" decoding="async" src={ModelloNorman} alt="Schema di rete ad accesso in forma ibrida" className='post-img2'/>
                     <p className='image-capture'>Figura 1: modello di Norman</p>
                 </div>
                 <p className='post-text'>Norman divise l'interazione tra uomo e sistema in 7 stadi principali:</p>

@@ -45,7 +45,7 @@ function Er() {
         <section className='post-header'>
             <div className='header-content post-container'>
                 
-                <img src={HomeStdy} alt="Logo della pagina riferita alla materia reti di calcolatori" className='header-img'/>
+                <img loading="lazy" decoding="async" src={HomeStdy} alt="Logo della pagina riferita alla materia reti di calcolatori" className='header-img'/>
             </div>
         </section>
         <section className='post-content post-container'>

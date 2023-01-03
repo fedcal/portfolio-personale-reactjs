@@ -45,7 +45,7 @@ function Reti02() {
             <section className='post-header'>
                 <div className='header-content post-container'>
                     
-                    <img src={HomeReti} alt="Logo della pagina riferita alla materia reti di calcolatori" className='header-img'/>
+                    <img loading="lazy" decoding="async" src={HomeReti} alt="Logo della pagina riferita alla materia reti di calcolatori" className='header-img'/>
                 </div>
             </section>
             <section className='post-content post-container'>
@@ -66,7 +66,7 @@ function Reti02() {
                 quella di instradare i pacchetti in entrata verso il collegamento in uscita. </p>    
                 
                 <div className='box-image'>
-                    <img src={Figura1} alt="Commutazione di pacchetto store-and-forward" className='post-img2'/>
+                    <img loading="lazy" decoding="async" src={Figura1} alt="Commutazione di pacchetto store-and-forward" className='post-img2'/>
                     <p className='image-capture'>Figura 1: Commutazione di pacchetto store-and-forward.</p>
                 </div>
 

@@ -4,6 +4,7 @@ import Navbar from '../../../../Navbar/Navbar';
 import Footer from '../../../../Footer/Footer';
 import HomeIcon from '../../../../assets/icon_1900.webp';
 import '../../Articoli.css';
+import {Link} from "react-router-dom";
 
 
 function ICON2() {
@@ -38,18 +39,16 @@ function ICON2() {
         <Navbar/>
         <article itemscope itemtype="https://schema.org/BlogPosting">
 
-            <meta itemprop="image" content="https://www.federicocalo.dev/static/media/rdc 1900.webp" />
-            <meta itemprop="image" content="https://www.federicocalo.dev/static/media/SchemaReti.webp" />
-            <meta itemprop="image" content="https://www.federicocalo.dev/static/media/AccessoViaCavo.webp" />
-            <meta itemprop="image" content="https://www.federicocalo.dev/static/media/AccessoAziendale.webp" />
-
             <section className='post-header'>
                 <div className='header-content post-container'>
                     
-                    <img src={HomeIcon} alt="Logo della pagina riferita alla materia reti di calcolatori" className='header-img'/>
+                    <img loading="lazy" decoding="async" src={HomeIcon} alt="Logo della pagina riferita alla materia reti di calcolatori" className='header-img'/>
                 </div>
             </section>
             <section className='post-content post-container'>
+                <div className="prec-post">
+                    <Link to="/Introduzione-ingegneria-della-conoscenza"> &#8592; Post precendente</Link>
+                </div>
                 <h1 className='header-title' itemprop="headline">2. Spazio di progettazione di un agente</h1>
                 <span  itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href='https://www.federicocalo.dev' className='autore'><span itemprop="name">Federico Calò</span></a></span> <span className='data' itemprop="datePublished" content="2023-01-01T07:30:00+08:00">01/01/2023</span>
                                 
@@ -121,7 +120,9 @@ function ICON2() {
                     Queste dimensioni finora analizzate non possono essere studiate in maniera indipendente, per il semplice motivo che interagiscono tra di loro in modi complessi. Alcuni esempi possono essere che la <i>dimensione della rappresentazione</i> interagisce con la <i>dimensione della modularità</i>, in quanto alcuni moduli possono essere abbastanza elementari da ragionare mediante un insiemi finito 
                     di stati, mentre altri livelli di astrazione possono richiedere ragionamenti su individui e relazioni. La dimensione della modularità può relazionarsi con la <i>dimensione dell'orizzonte progettuale</i>.
                 </p>
-                
+                <div className="succ-post">
+                    <Link to="/All-interno-di-un-agente:-architettura-e-le-funzioni-agente">Post successivo &#8594;</Link>
+                 </div>
                 </section>
         </article>
         <Footer/>

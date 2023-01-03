@@ -20,7 +20,19 @@ function BlogBoxes() {
             <section className='post container'>
 
                 <article className='post-box uni all'>
-                    <img src={LogoIcon} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
+                    <img loading="lazy" decoding="async" src={LogoIcon} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
+                    <h3 className='category'>Appunti Università - Ingegneria della conoscenza</h3>
+                    <h1 className='post-title'>3. All'interno di un agente: architettura e le funzioni agenti</h1>
+                    <span className='post-date'> 2 Gennaio 2023</span>
+                    <p className='post-description'> Dopo aver spiegato lo spazio di progettazione di un agente, andiamo a comprendere la sua architettura, ovvero come come un agente intelligente può percepire, ragioanre e agire nel tempo in 
+                    un ambiente. Andremo ad ispezionare la gerarchia all'interno di un agente e i modi in cui esso può essere costruito.</p>
+                    <div className='link'>
+                        <Link to="/All-interno-di-un-agente:-architettura-e-le-funzioni-agente" className="btn">Leggi Post</Link>
+                    </div>
+                </article>
+
+                <article className='post-box uni all'>
+                    <img loading="lazy" decoding="async" src={LogoIcon} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
                     <h3 className='category'>Appunti Università - Ingegneria della conoscenza</h3>
                     <h1 className='post-title'>2. Spazio di progettazione e applicazioni prototipiche</h1>
                     <span className='post-date'> 1 Gennaio 2023</span>
@@ -32,7 +44,7 @@ function BlogBoxes() {
                 </article>
 
                 <article className='post-box uni all'>
-                    <img src={LogoIcon} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
+                    <img loading="lazy" decoding="async" src={LogoIcon} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
                     <h3 className='category'>Appunti Università - Ingegneria della conoscenza</h3>
                     <h1 className='post-title'>1. Intelligenza artificiale e agenti</h1>
                     <span className='post-date'> 30 Dicembre 2022</span>
@@ -44,7 +56,7 @@ function BlogBoxes() {
                 </article>
 
                 <article className='post-box uni all'>
-                    <img src={LogoIum} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
+                    <img loading="lazy" decoding="async" src={LogoIum} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
                     <h3 className='category'>Appunti Università - Interazione Uomo Macchina</h3>
                     <h1 className='post-title'>3. Conoscere l'utente</h1>
                     <span className='post-date'> 17 Dicembre 2022</span>
@@ -56,7 +68,7 @@ function BlogBoxes() {
                 </article>
 
                 <article className='post-box casestudy all'>
-                    <img src={LogoStudyCase} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
+                    <img loading="lazy" decoding="async" src={LogoStudyCase} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
                     <h3 className='category'>Case Study - Gestionale Associativo</h3>
                     <h1 className='post-title'>2. Diagramma Entità Relazione</h1>
                     <span className='post-date'> 11 Dicembre 2022</span>
@@ -68,7 +80,7 @@ function BlogBoxes() {
                 </article>
                 
                 <article className='post-box casestudy all'>
-                    <img src={LogoStudyCase} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
+                    <img loading="lazy" decoding="async" src={LogoStudyCase} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
                     <h3 className='category'>Case Study - Gestionale Associativo</h3>
                     <h1 className='post-title'>1. Introduzione allo sviluppo del gestionale associativo</h1>
                     <span className='post-date'> 04 Dicembre 2022</span>
@@ -80,7 +92,7 @@ function BlogBoxes() {
                 </article>
 
                 <article className='post-box uni all'>
-                    <img src={LogoIum} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
+                    <img loading="lazy" decoding="async" src={LogoIum} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
                     <h3 className='category'>Appunti Universitari - Interazione Uomo macchina</h3>
                     <h1 className='post-title'>2. Interazione Uomo Macchina - L'usabilità </h1>
                     <span className='post-date'> 01 Dicembre 2022</span>
@@ -92,7 +104,7 @@ function BlogBoxes() {
                 </article>
 
                 <article className='post-box uni all'>
-                    <img src={LogoRDC} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
+                    <img loading="lazy" decoding="async" src={LogoRDC} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
                     <h3 className='category'>Appunti Universitari - Reti di Calcolatori</h3>
                     <h1 className='post-title'>2. I due tipi di commutazione </h1>
                     <span className='post-date'> 20 Novembre 2022</span>
@@ -103,7 +115,7 @@ function BlogBoxes() {
                 </article>
 
                 <article className='post-box uni all'>
-                    <img src={LogoIum} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
+                    <img loading="lazy" decoding="async" src={LogoIum} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
                     <h3 className='category'>Appunti Universitari - Interazione Uomo macchina</h3>
                     <h1 className='post-title'>1. Introduzione all' Interazione Uomo Macchina </h1>
                     <span className='post-date'> 12 Novembre 2022</span>
@@ -115,7 +127,7 @@ function BlogBoxes() {
                 </article>
 
                 <article className='post-box libri all'>
-                    <img src={LogoLibri} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
+                    <img loading="lazy" decoding="async" src={LogoLibri} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
                     <h3 className='category'>Libri</h3>
                     <h1 className='post-title'>Consigli su libri settoriali - Pt. 1 </h1>
                     <span className='post-date'> 5 Novembre 2022</span>
@@ -126,7 +138,7 @@ function BlogBoxes() {
                 </article>
 
                 <article className='post-box uni all'>
-                    <img src={LogoRDC} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
+                    <img loading="lazy" decoding="async" src={LogoRDC} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
                     <h3 className='category'>Appunti Universitari - Reti di Calcolatori</h3>
                     <h1 className='post-title'>1. Introduzione alle reti </h1>
                     <span className='post-date'> 1 Novembre 2022</span>

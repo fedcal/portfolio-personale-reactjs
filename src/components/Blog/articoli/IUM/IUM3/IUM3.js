@@ -52,7 +52,7 @@ function IUM3() {
             <section className='post-header'>
                 <div className='header-content post-container'>
                     
-                    <img src={HomeIum} alt="Logo della pagina riferita alla materia reti di calcolatori" className='header-img'/>
+                    <img loading="lazy" decoding="async" src={HomeIum} alt="Logo della pagina riferita alla materia reti di calcolatori" className='header-img'/>
                 </div>
             </section>
             <section className='post-content post-container'>
@@ -91,7 +91,7 @@ function IUM3() {
 
                 <p className='post-text'>Un altro elemento da tenere in considerazione è la memoria dell'utente che può essere divisa in <i>memoria sensoriale</i>, <i>memoria a breve termine</i>, <i>memoria a lungo termine</i>. Questi tipi di memoria sono tra di loro collegate, e si può rappresentare in questo modo: </p>
                 <div className='box-image'>
-                    <img src={Memorie} alt="Schema di rete ad accesso in forma ibrida" className='post-img3'/>
+                    <img loading="lazy" decoding="async" src={Memorie} alt="Schema di rete ad accesso in forma ibrida" className='post-img3'/>
                     <p className='image-capture'>Figura 1: Vari tipi di memorie</p>
                 </div>
                 <p className='post-text'>Come si può evincere, quando arriva un <i>input sensoriale</i>, i suoi dati vengono elaborati dapprima dalla memoria sensoriale, la quale li registra temporaneamente, li seleziona e li carica nella memoria a breve termine. Quest'ultima è la memoria dedicata alle elaborazioni mentali, anche se le informazioni vengono memorizzate per un periodo di tempo molto breve, in quanto 

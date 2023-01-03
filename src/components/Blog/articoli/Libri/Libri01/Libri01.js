@@ -39,7 +39,7 @@ function Libri01() {
             <section className='post-header'>
                 <div className='header-content post-container' itemscope itemtype="https://schema.org/ImageObject">
                     
-                    <img src={HomeLibri} alt="Logo della pagina riferita ai post sui libri" className='header-img'/>
+                    <img loading="lazy" decoding="async" src={HomeLibri} alt="Logo della pagina riferita ai post sui libri" className='header-img'/>
                 </div>
             </section>
             <section className='post-content post-container'>
