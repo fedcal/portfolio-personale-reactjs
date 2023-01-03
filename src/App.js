@@ -1,4 +1,4 @@
-import React from "react";
+import React, {lazy} from "react";
 import './index.css';
 import Home from "./routes/Home";
 import About from "./routes/About";
@@ -19,11 +19,13 @@ import ICON1 from "./components/Blog/articoli/ICON/ICON1/ICON1";
 import ICON2 from "./components/Blog/articoli/ICON/ICON2/ICON2";
 import ICON3 from "./components/Blog/articoli/ICON/ICON3/ICON3";
 
+const LazyHome =lazy(()=><Home/>)
+
 function App() {
   return (
     <>
       <Routes>
-        <Route path='/'element={<Home/>}/>
+        <Route path='/'element={<LazyHome/>}/>
         <Route path='/progetti'element={<Progetti/>}/>
         <Route path='/presentazioni'element={<About/>}/>
         <Route path='/servizi'element={<Servizi/>}/>
