@@ -14,8 +14,9 @@ function Reti02() {
   return (
     <div>
         <Helmet>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9556331893712433"
-     crossorigin="anonymous"></script>
+            <link href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css"rel="stylesheet"/>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9556331893712433"
+            crossorigin="anonymous"></script>
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <title>Federico Calò Blog - 2. I due tipi di commutazione</title>
             <meta name='keywords' content='Internet, host, sistemi periferici, rete di collegamenti, commutatori di pacchetti, internet service provider, ISP, TCP, transmission control protocol, IP, internet protocol, accesso aziendale, LAN, accesso via cavo, commutazione di pacchetto, commutazione di circuito, pacchetti, trasmissione store-and-forward, buffer, buffer di output, tabelle di inoltro, protocolli di instradamento, perdita di pacchetti, multiplexing a divisione di frequenza, FDM, multiplexing a divisione di tempo, TDM'/>
