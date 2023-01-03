@@ -1,6 +1,6 @@
 import React, {lazy} from "react";
 import './index.css';
-import Home from "./routes/Home";
+
 import About from "./routes/About";
 import Contatti from "./routes/Contact";
 import Progetti from "./routes/Project";
@@ -19,7 +19,7 @@ import ICON1 from "./components/Blog/articoli/ICON/ICON1/ICON1";
 import ICON2 from "./components/Blog/articoli/ICON/ICON2/ICON2";
 import ICON3 from "./components/Blog/articoli/ICON/ICON3/ICON3";
 
-const LazyHome =lazy(()=><Home/>)
+const LazyHome =lazy(()=>import('./routes/Home'))
 
 function App() {
   return (
