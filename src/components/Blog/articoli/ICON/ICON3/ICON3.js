@@ -62,7 +62,7 @@ function ICON3() {
                     <Link to="/Spazio-di-progettazione-di-un-agente"> &#8592; Post precendente</Link>
                 </div>
                 <h1 className='header-title' itemprop="headline">3. All'interno di un agente: architettura e le funzioni agenti</h1>
-                <span  itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href='https://www.federicocalo.dev' className='autore'><span itemprop="name">Federico Calò</span></a></span> <span className='data' itemprop="datePublished" content="2023-01-01T07:30:00+08:00">01/01/2023</span>
+                <span  itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href='https://www.federicocalo.dev' className='autore'><span itemprop="name">Federico Calò</span></a></span> <span className='data' itemprop="datePublished" content="2023-01-03T07:30:00+08:00">03/01/2023</span>
                                 
                 <p className='post-text first-text'>
                     Gli agenti sono costituiti da un corpo che può essere costituito da diversi elementi, concreti o meno. Quando un agente ha un corpo fisico, esso prende il nome di <strong>agente incarnato</strong>, un esempio sono i robot. Gli agenti ricevono informazioni tramite i <i>sensori</i>, le quali verranno elaborate e 

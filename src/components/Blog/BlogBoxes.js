@@ -23,7 +23,7 @@ function BlogBoxes() {
                     <img loading="lazy" decoding="async" src={LogoIcon} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
                     <h3 className='category'>Appunti Università - Ingegneria della conoscenza</h3>
                     <h1 className='post-title'>3. All'interno di un agente: architettura e le funzioni agenti</h1>
-                    <span className='post-date'> 2 Gennaio 2023</span>
+                    <span className='post-date'> 3 Gennaio 2023</span>
                     <p className='post-description'> Dopo aver spiegato lo spazio di progettazione di un agente, andiamo a comprendere la sua architettura, ovvero come come un agente intelligente può percepire, ragioanre e agire nel tempo in 
                     un ambiente. Andremo ad ispezionare la gerarchia all'interno di un agente e i modi in cui esso può essere costruito.</p>
                     <div className='link'>
