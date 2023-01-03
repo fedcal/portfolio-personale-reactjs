@@ -39,7 +39,7 @@ function App() {
         <Route path='/Interazione-uomo-macchina-Conoscere-l-utente' element={<IUM3/>}/>
         <Route path='/Introduzione-ingegneria-della-conoscenza' element={<ICON1/>}/>
         <Route path='/Spazio-di-progettazione-di-un-agente' element={<ICON2/>}/>
-        <Route path='//All-interno-di-un-agente:-architettura-e-le-funzioni-agente' element={<ICON3/>}/>
+        <Route path='/All-interno-di-un-agente:-architettura-e-le-funzioni-agente' element={<ICON3/>}/>
 
       </Routes>
     </>

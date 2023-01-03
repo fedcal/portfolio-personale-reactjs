@@ -240,5 +240,15 @@
        <image:loc>https://www.federicocalo.dev/static/media/icon_1900.webp</image:loc>
     </image:image>
   </url>
+
+   <!-- Immagini /All-interno-di-un-agente:-architettura-e-le-funzioni-agente -->
+  <url>
+    <loc>https://www.federicocalo.dev/All-interno-di-un-agente:-architettura-e-le-funzioni-agente</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/icon_1900.webp</image:loc>
+    </image:image>
+  </url>
   
 </urlset>
