@@ -18,6 +18,7 @@ import IUM3 from "./components/Blog/articoli/IUM/IUM3/IUM3";
 import ICON1 from "./components/Blog/articoli/ICON/ICON1/ICON1";
 import ICON2 from "./components/Blog/articoli/ICON/ICON2/ICON2";
 import ICON3 from "./components/Blog/articoli/ICON/ICON3/ICON3";
+import ICON4 from "./components/Blog/articoli/ICON/ICON4/ICON4";
 
 function App() {
   return (
@@ -39,7 +40,8 @@ function App() {
         <Route path='/Interazione-uomo-macchina-Conoscere-l-utente' element={<IUM3/>}/>
         <Route path='/Introduzione-ingegneria-della-conoscenza' element={<ICON1/>}/>
         <Route path='/Spazio-di-progettazione-di-un-agente' element={<ICON2/>}/>
-        <Route path='//All-interno-di-un-agente:-architettura-e-le-funzioni-agente' element={<ICON3/>}/>
+        <Route path='/All-interno-di-un-agente:-architettura-e-le-funzioni-agente' element={<ICON3/>}/>
+        <Route path='/Controlli-e-azioni-di-un-agente' element={<ICON4/>}/>
 
       </Routes>
     </>

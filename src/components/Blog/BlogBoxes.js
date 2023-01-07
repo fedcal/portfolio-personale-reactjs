@@ -18,6 +18,19 @@ function BlogBoxes() {
                 <span className='filter-item' data-filter='casestudy'>Case Study</span>
             </div>
             <section className='post container'>
+            
+
+
+                <article className='post-box uni all'>
+                    <img loading="lazy" decoding="async" src={LogoIcon} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
+                    <h3 className='category'>Appunti Università - Ingegneria della conoscenza</h3>
+                    <h1 className='post-title'>4. Controlli e azioni di un agente</h1>
+                    <span className='post-date'> 6 Gennaio 2023</span>
+                    <p className='post-description'> In questo articolo andiamo a vedere nello specfico la logica del corpo di un agente, daremo un'occhiata alla sua architettura e come agisce, ovvero come usa le regole definite nel precedente articolo all'interno del suo ragionamento.</p>
+                    <div className='link'>
+                        <Link to="/Controlli-e-azioni-di-un-agente" className="btn">Leggi Post</Link>
+                    </div>
+                </article>
 
                 <article className='post-box uni all'>
                     <img loading="lazy" decoding="async" src={LogoIcon} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'/>
