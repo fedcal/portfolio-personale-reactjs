@@ -102,7 +102,9 @@ function ICON3() {
                     controllore è chiamato <strong>controllore a stati finiti</strong> o <strong>macchina a stati finiti</strong>.
                 </p>
                 
-                
+                <div className="succ-post">
+                    <Link to="/Controlli-e-azioni-di-un-agente">Post successivo &#8594;</Link>
+                 </div>
                 </section>
         </article>
         <Footer/>

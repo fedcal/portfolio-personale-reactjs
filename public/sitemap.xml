@@ -240,5 +240,15 @@
        <image:loc>https://www.federicocalo.dev/static/media/icon_1900.webp</image:loc>
     </image:image>
   </url>
+
+  <!-- Immagini /Controlli-e-azioni-di-un-agente -->
+  <url>
+    <loc>https://www.federicocalo.dev/Controlli-e-azioni-di-un-agente</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/icon_1900.webp</image:loc>
+    </image:image>
+  </url>
   
 </urlset>

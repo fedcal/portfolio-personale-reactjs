@@ -58,7 +58,7 @@ function ICON4() {
             </section>
             <section className='post-content post-container'>
                 <div className="prec-post">
-                    <Link to="/Spazio-di-progettazione-di-un-agente"> &#8592; Post precendente</Link>
+                    <Link to="/All-interno-di-un-agente:-architettura-e-le-funzioni-agente"> &#8592; Post precendente</Link>
                 </div>
                 <h1 className='header-title' itemprop="headline">4. Controlli e azioni di un agente</h1>
                 <span  itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href='https://www.federicocalo.dev' className='autore'><span itemprop="name">Federico Calò</span></a></span> <span className='data' itemprop="datePublished" content="2023-01-07T07:30:00+08:00">07/01/2023</span>
