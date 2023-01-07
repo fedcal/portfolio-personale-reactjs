@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../Articoli.css';
-import Navbar from '../../../../Navbar/Navbar.js';
-import Footer from '../../../../Footer/Footer.js';
+import Navbar from '../../../../Navbar/Navbar';
+import Footer from '../../../../Footer/Footer';
 import SchemaRete from '../../../../assets/SchemaReti.webp';
 import HomeReti from '../../../../assets/rdc_1900.webp';
 import '../Reti.css';

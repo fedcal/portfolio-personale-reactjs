@@ -4,7 +4,8 @@ import Navbar from '../../../../Navbar/Navbar';
 import Footer from '../../../../Footer/Footer';
 import HomeCC from '../../../../assets/cc_1900.webp';
 import '../../Articoli.css';
-var Latex = require('react-latex');
+import * as Latex from 'react-latex'
+import 'katex/dist/katex.min.css'
 
 function CC1() {
   const inSimbolo = `$$\\in$$`;

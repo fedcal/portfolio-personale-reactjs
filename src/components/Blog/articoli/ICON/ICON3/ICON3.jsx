@@ -5,7 +5,8 @@ import Footer from '../../../../Footer/Footer';
 import HomeIcon from '../../../../assets/icon_1900.webp';
 import '../../Articoli.css';
 import {Link} from "react-router-dom";
-var Latex = require('react-latex');
+import * as Latex from 'react-latex'
+import 'katex/dist/katex.min.css'
 
 function ICON3() {
     const appartiene=`$$ \\in $$`;

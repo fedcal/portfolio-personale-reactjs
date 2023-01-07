@@ -8,7 +8,8 @@ import {Link} from "react-router-dom";
 import img1 from './scomposizione.webp';
 
 
-var Latex = require('react-latex');
+import * as Latex from 'react-latex'
+import 'katex/dist/katex.min.css'
 
 function ICON4() {
   const fRemember =`$$ S \\times P_l \\times C_h \\rightarrow S $$`;

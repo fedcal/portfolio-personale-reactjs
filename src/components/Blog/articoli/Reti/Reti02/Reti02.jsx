@@ -1,16 +1,16 @@
 import React from 'react';
 import {Helmet} from "react-helmet";
 import HomeReti from '../../../../assets/rdc_1900.webp';
-import Navbar from '../../../../Navbar/Navbar.js';
-import Footer from '../../../../Footer/Footer.js';
+import Navbar from '../../../../Navbar/Navbar';
+import Footer from '../../../../Footer/Footer';
 import Figura1 from './Figura1.webp';
 import '../../Articoli.css';
 import '../Reti.css'
 import { Link } from 'react-router-dom';
-var Latex = require('react-latex');
+import Latex from 'react-latex-next'
 
 function Reti02() {
-    const frazione1=`$$ \\frac{L}{R} $$`
+    const frazione1=`$ \\frac{L}{R} $`
   return (
     <div>
         <Helmet>
@@ -61,7 +61,7 @@ function Reti02() {
                 <p className='post-text'>Le applicazioni distribuite in rete scambiano dei messaggi, strutturati secondo le regole stabilite dallo sviluppatore, per poter comunicare tra loro. A prescindere dalle informazioni che il messaggio può contenere
                 la sorgente suddivide quest'ultimo in parti più piccole note come <strong>pacchetti</strong>. Tra la sorgente e la destinazione, i pacchetti viaggiano attraverso collegamenti e <strong>commutatori di pacchetto</strong>, i quali sono costituiti da
                  <strong>router</strong> e <strong>commutatori a livello di collegamento</strong>. I pacchetti vengono trasmessi su ciascun collegamento a una velocità pari alla velocità totale di trasmissione del collegamento stesso. Indicando con L la
-                dimensione del pacchetto in <i>bit</i> e con R la velocità del canale di trasmissione in <i>bps</i>, il tempo di trasmissione sarà pari a <Latex className='latex'>{frazione1}</Latex> secondi. La metodologia di trasmissione nella commutazione
+                dimensione del pacchetto in <i>bit</i> e con R la velocità del canale di trasmissione in <i>bps</i>, il tempo di trasmissione sarà pari a <Latex>{frazione1}</Latex> TEST secondi. La metodologia di trasmissione nella commutazione
                 di pacchetti è la <strong>trasmissione store-and-forward</strong>, in base alla quale il commutatore di pacchetto deve ricevere l'intero pacchetto prima di poterne cominciare a trasmettere sul collegamento in uscita. La funzione di un router è
                 quella di instradare i pacchetti in entrata verso il collegamento in uscita. </p>    
                 
