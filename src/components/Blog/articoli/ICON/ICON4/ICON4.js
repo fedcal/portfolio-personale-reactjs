@@ -61,7 +61,7 @@ function ICON4() {
                     <Link to="/Spazio-di-progettazione-di-un-agente"> &#8592; Post precendente</Link>
                 </div>
                 <h1 className='header-title' itemprop="headline">4. Controlli e azioni di un agente</h1>
-                <span  itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href='https://www.federicocalo.dev' className='autore'><span itemprop="name">Federico Calò</span></a></span> <span className='data' itemprop="datePublished" content="2023-01-03T07:30:00+08:00">03/01/2023</span>
+                <span  itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href='https://www.federicocalo.dev' className='autore'><span itemprop="name">Federico Calò</span></a></span> <span className='data' itemprop="datePublished" content="2023-01-07T07:30:00+08:00">07/01/2023</span>
                                 
                 <p className='post-text first-text'>
                    Come definito nel precedente articolo, il corpo di un agente è suddiviso in attuatori sensori, i quali sono collegati a un sistema di percezione che crea una descrizione del mondo in un motore di ragionamento che implementa un controller, il quale a sua volta emette comandi agli attuatori. Questo tipo 
