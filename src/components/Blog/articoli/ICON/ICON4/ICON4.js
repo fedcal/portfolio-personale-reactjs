@@ -26,8 +26,8 @@ function ICON4() {
             crossorigin="anonymous"></script>
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <title>Federico Calò Blog - 4. Controlli e azioni di un agente</title>
-            <meta name='keywords' content='ingegneria della conoscenza, intelligenza artificiale, ai, agente, agente computazionale, modularità, spazio di progettazione, struttura piatta, struttura modulare, agente non pianificatore, orizzonte di pianificazione, pianificatore a orizzonte finito, pianifgicatore a orizzonte indefinito, pianificatore a orizzonte infinito, dimensione della conoscenza,
-            dimensione dell&#39;incertezza dell&#39;effetto, dimensione delle preferenze, preferenze ordinali, preferenze carinali, obiettivi di mantenimento, ragionamento online, ragionamento offline'/>
+            <meta name='keywords' content='ingegneria della conoscenza, intelligenza artificiale, ai, agente, agente computazionale, orizzonte progettuale, funzione di transizione dello stato di credenza, a funzione di commando, funzione di percezione,
+            sistema ibrido, ragionamento quantitativo, ragionamento qualitativo, punti di riferimento,termini sfocati,ragionamento per ordini di grandezza, derivati qualitativi, modello, resa dei conti,dead reckoning, sistema puramente reattivo,knowledge base '/>
             <meta name='description' content='In questo articolo andremo ad approfondire lo spazio di progettazione degli agenti, con le relative proprietà e limiti. Infine definiremo alcune applicazioni in cui l&#39;intelligenza artificiale può essere
                      applicata, descrivendo in maniera generale alcuni esempi.'/>
             <meta name="robots" content="index, follow, max-snippet:[100]" />

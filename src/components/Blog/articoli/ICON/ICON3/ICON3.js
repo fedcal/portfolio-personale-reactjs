@@ -27,8 +27,7 @@ function ICON3() {
             crossorigin="anonymous"></script>
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <title>Federico Calò Blog - 3. All'interno di un agente: architettura e le funzioni agenti</title>
-            <meta name='keywords' content='ingegneria della conoscenza, intelligenza artificiale, ai, agente, agente computazionale, modularità, spazio di progettazione, struttura piatta, struttura modulare, agente non pianificatore, orizzonte di pianificazione, pianificatore a orizzonte finito, pianifgicatore a orizzonte indefinito, pianificatore a orizzonte infinito, dimensione della conoscenza,
-            dimensione dell&#39;incertezza dell&#39;effetto, dimensione delle preferenze, preferenze ordinali, preferenze carinali, obiettivi di mantenimento, ragionamento online, ragionamento offline'/>
+            <meta name='keywords' content='ingegneria della conoscenza, intelligenza artificiale, ai, agente, agente computazionale,effettori,attuatori,sistema ad agenti, stimoli,body,percezioni ,body ,comandi,percept trace,percept stram,traccia di comando,trasduzione,funzione commando '/>
             <meta name='description' content='In questo articolo andremo ad approfondire lo spazio di progettazione degli agenti, con le relative proprietà e limiti. Infine definiremo alcune applicazioni in cui l&#39;intelligenza artificiale può essere
                      applicata, descrivendo in maniera generale alcuni esempi.'/>
             <meta name="robots" content="index, follow, max-snippet:[100]" />
