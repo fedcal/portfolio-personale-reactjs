@@ -53,7 +53,7 @@ function ICON4() {
             <section className='post-header'>
                 <div className='header-content post-container'>
                     
-                    <img loading="lazy" decoding="async" src={HomeIcon} alt="Logo della pagina riferita alla materia reti di calcolatori" className='header-img'/>
+                    <img loading="lazy" decoding="async" src={HomeIcon} alt="Logo della pagina riferita alla materia ingnegneria della conoscenza" className='header-img'title='ingegneria della conoscenza'/>
                 </div>
             </section>
             <section className='post-content post-container'>
@@ -145,7 +145,7 @@ function ICON4() {
                 </p>
 
                 <div className='box-image'>
-                    <img loading="lazy" decoding="async" src={img1} alt="Scomposizione offline e online di un agente" className='post-img2'/>
+                    <img loading="lazy" decoding="async" src={img1} alt="Scomposizione offline e online di un agente" className='post-img2' title='Figura 1: Scomposizione offline e online di un agente.'/>
                     <p className='image-capture'>Figura 1: Scomposizione offline e online di un agente</p>
                 </div>
 
