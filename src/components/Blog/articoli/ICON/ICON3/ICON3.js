@@ -53,7 +53,7 @@ function ICON3() {
             <section className='post-header'>
                 <div className='header-content post-container'>
                     
-                    <img loading="lazy" decoding="async" src={HomeIcon} alt="Logo della pagina riferita alla materia reti di calcolatori" className='header-img' title='Ingegneria della conoscenza'/>
+                    <img loading="lazy" decoding="async" src={HomeIcon} alt="Logo della pagina riferita alla materia ingegneria della conoscenza" className='header-img' title='Ingegneria della conoscenza'/>
                 </div>
             </section>
             <section className='post-content post-container'>
