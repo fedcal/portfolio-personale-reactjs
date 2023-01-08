@@ -52,7 +52,7 @@ function IUM3() {
             <section className='post-header'>
                 <div className='header-content post-container'>
                     
-                    <img loading="lazy" decoding="async" src={HomeIum} alt="Logo della pagina riferita alla materia reti di calcolatori" className='header-img'/>
+                    <img loading="lazy" decoding="async" src={HomeIum} alt="Logo della pagina riferita alla materia interazione uomo macchina" className='header-img'title='interazione uomo macchina'/>
                 </div>
             </section>
             <section className='post-content post-container'>
@@ -60,7 +60,7 @@ function IUM3() {
                     <Link to="/Interazione-uomo-macchina-Usabilita-e-Modello-di-iterazione"> &#8592; Post precendente</Link>
                 </div>
                 <h1 className='header-title' itemprop="headline">3. Interazione Uomo Macchina - Conoscere l'utente</h1>
-                <span  itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href='https://www.federicocalo.dev' className='autore'><span itemprop="name">Federico Calò</span></a></span> <span className='data' itemprop="datePublished" content="2022-12-17T07:30:00+08:00">17/12/2022</span>
+                <span  itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href='https://www.federicocalo.dev' className='autore'><span itemprop="name">Federico Calò</span></a></span> <time datetime="2022-12-17" className='data' itemprop="datePublished" content="2022-12-17T07:30:00+08:00">17/12/2022</time>
                                 
                 <p className='post-text first-text'>Come accennato nella descrizione del post, quando si sviluppa un sistema destinato all'uso da parte di diversi utenti, si deve studiare come questi si relazioneranno con esso in base a diversi fattori quali le caratteristiche individuali, il livello di apprendimento o il ruolo dell'utente. Possiamo racchiudere
                  gli utenti in quattro livelli in cui emergono le loro diversità: </p>
@@ -91,7 +91,7 @@ function IUM3() {
 
                 <p className='post-text'>Un altro elemento da tenere in considerazione è la memoria dell'utente che può essere divisa in <i>memoria sensoriale</i>, <i>memoria a breve termine</i>, <i>memoria a lungo termine</i>. Questi tipi di memoria sono tra di loro collegate, e si può rappresentare in questo modo: </p>
                 <div className='box-image'>
-                    <img loading="lazy" decoding="async" src={Memorie} alt="Schema di rete ad accesso in forma ibrida" className='post-img3'/>
+                    <img loading="lazy" decoding="async" src={Memorie} alt="Schema di rete ad accesso in forma ibrida" className='post-img3' title='Figura 1: vari tipi di memoria.'/>
                     <p className='image-capture'>Figura 1: Vari tipi di memorie</p>
                 </div>
                 <p className='post-text'>Come si può evincere, quando arriva un <i>input sensoriale</i>, i suoi dati vengono elaborati dapprima dalla memoria sensoriale, la quale li registra temporaneamente, li seleziona e li carica nella memoria a breve termine. Quest'ultima è la memoria dedicata alle elaborazioni mentali, anche se le informazioni vengono memorizzate per un periodo di tempo molto breve, in quanto 

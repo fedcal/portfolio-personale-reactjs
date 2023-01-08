@@ -39,12 +39,12 @@ function Libri01() {
             <section className='post-header'>
                 <div className='header-content post-container' itemscope itemtype="https://schema.org/ImageObject">
                     
-                    <img loading="lazy" decoding="async" src={HomeLibri} alt="Logo della pagina riferita ai post sui libri" className='header-img'/>
+                    <img loading="lazy" decoding="async" src={HomeLibri} alt="Logo della pagina riferita ai post sui libri" className='header-img' title='Consiglio su libri'/>
                 </div>
             </section>
             <section className='post-content post-container'>
                 <h1 className='header-title' itemprop="headline">Consigli su libri settoriali - Pt. 1</h1>
-                <span  itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href='https://www.federicocalo.dev' className='autore'><span itemprop="name">Federico Calò</span></a></span> <span className='data' itemprop="datePublished" content="2022-11-01T07:30:00+08:00">5/11/2022</span>
+                <span  itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href='https://www.federicocalo.dev' className='autore'><span itemprop="name">Federico Calò</span></a></span> <time datetime="2022-11-05" className='data' itemprop="datePublished" content="2022-11-01T07:30:00+08:00">5/11/2022</time>
                 
                 <h2 className='sub-heading'>Introduzione</h2>
                 

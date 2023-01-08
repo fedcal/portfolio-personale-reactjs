@@ -45,7 +45,7 @@ function Er() {
         <section className='post-header'>
             <div className='header-content post-container'>
                 
-                <img loading="lazy" decoding="async" src={HomeStdy} alt="Logo della pagina riferita alla materia reti di calcolatori" className='header-img'/>
+                <img loading="lazy" decoding="async" src={HomeStdy} alt="Logo della pagina riferita allo study case" className='header-img' title='study case'/>
             </div>
         </section>
         <section className='post-content post-container'>
@@ -53,14 +53,14 @@ function Er() {
                     <Link to="/Gestionale-associazione-intro"> &#8592; Post precendente</Link>
                 </div>
             <h1 className='header-title' itemProp="headline">2. Diagramma Entità Relazione</h1>
-            <span  itemProp="author" itemscope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span> <span className='data' itemProp="datePublished" content="2022-12-11T07:30:00+08:00">11/12/2022</span>
+            <span  itemProp="author" itemscope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span> <time datetime="2022-12-11" className='data' itemProp="datePublished" content="2022-12-11T07:30:00+08:00">11/12/2022</time>
                             
             <p className='post-text first-text'>Come anticipato, in questo articolo entriamo in maniera approfondita nella questione relativa allo <strong>schema entità relazione (ER)</strong> sul quale si baserà l'implementazione del nostro database in cui si memorizzeranno i dati. La creazione dello <strong>strato di persistenza </strong>
              in un'applicazione  è un processo delicato, in quanto su di esso si baserà anche il codice per <i>il recupero delle informazioni</i> dalla base di dati e <i>la rappresentazione del dato</i> all'interno della memoria. Avere una corretta rappresentazione del dato sin dall'inizio, anche se si evolverà con il tempo, facilita le operazioni
              di implementazione della controparte all'interno del gestionale. Analizziamo lo schema che ho creato.</p>
             
             <div className='big-img'>
-                <img src={erImg} alt="Schema di rete ad accesso in forma ibrida"/>
+                <img src={erImg} alt="Schema di rete ad accesso in forma ibrida" title='Figura 1: Schema ER'/>
                 <p className='image-capture'>Figura 1: Schema ER</p>
             </div>
             <p className='post-text'>L'entità principale da cui è partita la fase di analisi è l'entità <strong>socio</strong> composta dai seguenti campi:</p>

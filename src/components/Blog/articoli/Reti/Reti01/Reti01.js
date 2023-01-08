@@ -48,18 +48,18 @@ function Reti01() {
             <section className='post-header'>
                 <div className='header-content post-container'>
                     
-                    <img loading="lazy" decoding="async" src={HomeReti} alt="Logo della pagina riferita alla materia reti di calcolatori" className='header-img'/>
+                    <img loading="lazy" decoding="async" src={HomeReti} alt="Logo della pagina riferita alla materia reti di calcolatori" className='header-img'title='Reti di calcolatori'/>
                 </div>
             </section>
             <section className='post-content post-container'>
                 <h1 className='header-title' itemprop="headline">1. Introduzione alle reti</h1>
-                <span  itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href='https://www.federicocalo.dev' className='autore'><span itemprop="name">Federico Calò</span></a></span> <span className='data' itemprop="datePublished" content="2022-11-01T07:30:00+08:00">1/11/2022</span>
+                <span  itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href='https://www.federicocalo.dev' className='autore'><span itemprop="name">Federico Calò</span></a></span> <time datetime="2022-11-01" className='data' itemprop="datePublished" content="2022-11-01T07:30:00+08:00">1/11/2022</time>
                 <h2 className='sub-heading'>Definizione di Internet</h2>
                 
                 <p className='post-text'>Possiamo definire Internet come una rete di calcolatori che connette miliardi di dispositivi sparsi in tutto il mondo. Tutti gli strumenti che utilizziamo attualmente e che sono connessi a Internet, come le Tv, gli elettrodomestici o gli orologi, vengono chiamati in gergo <strong> host</strong> o  <strong>sistemi periferici</strong>. Questi sistemi periferici sono connessi tra loro tramite una <strong>rete di collegamenti</strong> (communication link) e <strong>commutatori di pacchetti</strong> (packet switch), effettuati tramite diversi tipi di collegamenti.</p>
                 
                 <div className='box-image'>
-                    <img loading="lazy" decoding="async" src={SchemaRete} alt="Schema della tipologia delle reti" className='post-img1'/>
+                    <img loading="lazy" decoding="async" src={SchemaRete} alt="Schema della tipologia delle reti" className='post-img1'title='Figura 1: tipologia di schema di rete'/>
                     <p className='image-capture'>Figura 1: Tipologia schema rete</p>
                 </div>
                 
@@ -98,7 +98,7 @@ function Reti01() {
                 accesso asimmetrico, in quanto le due velocità di upstream e downstream sono diverse e possono essere anche inferiori a quelle definite dagli standard, in quanto il provider può limitare il tasso di trasmissione. La DSL è stata progetta per distanze piccole e utilizza infrastrutture già presenti e messe a disposizione dalla compagnia.</p>
                 
                 <div className='box-image'>
-                    <img loading="lazy" decoding="async" src={AccessoViaCavo} alt="Schema di rete ad accesso in forma ibrida" className='post-img2'/>
+                    <img loading="lazy" decoding="async" src={AccessoViaCavo} alt="Schema di rete ad accesso in forma ibrida" className='post-img2'title='Figura 2: Rete di accesso in formma ibrida'/>
                     <p className='image-capture'>Figura 2: Rete di accesso in forma ibrida (fibra e cavo coassiale)</p>
                 </div>
                 
@@ -107,7 +107,7 @@ function Reti01() {
                  (fiber to the home), con velocità maggiori in quanto viene fornita la fibra ottica direttamente all'abitazione. Quest'ultima utilizza un terminale ottico denominato <strong>ONT</strong>, al quale viene connesso un separatore ottico di quartiere al quale viene dedicata una fibra ottica.</p>
                 
                 <div className='box-image'>
-                    <img loading="lazy" decoding="async" src={AccessoAziendale} alt="Schema di rete ad accesso aziendale e residenziale" className='post-img2'/>
+                    <img loading="lazy" decoding="async" src={AccessoAziendale} alt="Schema di rete ad accesso aziendale e residenziale" className='post-img2' title='Figura 3: Accesso aziendale e residenziale'/>
                     <p className='image-capture'>Figura 3: Accesso aziendale e residenziale</p>
                 </div>
                 

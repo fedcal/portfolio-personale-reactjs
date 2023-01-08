@@ -45,7 +45,7 @@ function Reti02() {
             <section className='post-header'>
                 <div className='header-content post-container'>
                     
-                    <img loading="lazy" decoding="async" src={HomeReti} alt="Logo della pagina riferita alla materia reti di calcolatori" className='header-img'/>
+                    <img loading="lazy" decoding="async" src={HomeReti} alt="Logo della pagina riferita alla materia reti di calcolatori" className='header-img' title='reti di calcolatori'/>
                 </div>
             </section>
             <section className='post-content post-container'>
@@ -54,7 +54,7 @@ function Reti02() {
                 </div>
                 
                 <h1 className='header-title' itemprop="headline">2. I due tipi di commutazione</h1>
-                <span  itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href='https://www.federicocalo.dev' className='autore'><span itemprop="name">Federico Calò</span></a></span> <span className='data' itemprop="datePublished" content="2022-11-20T07:30:00+08:00">20/11/2022</span>
+                <span  itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href='https://www.federicocalo.dev' className='autore'><span itemprop="name">Federico Calò</span></a></span> <time datetime="2022-11-20"className='data' itemprop="datePublished" content="2022-11-20T07:30:00+08:00">20/11/2022</time>
                 
                 <h2 className='sub-heading'>Commutazione di pacchetto</h2>
                 
@@ -66,7 +66,7 @@ function Reti02() {
                 quella di instradare i pacchetti in entrata verso il collegamento in uscita. </p>    
                 
                 <div className='box-image'>
-                    <img loading="lazy" decoding="async" src={Figura1} alt="Commutazione di pacchetto store-and-forward" className='post-img2'/>
+                    <img loading="lazy" decoding="async" src={Figura1} alt="Commutazione di pacchetto store-and-forward" className='post-img2' title='Figura 1: Commutazione di pacchetto store-and-forward.'/>
                     <p className='image-capture'>Figura 1: Commutazione di pacchetto store-and-forward.</p>
                 </div>
 

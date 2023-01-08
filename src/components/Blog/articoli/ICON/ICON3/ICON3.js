@@ -53,7 +53,7 @@ function ICON3() {
             <section className='post-header'>
                 <div className='header-content post-container'>
                     
-                    <img loading="lazy" decoding="async" src={HomeIcon} alt="Logo della pagina riferita alla materia reti di calcolatori" className='header-img'/>
+                    <img loading="lazy" decoding="async" src={HomeIcon} alt="Logo della pagina riferita alla materia reti di calcolatori" className='header-img' title='Ingegneria della conoscenza'/>
                 </div>
             </section>
             <section className='post-content post-container'>
@@ -61,7 +61,7 @@ function ICON3() {
                     <Link to="/Spazio-di-progettazione-di-un-agente"> &#8592; Post precendente</Link>
                 </div>
                 <h1 className='header-title' itemprop="headline">3. All'interno di un agente: architettura e le funzioni agenti</h1>
-                <span  itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href='https://www.federicocalo.dev' className='autore'><span itemprop="name">Federico Calò</span></a></span> <span className='data' itemprop="datePublished" content="2023-01-03T07:30:00+08:00">03/01/2023</span>
+                <span  itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href='https://www.federicocalo.dev' className='autore'><span itemprop="name">Federico Calò</span></a></span> <time datetime="2023-01-03"className='data' itemprop="datePublished" content="2023-01-03T07:30:00+08:00">03/01/2023</time>
                                 
                 <p className='post-text first-text'>
                     Gli agenti sono costituiti da un corpo che può essere costituito da diversi elementi, concreti o meno. Quando un agente ha un corpo fisico, esso prende il nome di <strong>agente incarnato</strong>, un esempio sono i robot. Gli agenti ricevono informazioni tramite i <i>sensori</i>, le quali verranno elaborate e 

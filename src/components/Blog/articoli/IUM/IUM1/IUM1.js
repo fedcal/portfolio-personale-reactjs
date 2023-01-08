@@ -46,12 +46,12 @@ function IUM1() {
             <section className='post-header'>
                 <div className='header-content post-container'>
                     
-                    <img loading="lazy" decoding="async" src={HomeIum} alt="Logo della pagina riferita alla materia reti di calcolatori" className='header-img'/>
+                    <img loading="lazy" decoding="async" src={HomeIum} alt="Logo della pagina riferita alla materia reti di calcolatori" className='header-img' title='interazione uomo macchina'/>
                 </div>
             </section>
             <section className='post-content post-container'>
                 <h1 className='header-title' itemprop="headline">1 - Introduzione all' Interazione Uomo Macchina</h1>
-                <span  itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href='https://www.federicocalo.dev' className='autore'><span itemprop="name">Federico Calò</span></a></span> <span className='data' itemprop="datePublished" content="2022-11-01T07:30:00+08:00">12/11/2022</span>
+                <span  itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href='https://www.federicocalo.dev' className='autore'><span itemprop="name">Federico Calò</span></a></span> <time datetime="2022-11-12" className='data' itemprop="datePublished" content="2022-11-01T07:30:00+08:00">12/11/2022</time>
                                 
                 <p className='post-text first-text'> Prima di entrare nel vivo della materia occorre definire alcuni concetti chiave sulla base dei quali si basa l'interazione uomo macchina. Con l'evoluzione tecnologica sono aumentati i prodotti che supportano le attività quotidiane dell'uomo e per migliorare l'interazione con essi sono
                 state create delle interfacce d'uso tramite le quali si instaura una sorta di dialogo tra l'utente e il sistema. Per <strong>sistema interattivo</strong> intendiamo, in maniera generale, qualsiasi combinazione di componenti hardware e software che ricevono input da un utente umano e gli forniscono un output, allo scopo di supportare
@@ -70,7 +70,7 @@ function IUM1() {
                 <p className='post-text'>Donald Norman presentò un modello dell'evoluzione tipica dei prodotti ad alta tecnologia, mettendo a confronto le prestazioni del prodotto durante la sua evoluzione e le necessità degli utenti che il prodotto è in grado di soddisfare.</p>
                 
                 <div className='box-image'>
-                    <img src={Norman1} alt="Schema di rete ad accesso in forma ibrida" className='post-img2'/>
+                    <img src={Norman1} alt="Schema di rete ad accesso in forma ibrida" className='post-img2'title='Figura 1: Evoluzione dei prodotti tecnologici secondo Norman'/>
                     <p className='image-capture'>Figura 1: Evoluzione dei prodotti tecnologici secondo Norman</p>
                 </div>
                 

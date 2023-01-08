@@ -46,12 +46,12 @@ function ICON1() {
             <section className='post-header'>
                 <div className='header-content post-container'>
                     
-                    <img src={HomeIcon} alt="Logo della pagina riferita alla materia reti di calcolatori" className='header-img' loading="lazy" decoding="async"/>
+                    <img src={HomeIcon} alt="Logo della pagina riferita alla materia ingnegneria della conoscenza" className='header-img' loading="lazy" decoding="async"title='ingegneria della conoscenza'/>
                 </div>
             </section>
             <section className='post-content post-container'>
                 <h1 className='header-title' itemprop="headline">1 - Introduzione all' ingegneria della conoscenza</h1>
-                <span  itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href='https://www.federicocalo.dev' className='autore'><span itemprop="name">Federico Calò</span></a></span> <span className='data' itemprop="datePublished" content="2022-12-30T07:30:00+08:00">30/12/2022</span>
+                <span  itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href='https://www.federicocalo.dev' className='autore'><span itemprop="name">Federico Calò</span></a></span> <time datetime="2022-12-30"className='data' itemprop="datePublished" content="2022-12-30T07:30:00+08:00">30/12/2022</time>
                                 
                 <p className='post-text first-text'> Questa serie di articoli riprende i miei appunti relativi al corso di ingegneria della conoscenza, della facoltà di informatica presso l'università Aldo Moro di Bari. Racchiudo in questi articoli non solo gli appunti derivanti dalle slide del corso condivise dal professore
                  Fanizzi, ma anche gli appunti relativi al libro <a href='https://artint.info/2e/index.html'target='_blank'rel="noopener noreferrer" aria-label="Libro">"Artificial Intelligence, founbdations of computational agents"</a>, scritto da Poole e Mackworth. Entrerei subito nel merito della materia dando una prima definizione
@@ -80,7 +80,7 @@ function ICON1() {
                  anche altri agenti. Gli agenti insieme all'ambiente circostante in cui operano costituiscono il <strong>mondo</strong></p>
                 
                 <div className='box-image'>
-                    <img src={img1} alt="Interazione di un agente con l'ambiente esterno" className='post-img2' loading="lazy" decoding="async"/>
+                    <img src={img1} alt="Interazione di un agente con l'ambiente esterno" className='post-img2' loading="lazy" decoding="async" title='Figura 1: interazione agente-ambiente'/>
                     <p className='image-capture'>Figura 1: interazione agente-ambiente</p>
                 </div>
 
@@ -116,7 +116,7 @@ function ICON1() {
                 </p>
 
                 <div className='box-image'>
-                    <img loading="lazy" decoding="async" src={tsk} alt="Il ruolo delle rappresentazioni nella risoluzione dei compiti" className='post-img2'/>
+                    <img loading="lazy" decoding="async" src={tsk} alt="Il ruolo delle rappresentazioni nella risoluzione dei compiti" className='post-img2' title='Figura 2: rappresentazione risoluzione compiti'/>
                     <p className='image-capture'>Figura 2: rappresentazione risoluzione compiti</p>
                 </div>
 
