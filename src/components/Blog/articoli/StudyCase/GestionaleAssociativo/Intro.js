@@ -114,12 +114,12 @@ function Intro() {
             <section className='post-header'>
                 <div className='header-content post-container'>
                     
-                    <img loading="lazy" decoding="async" src={HomeStdy} alt="Logo della pagina riferita alla materia reti di calcolatori" className='header-img'/>
+                    <img loading="lazy" decoding="async" src={HomeStdy} alt="Logo della pagina riferita allo study case" className='header-img' title='study case'/>
                 </div>
             </section>
             <section className='post-content post-container'>
                 <h1 className='header-title' itemProp="headline">1. Introduzione allo sviluppo del gestionale associativo</h1>
-                <span  itemProp="author" itemscope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span> <span className='data' itemProp="datePublished" content="2022-12-08T07:30:00+08:00">08/12/2022</span>
+                <span  itemProp="author" itemscope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span> <time datetime="2022-12-08" className='data' itemProp="datePublished" content="2022-12-08T07:30:00+08:00">08/12/2022</time>
                                 
                 <p className='post-text first-text'>Faccio parte dell'associazione <a href='https://www.instagram.com/onstageaps/' target='_blank' rel="noopener noreferrer" aria-label="Onstage"className='link'>ONstage</a> e recentemente è sorta l'esigenza di organizzare le varie attività dell'associazione attraverso un gestionale 
                 per poterle automatizzare. Così ho preso l'iniziativa e ho deciso di iniziare lo sviluppo. Prima di iniziare la <strong>fase implementativa</strong>,  ho chiesto quali fossero le reali necessità che dovevano essere poi trasformate in funzionalità del programma, chi doveva effettivamente utilizzare il gestionale e dove doveva essere

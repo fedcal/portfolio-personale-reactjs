@@ -42,7 +42,7 @@ function ICON2() {
             <section className='post-header'>
                 <div className='header-content post-container'>
                     
-                    <img loading="lazy" decoding="async" src={HomeIcon} alt="Logo della pagina riferita alla materia reti di calcolatori" className='header-img'/>
+                    <img loading="lazy" decoding="async" src={HomeIcon} alt="Logo della pagina riferita alla materia ingnegneria della conoscenza" className='header-img' title='ingegneria della conoscenza'/>
                 </div>
             </section>
             <section className='post-content post-container'>
@@ -50,7 +50,7 @@ function ICON2() {
                     <Link to="/Introduzione-ingegneria-della-conoscenza"> &#8592; Post precendente</Link>
                 </div>
                 <h1 className='header-title' itemprop="headline">2. Spazio di progettazione di un agente</h1>
-                <span  itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href='https://www.federicocalo.dev' className='autore'><span itemprop="name">Federico Calò</span></a></span> <span className='data' itemprop="datePublished" content="2023-01-01T07:30:00+08:00">01/01/2023</span>
+                <span  itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href='https://www.federicocalo.dev' className='autore'><span itemprop="name">Federico Calò</span></a></span> <time datetime="2023-01-01" className='data' itemprop="datePublished" content="2023-01-01T07:30:00+08:00">01/01/2023</time>
                                 
                 <p className='post-text first-text'>
                     Gli agenti che agiscono in ambienti variano in complessità, ognuno dei quali richiederà un certo livello di complessità nella sua progettazione. Occorre definire uno <strong>spazio di progettazione</strong> in cui operare per lo sviluppo di un agente, ogni spazio avrà diverse <i>dimensioni</i> in cui operare. 

@@ -43,7 +43,7 @@ function IUM2() {
             <section className='post-header'>
                 <div className='header-content post-container'>
                     
-                    <img loading="lazy" decoding="async" src={HomeIum} alt="Logo della pagina riferita alla materia reti di calcolatori" className='header-img'/>
+                    <img loading="lazy" decoding="async" src={HomeIum} alt="Logo della pagina riferita alla materia interazione uomo macchina" className='header-img'title='interazione uomo macchina'/>
                 </div>
             </section>
             <section className='post-content post-container'>
@@ -51,14 +51,14 @@ function IUM2() {
                     <Link to="/Interazione-uomo-macchina-Introduzione"> &#8592; Post precendente</Link>
                 </div>
                 <h1 className='header-title' itemprop="headline">2. Interazione Uomo Macchina - L'usabilità</h1>
-                <span  itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href='https://www.federicocalo.dev' className='autore'><span itemprop="name">Federico Calò</span></a></span> <span className='data' itemprop="datePublished" content="2022-12-01T07:30:00+08:00">01/12/2022</span>
+                <span  itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href='https://www.federicocalo.dev' className='autore'><span itemprop="name">Federico Calò</span></a></span> <time datetime="2022-12-01" className='data' itemprop="datePublished" content="2022-12-01T07:30:00+08:00">01/12/2022</time>
                                 
                 <p className='post-text first-text'>Nel mondo della progettazione del software incentrato sull'utente, è fondamentale analizzare il modo con l'utente comune andrà ad interagire con il sistema, permettendo di individuare le cause delle difficoltà durante il suo utilizzo, per poi andarle a risolvere.
                  Il modello più semplice di interazione fra un sistema e l'utente è il <i>ciclo di feedback</i>, nel quale l'utente fornisce un input al sistema per raggiungere il proprio scopo, ricevendo da quest'ultimo una risposta o feedback che viene interpretato e confrontato con lo scopo iniziale. Il risultato del
                  confronto porta ad una successiva azione dell'utente, innescando un continuo ciclo di domanda e risposta. Donald Norman si interessò a questo ciclo di feedback e realizzò uno schema molto dettagliato, che prende il nome di <strong>modello di Norman</strong>. </p>
                 
                 <div className='box-image'>
-                    <img loading="lazy" decoding="async" src={ModelloNorman} alt="Schema di rete ad accesso in forma ibrida" className='post-img2'/>
+                    <img loading="lazy" decoding="async" src={ModelloNorman} alt="Schema di rete ad accesso in forma ibrida" className='post-img2' title='Figura 1: Modello di Norman'/>
                     <p className='image-capture'>Figura 1: modello di Norman</p>
                 </div>
                 <p className='post-text'>Norman divise l'interazione tra uomo e sistema in 7 stadi principali:</p>

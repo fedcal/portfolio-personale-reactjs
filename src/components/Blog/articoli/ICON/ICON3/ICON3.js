@@ -27,8 +27,7 @@ function ICON3() {
             crossorigin="anonymous"></script>
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <title>Federico Calò Blog - 3. All'interno di un agente: architettura e le funzioni agenti</title>
-            <meta name='keywords' content='ingegneria della conoscenza, intelligenza artificiale, ai, agente, agente computazionale, modularità, spazio di progettazione, struttura piatta, struttura modulare, agente non pianificatore, orizzonte di pianificazione, pianificatore a orizzonte finito, pianifgicatore a orizzonte indefinito, pianificatore a orizzonte infinito, dimensione della conoscenza,
-            dimensione dell&#39;incertezza dell&#39;effetto, dimensione delle preferenze, preferenze ordinali, preferenze carinali, obiettivi di mantenimento, ragionamento online, ragionamento offline'/>
+            <meta name='keywords' content='ingegneria della conoscenza, intelligenza artificiale, ai, agente, agente computazionale,effettori,attuatori,sistema ad agenti, stimoli,body,percezioni ,body ,comandi,percept trace,percept stram,traccia di comando,trasduzione,funzione commando '/>
             <meta name='description' content='In questo articolo andremo ad approfondire lo spazio di progettazione degli agenti, con le relative proprietà e limiti. Infine definiremo alcune applicazioni in cui l&#39;intelligenza artificiale può essere
                      applicata, descrivendo in maniera generale alcuni esempi.'/>
             <meta name="robots" content="index, follow, max-snippet:[100]" />
@@ -54,7 +53,7 @@ function ICON3() {
             <section className='post-header'>
                 <div className='header-content post-container'>
                     
-                    <img loading="lazy" decoding="async" src={HomeIcon} alt="Logo della pagina riferita alla materia reti di calcolatori" className='header-img'/>
+                    <img loading="lazy" decoding="async" src={HomeIcon} alt="Logo della pagina riferita alla materia reti di calcolatori" className='header-img' title='Ingegneria della conoscenza'/>
                 </div>
             </section>
             <section className='post-content post-container'>
@@ -62,7 +61,7 @@ function ICON3() {
                     <Link to="/Spazio-di-progettazione-di-un-agente"> &#8592; Post precendente</Link>
                 </div>
                 <h1 className='header-title' itemprop="headline">3. All'interno di un agente: architettura e le funzioni agenti</h1>
-                <span  itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href='https://www.federicocalo.dev' className='autore'><span itemprop="name">Federico Calò</span></a></span> <span className='data' itemprop="datePublished" content="2023-01-03T07:30:00+08:00">03/01/2023</span>
+                <span  itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href='https://www.federicocalo.dev' className='autore'><span itemprop="name">Federico Calò</span></a></span> <time datetime="2023-01-03"className='data' itemprop="datePublished" content="2023-01-03T07:30:00+08:00">03/01/2023</time>
                                 
                 <p className='post-text first-text'>
                     Gli agenti sono costituiti da un corpo che può essere costituito da diversi elementi, concreti o meno. Quando un agente ha un corpo fisico, esso prende il nome di <strong>agente incarnato</strong>, un esempio sono i robot. Gli agenti ricevono informazioni tramite i <i>sensori</i>, le quali verranno elaborate e 
@@ -103,7 +102,9 @@ function ICON3() {
                     controllore è chiamato <strong>controllore a stati finiti</strong> o <strong>macchina a stati finiti</strong>.
                 </p>
                 
-                
+                <div className="succ-post">
+                    <Link to="/Controlli-e-azioni-di-un-agente">Post successivo &#8594;</Link>
+                 </div>
                 </section>
         </article>
         <Footer/>
