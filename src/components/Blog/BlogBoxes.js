@@ -24,8 +24,8 @@ function BlogBoxes() {
                 <article className='post-box uni all'>
                     <img loading="lazy" decoding="async" src={LogoIcon} alt="Logo riferito ai post della materia ingegneria della conoscenza" className='post-img' title='ingegneria della conoscenza'/>
                     <h3 className='category'>Appunti Università - Ingegneria della conoscenza</h3>
-                    <h1 className='post-title'>4. Controlli e azioni di un agente</h1>
-                    <time datetime="2023-01-07" className='post-date'> 7 Gennaio 2023</time>
+                    <h1 className='post-title'itemprop="headline">4. Controlli e azioni di un agente</h1>
+                    <time datetime="2023-01-07" className='post-date' itemprop="datePublished" content="2023-01-07T07:30:00+08:00"> 7 Gennaio 2023</time>
                     <p className='post-description'> In questo articolo andiamo a vedere nello specfico la logica del corpo di un agente, daremo un'occhiata alla sua architettura e come agisce, ovvero come usa le regole definite nel precedente articolo all'interno del suo ragionamento.</p>
                     <div className='link'>
                         <Link to="/Controlli-e-azioni-di-un-agente" className="btn">Leggi Post</Link>
