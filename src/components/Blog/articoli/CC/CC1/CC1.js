@@ -37,10 +37,10 @@ function CC1() {
             <meta name='og:description' content='In questo articolo introdurremo la materia della Calcolabilità e Complessità, dando una prima definizione delle teorie principali e definendo la terminologia e la notazione matematica che utilizzeremo per trattare questa materia. '/>
             <meta name='og:email' content='fedcal01@gmail.com'/>
             <meta name='og:phone_number' content='+39 3332673965'/>
-            <meta name="apple-mobile-web-app-title" content="Federico Calò Blog - 4. Controlli e azioni di un agente"/> 
+            <meta name="apple-mobile-web-app-title" content="Federico Calò Blog - 1. Introduzione alla compessità e alla computabilità"/> 
             <meta name='apple-mobile-web-app-capable' content='yes'/>
             <meta name='apple-touch-fullscreen' content='yes'/>
-            <link rel="canonical" href="https://www.federicocalo.dev/Controlli-e-azioni-di-un-agente" />
+            <link rel="canonical" href="https://www.federicocalo.dev/Introduzione-alla-Calcolabilita-e-Complessita" />
         </Helmet>
         <Navbar/>
         <article itemscope itemtype="https://schema.org/BlogPosting">
