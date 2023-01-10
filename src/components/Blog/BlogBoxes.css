@@ -94,6 +94,13 @@ section{
     color: var(--post-date);
 }
 
+.post .post-box .autore{
+    margin-bottom: 10px;
+    text-decoration: underline;
+    text-decoration-color: rgb(248, 198, 15);
+    text-decoration-thickness:2px ;
+}
+
 .post .post-box .post-description{
     font-size: 1.2rem;
     line-height: 25px;
