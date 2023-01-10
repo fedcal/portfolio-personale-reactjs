@@ -110,6 +110,9 @@
     <image:image>
        <image:loc>https://www.federicocalo.dev/static/media/icon_500.webp</image:loc>
     </image:image>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/cc_500.webp</image:loc>
+    </image:image>
   </url>
   <!-- Immagini /Reti-di-Calcolatori-Introduzione -->
   <url>
@@ -248,6 +251,16 @@
     <priority>01.0</priority>
     <image:image>
        <image:loc>https://www.federicocalo.dev/static/media/icon_1900.webp</image:loc>
+    </image:image>
+  </url>
+
+  <!-- Immagini /Introduzione-alla-Calcolabilita-e-Complessita -->
+  <url>
+    <loc>https://www.federicocalo.dev/Introduzione-alla-Calcolabilita-e-Complessita</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/cc_1900.webp</image:loc>
     </image:image>
   </url>
   
