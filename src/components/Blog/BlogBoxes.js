@@ -23,7 +23,7 @@ function BlogBoxes() {
                 <article className='post-box uni all'>
                     <img loading="lazy" decoding="async" src={LogoCC} alt="Logo riferito ai post della materia ingegneria della conoscenza" className='post-img' title='ingegneria della conoscenza'/>
                     <h3 className='category'>Appunti Università - Calcolabilità e complessità</h3>
-                    <h1 className='post-title'itemprop="headline">1. Introduzione alla compessità e alla computabilità</h1>
+                    <h1 className='post-title'itemprop="headline">1. Introduzione alla calcolabilità e alla complessià</h1>
                     <time datetime="2023-01-10" className='post-date'> 10 Gennaio 2023</time> <span  itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href='https://www.federicocalo.dev' className='autore'><span itemprop="name">Federico Calò</span></a></span>
                     <p className='post-description'> In questo articolo introdurremo la materia della Calcolabilità e Complessità, dando una prima definizione delle teorie principali e definendo la terminologia e la notazione matematica che utilizzeremo per trattare questa materia. </p>
                     <div className='link'>
