@@ -6,6 +6,7 @@ import LogoLibri from '../assets/libri_500.webp';
 import LogoIum from '../assets/ium_500.webp';
 import LogoIcon from '../assets/icon_500.webp';
 import LogoStudyCase from '../assets/caseStudy_500.webp';
+import LogoCC from '../assets/cc_500.webp';
 
 
 function BlogBoxes() {
@@ -19,13 +20,22 @@ function BlogBoxes() {
             </div>
             <section className='post container'>
             
-
+                <article className='post-box uni all'>
+                    <img loading="lazy" decoding="async" src={LogoCC} alt="Logo riferito ai post della materia ingegneria della conoscenza" className='post-img' title='ingegneria della conoscenza'/>
+                    <h3 className='category'>Appunti Università - Calcolabilità e complessità</h3>
+                    <h1 className='post-title'itemprop="headline">1. Introduzione alla calcolabilità e alla complessità</h1>
+                    <time datetime="2023-01-10" className='post-date'> 10 Gennaio 2023</time> <span  itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href='https://www.federicocalo.dev' className='autore'><span itemprop="name">Federico Calò</span></a></span>
+                    <p className='post-description'> In questo articolo introdurremo la materia della Calcolabilità e Complessità, dando una prima definizione delle teorie principali e definendo la terminologia e la notazione matematica che utilizzeremo per trattare questa materia. </p>
+                    <div className='link'>
+                        <Link to="/Introduzione-alla-Calcolabilita-e-Complessita" className="btn">Leggi Post</Link>
+                    </div>
+                </article>
 
                 <article className='post-box uni all'>
                     <img loading="lazy" decoding="async" src={LogoIcon} alt="Logo riferito ai post della materia ingegneria della conoscenza" className='post-img' title='ingegneria della conoscenza'/>
                     <h3 className='category'>Appunti Università - Ingegneria della conoscenza</h3>
                     <h1 className='post-title'itemprop="headline">4. Controlli e azioni di un agente</h1>
-                    <time datetime="2023-01-07" className='post-date' itemprop="datePublished" content="2023-01-07T07:30:00+08:00"> 7 Gennaio 2023</time>
+                    <time datetime="2023-01-07" className='post-date'> 7 Gennaio 2023</time> <span  itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href='https://www.federicocalo.dev' className='autore'><span itemprop="name">Federico Calò</span></a></span>
                     <p className='post-description'> In questo articolo andiamo a vedere nello specfico la logica del corpo di un agente, daremo un'occhiata alla sua architettura e come agisce, ovvero come usa le regole definite nel precedente articolo all'interno del suo ragionamento.</p>
                     <div className='link'>
                         <Link to="/Controlli-e-azioni-di-un-agente" className="btn">Leggi Post</Link>
@@ -37,7 +47,7 @@ function BlogBoxes() {
                     <h3 className='category'>Appunti Università - Ingegneria della conoscenza</h3>
                     <h1 className='post-title'>3. All'interno di un agente: architettura e le funzioni agenti</h1>
                     <time datetime="2023-01-03"className='post-date'> 3 Gennaio 2023</time>
-                    <p className='post-description'> Dopo aver spiegato lo spazio di progettazione di un agente, andiamo a comprendere la sua architettura, ovvero come come un agente intelligente può percepire, ragioanre e agire nel tempo in 
+                    <p className='post-description'> Dopo aver spiegato lo spazio di progettazione di un agente, andiamo a comprendere la sua architettura, ovvero come come un agente intelligente può percepire, ragionare e agire nel tempo in 
                     un ambiente. Andremo ad ispezionare la gerarchia all'interno di un agente e i modi in cui esso può essere costruito.</p>
                     <div className='link'>
                         <Link to="/All-interno-di-un-agente:-architettura-e-le-funzioni-agente" className="btn">Leggi Post</Link>

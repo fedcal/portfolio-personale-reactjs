@@ -19,6 +19,7 @@ import ICON1 from "./components/Blog/articoli/ICON/ICON1/ICON1";
 import ICON2 from "./components/Blog/articoli/ICON/ICON2/ICON2";
 import ICON3 from "./components/Blog/articoli/ICON/ICON3/ICON3";
 import ICON4 from "./components/Blog/articoli/ICON/ICON4/ICON4";
+import CC1 from "./components/Blog/articoli/CC/CC1/CC1";
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
         <Route path='/Spazio-di-progettazione-di-un-agente' element={<ICON2/>}/>
         <Route path='/All-interno-di-un-agente:-architettura-e-le-funzioni-agente' element={<ICON3/>}/>
         <Route path='/Controlli-e-azioni-di-un-agente' element={<ICON4/>}/>
+        <Route path='/Introduzione-alla-Calcolabilita-e-Complessita' element={<CC1/>}/>
 
       </Routes>
     </>

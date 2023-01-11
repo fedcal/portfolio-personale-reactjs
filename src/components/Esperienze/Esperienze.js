@@ -17,7 +17,7 @@ function Esperienze() {
                                 <h2 className='timeline-title'>Links Management and Technology SPA</h2>
                                 <p className='timeline-text'>Apprendistato nel ruolo di Beckend developer:
                                 <ul>
-                                    <li>Sviluppo beckend di applicazioni in ambito Pubblica amministrazione, attraverso il framework SpringBoot</li>
+                                    <li>Sviluppo beckend di applicazioni attraverso il framework SpringBoot</li>
                                 </ul>
                                 </p>
                             </div>

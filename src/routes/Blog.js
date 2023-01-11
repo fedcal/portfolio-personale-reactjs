@@ -9,12 +9,13 @@ function Blog() {
   return (
     <div>
       <Helmet>
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9556331893712433"
-     crossorigin="anonymous"></script>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9556331893712433"
+        crossorigin="anonymous"></script>
         <script src="./script.js" crossorigin="anonymous"/>
         <title>Federico Calò - Blog Personale</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name='keywords' content='Mondo informatico, blog personale, libri settoriali, libri informatica, hard skills, soft skills,blog informatica, appunti università, appunti universitari, reti di calcolatori, Libri, interazione uomo macchina.'/>
+        <meta name='keywords' content='Mondo informatico, blog personale, libri settoriali, libri informatica, hard skills, soft skills,blog informatica, appunti università, appunti universitari, reti di calcolatori, Libri, interazione uomo macchina, calcolabilità e complessità, ingegneria della conoscenza, study case, reti, commutazione, due tipi di commutazione,
+        gestionale associativo, sviluppo, utente, agente, spazio di progettazione, progettazione, applicazioni, applicazioni prototipiche, architettura, funzioni agenti, controlli, azioni'/>
         <meta name='description' content='Blog personale di Federico Calò relativo al mondo informatico, in cui si condividono anche appunti universitari e letture interessanti che aiutano a sviluppare le skill tecniche del settore.'/>
         <meta name='robots' content='index,follow'/>
         <meta name='language' content='IT'/>
