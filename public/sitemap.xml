@@ -370,6 +370,27 @@
     <lastmod>2023-01-21</lastmod>
   </url>
 
+  <!-- Immagini /Riducibilità-Pt-1 -->
+  <url>
+    <loc>https://www.federicocalo.dev/Riducibilità-Pt-1</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/cc_1900.webp</image:loc>
+    </image:image>
+    <lastmod>2023-01-21</lastmod>
+  </url>
+  <!-- Immagini /Riducibilità-Pt-2 -->
+  <url>
+    <loc>https://www.federicocalo.dev/Riducibilità-Pt-2</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/cc_1900.webp</image:loc>
+    </image:image>
+    <lastmod>2023-01-21</lastmod>
+  </url>
+
 
   
   
