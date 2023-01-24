@@ -1,0 +1,135 @@
+:root{
+    --container-color: #1a1e21;
+    --second-color: rgb(248, 217, 15);
+    --text-color: #172317;
+    --bg-color: #fff;
+    --post-categori:rgb(248, 186, 15);
+    --post-title:rgb(248, 217, 15);
+    --post-date:rgb(74, 185, 250);
+}
+
+section{
+    padding: 3rem 0 2rem;
+}
+
+.container{
+    max-width: 1800px;
+    margin: auto;
+    width:100%;
+    color: #fff;
+}
+
+.post-filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 1.5rem;
+    margin-top: 2rem;
+}
+.post-filter .filter-item{
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 5px;
+}
+.post-filter  .active-filter{
+    background: var(--second-color);
+    padding: 4px 10px;
+    border-radius: 4px;
+    color: #000;
+}
+
+.post{
+    display: flex;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.post .post-box{
+    background: #1a1919;
+    padding: 15px;
+    border-radius: 0.5rem;
+    border: 1px solid #fff;
+    max-height: 850px;
+    width: 380px;
+    margin: 10px 10px 30px 10px;
+    flex-direction: column;
+    display: flex;
+}
+
+.post .post-box .post-img{
+    width: 100%;
+    height: 200px;
+    object-position: center;
+    border-radius: 0.5rem;
+}
+
+.post .post-box .category{
+    font-size: 1.05rem;
+    color: var(--post-categori);
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+.post .post-box .post-title{
+    font-size: 1.6rem;
+    color: var(--post-title);
+    margin-bottom: 5px;
+    font-weight: 700;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.post .post-box .post-date{
+    display: flex;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: var(--post-date);
+}
+
+.post .post-box .autore{
+    margin-bottom: 10px;
+    text-decoration: underline;
+    text-decoration-color: rgb(248, 198, 15);
+    text-decoration-thickness:2px ;
+}
+
+.post .post-box .post-description{
+    font-size: 1.2rem;
+    line-height: 25px;
+    margin: 5px 0 25px;
+}
+.post .post-box .link{
+    margin-bottom: 15px;
+    bottom: 0;
+    margin:auto;
+    padding:20px
+}
+.first-text{
+    margin-top: 25px;
+}
+
+
+@media screen and (max-width:1150px){
+    .post{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width:799px){
+    .post{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media screen and (max-width:599px){
+    .post{
+        justify-content: center;
+    }
+}
