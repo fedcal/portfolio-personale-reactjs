@@ -16,8 +16,8 @@ function CC9() {
             crossorigin="anonymous"></script>
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <title>Federico Calò Blog - 9. Riducibilità Pt. 2</title>
-            <meta name='keywords' content='riducibilità, riduzione, problema della fermata, Teorma HALT indecidibile, metodo mediante storie di computazione, Definizione di storia di computazione accettante,storia di computazione accettante,storia di computazione di rifiuto,automa linearmente limitato, Definizione di automa linearmente limitato, Teorema dedicibilità'/>
-            <meta name='description' content=' In questo articolo introduciamo un altro metodo per dimostrare che un problema non è computazionalmente irrisolvibile, un metodo che comunemente viene chiamato riducibilità.'/>
+            <meta name='keywords' content='Riducibilità, problema della corrispondenza di Post, riducibilità mediante funzione, terema PCP indecidibile,riducibilità mediante funzione, funzione calcolabile, Definizione di funzione calcolabile, Definizione di riducibilità mediante funzione, riducibile mediante funzione, riduzione, Teorema Riduzione '/>
+            <meta name='description' content=' In questa seconda parte dedicata alla riducibilità parliamo del problema della corrispondenza di Post e della riducibilità mediante funzione.'/>
             <meta name="robots" content="index, follow, max-snippet:[100]" />
             <meta name="googlebot" content="index, follow,  max-snippet:[100] max-image-preview:[standard]"/>
             <meta name="googlebot-news" content="index, follow, max-snippet:[100] max-image-preview:[standard]"/>
@@ -26,7 +26,7 @@ function CC9() {
             <meta name='topic' content='Programmazione e Sviluppo'/>
             <meta name='author' content='Federico Calò, fedcal01@gmail.com'/>
             <meta name='og:title' content='Federico Calò Blog - 9. Riducibilità Pt. 2'/>
-            <meta name='og:description' content=' In questo articolo introduciamo un altro metodo per dimostrare che un problema non è computazionalmente irrisolvibile, un metodo che comunemente viene chiamato riducibilità.'/>
+            <meta name='og:description' content=' In questa seconda parte dedicata alla riducibilità parliamo del problema della corrispondenza di Post e della riducibilità mediante funzione.'/>
             <meta name='og:email' content='fedcal01@gmail.com'/>
             <meta name='og:phone_number' content='+39 3332673965'/>
             <meta name="apple-mobile-web-app-title" content="Federico Calò Blog - 9. Riducibilità Pt. 2"/> 
@@ -65,19 +65,65 @@ function CC9() {
               </p>
 
               <p className='post-text'>
-                Questo problema chiede di determinare se un insieme di tessere ammette un match, problema che però non può essere risolto mediante algoritmo. Prima di enunciare il relativo teorema e dimostrarlo, formalizziamolo ed esprimialo attraverso un linguaggio. Un'istanza di PCP è un insieme P di tessere <InlineMath math='\bigl\{ \bigl[ \frac{t_1}{b_1} \bigr], \bigl[ \frac{t_2}{b_2} \bigr],\dots, \bigl[ \frac{t_k}{b_k} \bigr] \bigr\}'/>, ed un match è una sequenza 
-                <InlineMath math='i_1, i_2, \dots, i_l,'/> dove <InlineMath math='t_{i_1},t_{i_2}, \dots, t_{i_l} = b_{i_1},b_{i_2}, \dots, b_{i_l}'/>. Quindi, fatte queste premesse possiamo definere formalmente PCP come: PCP = {"{"}{"<"} P {">"} | P è un'istanza del Problema della corrispondenza di Post che ammette un match {"}"}. A questo punto possiamo enunciare il seguente teorema:
+                Questo problema chiede di determinare se un insieme di tessere ammette un match, problema che però non può essere risolto mediante algoritmo. Prima di enunciare il relativo teorema e dimostrarlo, formalizziamolo ed esprimiamolo attraverso un linguaggio. Un'istanza di PCP è un insieme P di tessere <InlineMath math='\bigl\{ \bigl[ \frac{t_1}{b_1} \bigr], \bigl[ \frac{t_2}{b_2} \bigr],\dots, \bigl[ \frac{t_k}{b_k} \bigr] \bigr\}'/>, ed un match è una sequenza <InlineMath math='i_1, i_2, \dots, i_l,'/> dove <InlineMath math='t_{i_1},t_{i_2}, \dots, t_{i_l} = b_{i_1},b_{i_2}, \dots, b_{i_l}'/>. 
+                Quindi, fatte queste premesse possiamo definire formalmente PCP come: PCP = {"{"}{"<"} P {">"} | P è un'istanza del Problema della corrispondenza di Post che ammette un match {"}"}. A questo punto possiamo enunciare il seguente teorema:
               </p>
 
               <dl className='definizione'>
-                    <dt><strong>Teorema PCP indicibile</strong></dt>
+                    <dt><strong>Teorema PCP indecidibile</strong></dt>
                     <dd>
                         PCP è indecidibile.
                     </dd>
               </dl>
               
               <p className='post-text'>
-                L'idea alla base della dimostrazione di questo teorema consiste nel creare una riduzione da <InlineMath math='A_{TM}'/> mediante storie di computazione accettanti. Mostriamo che per ogni TM M ed input w, possiamo costruire un'istanza P dove un match è una storia di computazione accettante per M su w.
+                L'idea alla base della dimostrazione di questo teorema consiste nel creare una riduzione da <InlineMath math='A_{TM}'/> mediante storie di computazione accettanti. Mostriamo che per ogni TM M ed input w, possiamo costruire un'istanza P dove un match è una storia di computazione accettante per M su w. Se potessimo determinare se un'istanza ammette un match, saremmo in grado di determinare se M accetta w o meno. Per determinare P in modo tale che un match 
+                sia una storia di computazione accettante per M su w, Scegliamo le tessere in P in modo tale che un match forza l'esecuzione di una simulazione di M. Nel match, ogni tessera collega una o più posizioni in una configurazione con la corrispondente o le corrispondenti nella configurazione successiva. Inoltre bisogna considerare alcuni dettagli tecnici. Si assume che M su w non tenta mai di muovere la testina oltre l'estremità sinistra del nastro. Per ottenere ciò, 
+                si modifica M e imponiamo <InlineMath math='\bigl[ \frac{t_1}{b_1} \bigr]'/> come prima tessera. Infine si sostituisce il termine <InlineMath math='\epsilon'/> con il termine <InlineMath math='\sqcup'/>
+              </p>
+
+              <p className='post-text'>
+                Per determinare la serie di articoli dedicati alla riducibilità, formalizziamo il concetto per applicare la dimostrazione anche in diversi campi, come quello della complessità. Diamo quindi la definizione di riducibilità come <strong>riducibilità mediante funzione</strong>. Questa definizione, che andremo ad enunciare tra poco, si basa sul fatto di ridurre un problema A a un problema B utilizzando una funzione calcolabile che trasforma istanza del problema A in istanze 
+                del problema B. Tale funzione prende il nome di <i>riduzione</i> e permette quindi di risolvere A mediante la risoluzione di istanze di B. Questo fatto si spiega banalmente per via che una qualsiasi istanza di A, per essere risolta, viene trasformata attraverso questa funzione in un'istanza di B e per poi risolvere l'istanza convertita. Diamo una prima definizione di <strong>funzione calcolabile</strong>.
+              </p>
+
+              <dl className='definizione'>
+                    <dt><strong>Definizione di funzione calcolabile</strong></dt>
+                    <dd>
+                      Una funzion f : <InlineMath math='\sum* \longrightarrow \sum*'/> è una <strong>funzione calcolabile</strong> se esiste una macchina di Turing M che, su qualsiasi input w, si ferma avendo solo f(w) sul nastro.
+                    </dd>
+              </dl>
+
+              <dl className='definizione'>
+                    <dt><strong>Definizione di riducibilità mediante funzione</strong></dt>
+                    <dd>
+                      Un linguaggio A si dice <strong>riducibile mediante funzione</strong> al linguaggio B e si denota con A <InlineMath math='\leq'/> B, se esiste una funzione calcolabile f: <InlineMath math='\sum* \longrightarrow \sum*'/>, dove per ogni w: <InlineMath math='w \in A \iff f(w) \in B'/>. La 
+                      funzione f è chiamata <strong>riduzione</strong> da A a B.
+                    </dd>
+              </dl>
+
+              <p className='post-text'>
+                Una riduzione mediante funzione da A a B fornisce un modo per convertire problemi di appartenenza ad A in problemi di appartenenza a B. Per verificare se w <InlineMath math='\in'/> A, usiamo la riduzione f per mappare w in f(w) e verifichiamo se f(w) <InlineMath math='\in'/> B o meno. Se un problema è riducibile mediante funzione ad un secondo problema, già precedentemente risolto, possiamo ottenere da questo una soluzione al problema originale.
+              </p>
+
+              <dl className='definizione'>
+                    <dt><strong>Teorema Riduzione</strong></dt>
+                    <dd>
+                      Se A <InlineMath math='\leq'/> B e B è decidibile, allora A è decidibile.
+                    </dd>
+              </dl>
+
+              <p className='post-text'>
+                Per dimostrare questo teorema definiamo M come decisore per B e f la funzione di riduzione da A a B. Descriviamo un decisore N per A come segue: N = " Su input w:
+              </p>
+
+              <ul>
+                <li>Computa f(w)</li>
+                <li>Esegue M su input f(w) e restituisce lo stesso output di M."</li>
+              </ul>
+
+              <p className='post-text'>
+                Ovviamente, se <InlineMath math='w \in A'/>, allora <InlineMath math='f(w) \in B'/> perchè f è una riduzione da A a B. Quindi, MJ accetta f(w) ogni volta che <InlineMath math='w \in A'/>. Quindi, N svolge il compito desiderato. <br/> Inoltre questo teorema, richiama un corollario che enuncia che se <InlineMath math='A \leq B'/> e A è indecidibile, allora B è indecidibile.
               </p>
 
             </section>
