@@ -27,11 +27,11 @@ function CC10() {
             <meta name='language' content='IT'/>
             <meta name='topic' content='Programmazione e Sviluppo'/>
             <meta name='author' content='Federico Calò, fedcal01@gmail.com'/>
-            <meta name='og:title' content='Federico Calò Blog - 9. Riducibilità Pt. 2'/>
+            <meta name='og:title' content='Federico Calò Blog - 10. Complessità temporale'/>
             <meta name='og:description' content=' In questo parleremo della complessità temporale partendo dalle sue basi. Anche se un problema risulta decidibile, questo può anche non essere risolvibile a causa di una quantità di tempo o di memoria impiegati nella sua risoluzione.'/>
             <meta name='og:email' content='fedcal01@gmail.com'/>
             <meta name='og:phone_number' content='+39 3332673965'/>
-            <meta name="apple-mobile-web-app-title" content="Federico Calò Blog - 9. Riducibilità Pt. 2"/> 
+            <meta name="apple-mobile-web-app-title" content="Federico Calò Blog - 10. Complessità temporale"/> 
             <meta name='apple-mobile-web-app-capable' content='yes'/>
             <meta name='apple-touch-fullscreen' content='yes'/>
             <link rel="canonical" href="https://www.federicocalo.dev/Complessità-temporale" />

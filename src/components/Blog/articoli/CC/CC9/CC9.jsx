@@ -125,7 +125,9 @@ function CC9() {
               <p className='post-text'>
                 Ovviamente, se <InlineMath math='w \in A'/>, allora <InlineMath math='f(w) \in B'/> perchè f è una riduzione da A a B. Quindi, MJ accetta f(w) ogni volta che <InlineMath math='w \in A'/>. Quindi, N svolge il compito desiderato. <br/> Inoltre questo teorema, richiama un corollario che enuncia che se <InlineMath math='A \leq B'/> e A è indecidibile, allora B è indecidibile.
               </p>
-
+                <div className="succ-post">
+                    <Link to="/Complessità-temporale">Post successivo &#8594;</Link>
+                </div>
             </section>
         </article>
         <Footer/>
