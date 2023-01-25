@@ -345,7 +345,7 @@
     <image:image>
        <image:loc>https://www.federicocalo.dev/static/media/cc_1900.webp</image:loc>
     </image:image>
-    <lastmod>2023-01-20</lastmod>
+    <lastmod>2023-01-25</lastmod>
   </url>
 
   <!-- Immagini /Le-macchine-di-Turing -->
@@ -356,7 +356,7 @@
     <image:image>
        <image:loc>https://www.federicocalo.dev/static/media/cc_1900.webp</image:loc>
     </image:image>
-    <lastmod>2023-01-21</lastmod>
+    <lastmod>2023-01-25</lastmod>
   </url>
 
   <!-- Immagini /Dedicibilità-e-indecidibilità -->
@@ -367,7 +367,7 @@
     <image:image>
        <image:loc>https://www.federicocalo.dev/static/media/cc_1900.webp</image:loc>
     </image:image>
-    <lastmod>2023-01-21</lastmod>
+    <lastmod>2023-01-25</lastmod>
   </url>
 
   <!-- Immagini /Riducibilità-Pt-1 -->
@@ -378,7 +378,7 @@
     <image:image>
        <image:loc>https://www.federicocalo.dev/static/media/cc_1900.webp</image:loc>
     </image:image>
-    <lastmod>2023-01-21</lastmod>
+    <lastmod>2023-01-25</lastmod>
   </url>
   <!-- Immagini /Riducibilità-Pt-2 -->
   <url>
@@ -388,8 +388,20 @@
     <image:image>
        <image:loc>https://www.federicocalo.dev/static/media/cc_1900.webp</image:loc>
     </image:image>
-    <lastmod>2023-01-21</lastmod>
+    <lastmod>2023-01-25</lastmod>
   </url>
+
+   <!-- Immagini /Complessità-temporale -->
+  <url>
+    <loc>https://www.federicocalo.dev/Complessità-temporale</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/cc_1900.webp</image:loc>
+    </image:image>
+    <lastmod>2023-01-25</lastmod>
+  </url>
+
 
 
   

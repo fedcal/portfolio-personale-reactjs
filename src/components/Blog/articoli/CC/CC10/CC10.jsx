@@ -16,7 +16,9 @@ function CC10() {
             crossorigin="anonymous"></script>
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <title>Federico Calò Blog - 10. Complessità temporale</title>
-            <meta name='keywords' content='complessità temporale, tempo di esecuzione, complessità di tempo, analisi asintotica, notazione asintotica, notazione O-grande, limite superiore, limite superiore asintotico,limiti esponenziali,limiti polinomiali,asintoticamente non più grande, notazione o-piccolo, asintoticamente più piccola, Definizione notazione o-piccola'/>
+            <meta name='keywords' content='complessità temporale, tempo di esecuzione, complessità di tempo, analisi asintotica, notazione asintotica, notazione O-grande, limite superiore, limite superiore asintotico,limiti esponenziali,limiti polinomiali,asintoticamente non più grande, notazione o-piccolo, asintoticamente più piccola, Definizione notazione o-piccola, classe di complessità di tempo,funzione di esecuzione, classe polinomiale,classe non polinomiale,polinomialmente equivalenti,Definizione della classe polinomiale P,Definizione della classe polinomiale NP,
+            verificatore, tempo polinomiale non deterministico,Definizione di verificatore,verificatore in tempo polinomiale,polinomialmente verificabile, Definizione di NTIME ( t ( n ) ), NTIME, NP-completi, problema della soddisfacibilità, riducibilità in tempo polinomiale, Definizione di funzione calcolabile in tempo polinomiale,  funzione calcolabile in tempo polinomiale,Definizione di riducibilità in tempo polinomiale,riducibile mediante funzione in tempo polinomiale, riducibile in tempo polinomiale, NP-completo, Definizione di NP-completo, forma normale congiuntiva,
+            formula cnf, letterale,Teorema Cook-Levin'/>
             <meta name='description' content=' In questo parleremo della complessità temporale partendo dalle sue basi. Anche se un problema risulta decidibile, questo può anche non essere risolvibile a causa di una quantità di tempo o di memoria impiegati nella sua risoluzione.'/>
             <meta name="robots" content="index, follow, max-snippet:[100]" />
             <meta name="googlebot" content="index, follow,  max-snippet:[100] max-image-preview:[standard]"/>
@@ -51,7 +53,7 @@ function CC10() {
                 </div>
 
                 <h1 className='header-title' itemProp="headline">10. Complessità temporale</h1>
-                <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span> <time dateTime="2023-01-24" className='data' itemProp="datePublished" content="2023-01-24T07:30:00+08:00">24/01/2023</time>
+                <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span> <time dateTime="2023-01-25" className='data' itemProp="datePublished" content="2023-01-25T07:30:00+08:00">25/01/2023</time>
                                 
                 <p className='post-text first-text' itemProp='description'>
                     In questo parleremo della <strong>complessità temporale</strong> partendo dalle sue basi. Anche se un problema risulta decidibile, questo può anche non essere risolvibile a causa di una quantità di tempo o di memoria impiegati nella sua risoluzione. La prima misura fondamentale è il <strong>tempo di esecuzione</strong> o <strong>complessità di tempo</strong>, 
@@ -60,9 +62,9 @@ function CC10() {
                 </p>
 
                 <p className='post-text'>
-                    Quindi possiamo dire che il tempo di esecuzione di un algoritmo è espresso tramite un'espressione complessa, di cui ci si limita ad una stima. Un metodo di stima comunemente utilizzato è l'<strong>analisi asintotica</strong>, mediante il quale si valuta il tempo di esecuzione dell'algoritmo quando viene eseguito su grandi input. In questa analisi si prende in considferazione 
-                    solo il termine di ordine maggiore dell'espressione del tempo di esecuzione dell'algoritmo, trascurandone il suo coefficente e tutti i termini di ordine inferiore, perchè il termine di ordine più alto domina gli altri termini quando l'input è grande. Questa notazione prende il nome di <strong>notazione asintotica</strong> o <strong>notazione O-grande</strong>. Prendendo in considerazione 
-                    <InlineMath math='R^+'/> come insieme dei numeri reali non negativi, definiamo le funzioni f e g nel seguente modo: "f,g :  <InlineMath math='N \longrightarrow R^+'/>." Si dice che f(n)=O(g(n)) se esistono interi positivi c e <InlineMath math='n_0'/> tali che per ogni <InlineMath math='n \geq n_0'/>, <InlineMath math='f(n) \leq c g(n)'/>. Quando f(n) = O(g(n)), diciamo che g(n) è 
+                    Quindi possiamo dire che il tempo di esecuzione di un algoritmo è espresso tramite un'espressione complessa, di cui ci si limita ad una stima. Un metodo di stima comunemente utilizzato è l'<strong>analisi asintotica</strong>, mediante il quale si valuta il tempo di esecuzione dell'algoritmo quando viene eseguito su grandi input. In questa analisi si prende in considerazione 
+                    solo il termine di ordine maggiore dell'espressione del tempo di esecuzione dell'algoritmo, trascurandone il suo coefficiente e tutti i termini di ordine inferiore, perchè il termine di ordine più alto domina gli altri termini quando l'input è grande. Questa notazione prende il nome di <strong>notazione asintotica</strong> o <strong>notazione O-grande</strong>. Prendendo in considerazione <InlineMath math='R^+'/> come 
+                    insieme dei numeri reali non negativi, definiamo le funzioni f e g nel seguente modo: "f,g :  <InlineMath math='N \longrightarrow R^+'/>." Si dice che f(n)=O(g(n)) se esistono interi positivi c e <InlineMath math='n_0'/> tali che per ogni <InlineMath math='n \geq n_0'/>, <InlineMath math='f(n) \leq c g(n)'/>. Quando f(n) = O(g(n)), diciamo che g(n) è 
                     un <strong>limite superiore</strong> per f(n), o più precisamente g(n) è un <strong>limite superiore asintotico</strong> per f(n). Notiamo che in questa fase stiamo ignorando le costanti.
                 </p>
 
@@ -92,7 +94,7 @@ function CC10() {
                 <dl className='definizione'>
                     <dt><strong>Definizione della classe polinomiale P</strong></dt>
                     <dd>
-                        <strong>P</strong> è la classe di linguaggi che sono decidibili in tempo polinomiale su una macchina di Turing deterministica a singo nastro. Ovvero la classe P è la clase in cui vale la seguente formula: P = <InlineMath math='\cup_k TIME ( n^k )'/>
+                        <strong>P</strong> è la classe di linguaggi che sono decidibili in tempo polinomiale su una macchina di Turing deterministica a singolo nastro. Ovvero la classe P è la classe in cui vale la seguente formula: P = <InlineMath math='\cup_k TIME ( n^k )'/>
                     </dd>
                 </dl>
 
@@ -117,8 +119,8 @@ function CC10() {
                 </dl>
 
                 <p className='post-text'>
-                    Il termine NP deriva da <strong>tempo polinomiale non deterministico</strong> e deriva da una caratterizzazione alternativa che utilizza le macchine di Turiong non deterministiche 
-                    di tempo polinomiale. Nella definizione abbiamo parlato di verificatore, senza però darne una definizione, cosa che ci apprestiamo a fare ora.S
+                    Il termine NP deriva da <strong>tempo polinomiale non deterministico</strong> e deriva da una caratterizzazione alternativa che utilizza le macchine di Turing non deterministiche 
+                    di tempo polinomiale. Nella definizione abbiamo parlato di verificatore, senza però darne una definizione, cosa che ci apprestiamo a fare ora.
                 </p>
 
                 <dl className='definizione'>
@@ -144,7 +146,7 @@ function CC10() {
                 <p className='post-text'>
                     La classe NP è una classe indifferente alla scelta di un modello computazionale ragionevole non deterministico, in quanto tutti questi modelli sono polinominalmente equivalenti. Si utilizzano 
                     le stesse convenzioni per gli algoritmi di tempo polinomiale deterministici per descrivere e analizzare algoritmi non deterministici aventi tempo polinomiale. Ogni fase di un algoritmo non deterministico 
-                    di tempo polinomiale deve avere una chjiara implementazione in un tempo polinomiale non deterministico su un modello di calcolo non deterministico ragionevole. 
+                    di tempo polinomiale deve avere una chiara implementazione in un tempo polinomiale non deterministico su un modello di calcolo non deterministico ragionevole. 
                 </p>
 
                 <p className='post-text'>
@@ -154,8 +156,8 @@ function CC10() {
                 </p>
 
                 <p className='post-text'>
-                    Un esempio di problema NP-completo è il <strong>problema della soddisfacibilità</strong>, la cui descrizione viene tralasciata per definire altri aspetti più importnati, uno tra tanti la <strong>riducibilità in tempo polinomiale</strong>. 
-                    Quando un problema A è riducibile eddicientemente al problema B, una soluzione efficiente per B può essere usata per risolvere A eddicientemente. Diamo due definizioni importanti:
+                    Un esempio di problema NP-completo è il <strong>problema della soddisfacibilità</strong>, la cui descrizione viene tralasciata per definire altri aspetti più importanti, uno tra tanti la <strong>riducibilità in tempo polinomiale</strong>. 
+                    Quando un problema A è riducibile efficientemente al problema B, una soluzione efficiente per B può essere usata per risolvere A eficientemente. Diamo due definizioni importanti:
                 </p>
 
                 <dl className='definizione'>

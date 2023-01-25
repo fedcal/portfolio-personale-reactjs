@@ -27,7 +27,7 @@ function BlogBoxes() {
                     <img loading="lazy" decoding="async" src={LogoCC} alt="Logo riferito ai post della materia ingegneria della conoscenza" className='post-img' title='ingegneria della conoscenza'/>
                     <h3 className='category'>Appunti Università - Calcolabilità e complessità</h3>
                     <h1 className='post-title' itemProp="headline">10. Complessità temporale</h1>
-                    <time dateTime="2023-01-21" className='post-date' temprop="datePublished" content="2023-01-24T08:00:00+08:00"> 24 Gennaio 2023</time> <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span>
+                    <time dateTime="2023-01-25" className='post-date' temprop="datePublished" content="2023-01-25T08:00:00+08:00"> 25 Gennaio 2023</time> <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span>
                     <p className='post-description' itemProp='description'> In questo parleremo della complessità temporale partendo dalle sue basi. Anche se un problema risulta decidibile, questo può anche non essere risolvibile a causa di una quantità di tempo o di memoria impiegati nella sua risoluzione.</p>
                     <div className='link'>
                         <Link to="/Complessità-temporale" className="btn">Leggi Post</Link>
@@ -39,7 +39,7 @@ function BlogBoxes() {
                     <img loading="lazy" decoding="async" src={LogoCC} alt="Logo riferito ai post della materia ingegneria della conoscenza" className='post-img' title='ingegneria della conoscenza'/>
                     <h3 className='category'>Appunti Università - Calcolabilità e complessità</h3>
                     <h1 className='post-title' itemProp="headline">9. Riducibilità Pt. 2</h1>
-                    <time dateTime="2023-01-21" className='post-date' temprop="datePublished" content="2023-01-24T08:00:00+08:00"> 24 Gennaio 2023</time> <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span>
+                    <time dateTime="2023-01-24" className='post-date' temprop="datePublished" content="2023-01-24T08:00:00+08:00"> 24 Gennaio 2023</time> <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span>
                     <p className='post-description' itemProp='description'> In questa seconda parte dedicata alla riducibilità parliamo del problema della corrispondenza di Post e della riducibilità mediante funzione.</p>
                     <div className='link'>
                         <Link to="/Riducibilità-Pt-2" className="btn">Leggi Post</Link>
@@ -51,7 +51,7 @@ function BlogBoxes() {
                     <img loading="lazy" decoding="async" src={LogoCC} alt="Logo riferito ai post della materia ingegneria della conoscenza" className='post-img' title='ingegneria della conoscenza'/>
                     <h3 className='category'>Appunti Università - Calcolabilità e complessità</h3>
                     <h1 className='post-title' itemProp="headline">8. Riducibilità Pt. 1</h1>
-                    <time dateTime="2023-01-21" className='post-date' temprop="datePublished" content="2023-01-24T08:00:00+08:00"> 24 Gennaio 2023</time> <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span>
+                    <time dateTime="2023-01-24" className='post-date' temprop="datePublished" content="2023-01-24T08:00:00+08:00"> 24 Gennaio 2023</time> <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span>
                     <p className='post-description' itemProp='description'> In questo articolo introduciamo un altro metodo per dimostrare che un problema non è computazionalmente irrisolvibile, un metodo che comunemente viene chiamato riducibilità.</p>
                     <div className='link'>
                         <Link to="/Riducibilità-Pt-1" className="btn">Leggi Post</Link>
