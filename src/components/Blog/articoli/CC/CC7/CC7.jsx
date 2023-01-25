@@ -194,7 +194,10 @@ function CC7() {
                 <p className='post-text'>
                     Questa è la dimostrazione che l'insieme di tutti i linguaggio non può essere messo in corrispondenza biunivoca con l'insieme di tutte le macchine di Turing.
                 </p>
-                        
+
+                <div className="succ-post">
+                    <Link to="/Riducibilità-Pt-1">Post successivo &#8594;</Link>
+                </div>
             </section>
         </article>
         <Footer/>

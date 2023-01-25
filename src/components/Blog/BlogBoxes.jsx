@@ -23,6 +23,19 @@ function BlogBoxes() {
             <section className='post container'>
 
                 <article  itemScope  itemType="https://schema.org/Article" className='post-box uni all'>
+                    <meta itemProp="image" content="https://www.federicocalo.dev/static/media/cc_500.webp" />
+                    <img loading="lazy" decoding="async" src={LogoCC} alt="Logo riferito ai post della materia ingegneria della conoscenza" className='post-img' title='ingegneria della conoscenza'/>
+                    <h3 className='category'>Appunti Università - Calcolabilità e complessità</h3>
+                    <h1 className='post-title' itemProp="headline">10. Complessità temporale</h1>
+                    <time dateTime="2023-01-21" className='post-date' temprop="datePublished" content="2023-01-24T08:00:00+08:00"> 24 Gennaio 2023</time> <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span>
+                    <p className='post-description' itemProp='description'> In questo parleremo della complessità temporale partendo dalle sue basi. Anche se un problema risulta decidibile, questo può anche non essere risolvibile a causa di una quantità di tempo o di memoria impiegati nella sua risoluzione.</p>
+                    <div className='link'>
+                        <Link to="/Complessità-temporale" className="btn">Leggi Post</Link>
+                    </div>
+                </article>
+
+                <article  itemScope  itemType="https://schema.org/Article" className='post-box uni all'>
+                    <meta itemProp="image" content="https://www.federicocalo.dev/static/media/cc_500.webp" />
                     <img loading="lazy" decoding="async" src={LogoCC} alt="Logo riferito ai post della materia ingegneria della conoscenza" className='post-img' title='ingegneria della conoscenza'/>
                     <h3 className='category'>Appunti Università - Calcolabilità e complessità</h3>
                     <h1 className='post-title' itemProp="headline">9. Riducibilità Pt. 2</h1>
@@ -34,6 +47,7 @@ function BlogBoxes() {
                 </article>
 
                 <article  itemScope  itemType="https://schema.org/Article" className='post-box uni all'>
+                    <meta itemProp="image" content="https://www.federicocalo.dev/static/media/cc_500.webp" />
                     <img loading="lazy" decoding="async" src={LogoCC} alt="Logo riferito ai post della materia ingegneria della conoscenza" className='post-img' title='ingegneria della conoscenza'/>
                     <h3 className='category'>Appunti Università - Calcolabilità e complessità</h3>
                     <h1 className='post-title' itemProp="headline">8. Riducibilità Pt. 1</h1>
@@ -45,6 +59,7 @@ function BlogBoxes() {
                 </article>
 
                 <article  itemScope  itemType="https://schema.org/Article" className='post-box uni all'>
+                    <meta itemProp="image" content="https://www.federicocalo.dev/static/media/cc_500.webp" />
                     <img loading="lazy" decoding="async" src={LogoCC} alt="Logo riferito ai post della materia ingegneria della conoscenza" className='post-img' title='ingegneria della conoscenza'/>
                     <h3 className='category'>Appunti Università - Calcolabilità e complessità</h3>
                     <h1 className='post-title' itemProp="headline">7. Decidibilità e indecibilità</h1>
@@ -56,6 +71,7 @@ function BlogBoxes() {
                 </article>
                 
                 <article  itemScope  itemType="https://schema.org/Article" className='post-box uni all'>
+                    <meta itemProp="image" content="https://www.federicocalo.dev/static/media/cc_500.webp" />
                     <img loading="lazy" decoding="async" src={LogoCC} alt="Logo riferito ai post della materia ingegneria della conoscenza" className='post-img' title='ingegneria della conoscenza'/>
                     <h3 className='category'>Appunti Università - Calcolabilità e complessità</h3>
                     <h1 className='post-title' itemProp="headline">6. Le macchine di Turing</h1>
@@ -67,6 +83,7 @@ function BlogBoxes() {
                 </article>
 
                 <article  itemScope  itemType="https://schema.org/Article" className='post-box uni all'>
+                    <meta itemProp="image" content="https://www.federicocalo.dev/static/media/cc_500.webp" />
                     <img loading="lazy" decoding="async" src={LogoCC} alt="Logo riferito ai post della materia ingegneria della conoscenza" className='post-img' title='ingegneria della conoscenza'/>
                     <h3 className='category'>Appunti Università - Calcolabilità e complessità</h3>
                     <h1 className='post-title' itemProp="headline">5. Linguaggi non context-free e linguaggi context-free deterministici</h1>
@@ -78,6 +95,7 @@ function BlogBoxes() {
                 </article>
 
                 <article  itemScope  itemType="https://schema.org/Article" className='post-box uni all'>
+                    <meta itemProp="image" content="https://www.federicocalo.dev/static/media/cc_500.webp" />
                     <img loading="lazy" decoding="async" src={LogoCC} alt="Logo riferito ai post della materia ingegneria della conoscenza" className='post-img' title='ingegneria della conoscenza'/>
                     <h3 className='category'>Appunti Università - Calcolabilità e complessità</h3>
                     <h1 className='post-title' itemProp="headline">4. Linguaggi context-free e automi a pila</h1>
@@ -89,6 +107,7 @@ function BlogBoxes() {
                 </article>
 
                 <article  itemScope  itemType="https://schema.org/Article" className='post-box altro all'>
+                    <meta itemProp="image" content="https://www.federicocalo.dev/static/media/cc_500.webp" />
                     <img loading="lazy" decoding="async" src={LatexImg} alt="Logo riferito ai post della materia ingegneria della conoscenza" className='post-img' title='ingegneria della conoscenza'/>
                     <h3 className='category'>Altro</h3>
                     <h1 className='post-title' itemProp="headline">Latex: simboli e sintassi</h1>
@@ -100,6 +119,7 @@ function BlogBoxes() {
                 </article>
 
                 <article  itemScope  itemType="https://schema.org/Article" className='post-box uni all'>
+                    <meta itemProp="image" content="https://www.federicocalo.dev/static/media/cc_500.webp" />
                     <img loading="lazy" decoding="async" src={LogoCC} alt="Logo riferito ai post della materia ingegneria della conoscenza" className='post-img' title='ingegneria della conoscenza'/>
                     <h3 className='category'>Appunti Università - Calcolabilità e complessità</h3>
                     <h1 className='post-title' itemProp="headline">3. Espressioni regolari e Linguaggi non regolari</h1>
@@ -111,6 +131,7 @@ function BlogBoxes() {
                 </article>
             
                 <article  itemScope  itemType="https://schema.org/Article" className='post-box uni all'>
+                    <meta itemProp="image" content="https://www.federicocalo.dev/static/media/cc_500.webp" />
                     <img loading="lazy" decoding="async" src={LogoCC} alt="Logo riferito ai post della materia ingegneria della conoscenza" className='post-img' title='ingegneria della conoscenza'/>
                     <h3 className='category'>Appunti Università - Calcolabilità e complessità</h3>
                     <h1 className='post-title' itemProp="headline">2. Automi e linguaggi regolari</h1>
@@ -122,6 +143,7 @@ function BlogBoxes() {
                 </article>
 
                 <article  itemScope  itemType="https://schema.org/Article" className='post-box uni all'>
+                    <meta itemProp="image" content="https://www.federicocalo.dev/static/media/cc_500.webp" />
                     <img loading="lazy" decoding="async" src={LogoCC} alt="Logo riferito ai post della materia ingegneria della conoscenza" className='post-img' title='ingegneria della conoscenza'/>
                     <h3 className='category'>Appunti Università - Calcolabilità e complessità</h3>
                     <h1 className='post-title' itemProp="headline">1. Introduzione alla calcolabilità e alla complessità</h1>
@@ -133,6 +155,7 @@ function BlogBoxes() {
                 </article>
 
                 <article  itemScope  itemType="https://schema.org/Article" className='post-box uni all'>
+                    <meta itemProp="image" content="https://www.federicocalo.dev/static/media/icon_500.webp" />
                     <img loading="lazy" decoding="async" src={LogoIcon} alt="Logo riferito ai post della materia ingegneria della conoscenza" className='post-img' title='ingegneria della conoscenza'/>
                     <h3 className='category'>Appunti Università - Ingegneria della conoscenza</h3>
                     <h1 className='post-title'itemProp="headline">4. Controlli e azioni di un agente</h1>
@@ -144,9 +167,10 @@ function BlogBoxes() {
                 </article>
 
                 <article  itemScope  itemType="https://schema.org/Article" className='post-box uni all'>
+                    <meta itemProp="image" content="https://www.federicocalo.dev/static/media/icon_500.webp" />
                     <img loading="lazy" decoding="async" src={LogoIcon} alt="Logo riferito ai post della materia ingnegneria della conoscenza" className='post-img' title='ingegneria della conoscenza'/>
                     <h3 className='category'>Appunti Università - Ingegneria della conoscenza</h3>
-                    <h1 className='post-title'>3. All'interno di un agente: architettura e le funzioni agenti</h1>
+                    <h1 className='post-title'itemProp="headline">3. All'interno di un agente: architettura e le funzioni agenti</h1>
                     <time dateTime="2023-01-03"className='post-date' temprop="datePublished" content="2023-01-03T08:00:00+08:00"> 3 Gennaio 2023</time> <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span>
                     <p className='post-description' itemProp='description'> Dopo aver spiegato lo spazio di progettazione di un agente, andiamo a comprendere la sua architettura, ovvero come come un agente intelligente può percepire, ragionare e agire nel tempo in 
                     un ambiente. Andremo ad ispezionare la gerarchia all'interno di un agente e i modi in cui esso può essere costruito.</p>
@@ -156,9 +180,10 @@ function BlogBoxes() {
                 </article>
 
                 <article  itemScope  itemType="https://schema.org/Article" className='post-box uni all'>
+                    <meta itemProp="image" content="https://www.federicocalo.dev/static/media/icon_500.webp" />
                     <img loading="lazy" decoding="async" src={LogoIcon} alt="Logo riferito ai post della materia ingegneria della conoscenza" className='post-img' title='ingegneria della conoscenza'/>
                     <h3 className='category'>Appunti Università - Ingegneria della conoscenza</h3>
-                    <h1 className='post-title'>2. Spazio di progettazione e applicazioni prototipiche</h1>
+                    <h1 className='post-title' itemProp="headline">2. Spazio di progettazione e applicazioni prototipiche</h1>
                     <time dateTime="2023-01-01"className='post-date' temprop="datePublished" content="2023-01-01T08:00:00+08:00"> 1 Gennaio 2023</time> <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span>
                     <p className='post-description' itemProp='description'> In questo articolo andremo ad approfondire lo spazio di progettazione degli agenti, con le relative proprietà e limiti. Infine definiremo alcune applicazioni in cui l'intelligenza artificiale può essere
                      applicata, descrivendo in maniera generale alcuni esempi.</p>
@@ -168,9 +193,10 @@ function BlogBoxes() {
                 </article>
 
                 <article  itemScope  itemType="https://schema.org/Article" className='post-box uni all'>
+                    <meta itemProp="image" content="https://www.federicocalo.dev/static/media/icon_500.webp" />
                     <img loading="lazy" decoding="async" src={LogoIcon} alt="Logo riferito ai post della materia ingnegneria della conoscenza" className='post-img' title='ingegneria della conoscenza'/>
                     <h3 className='category'>Appunti Università - Ingegneria della conoscenza</h3>
-                    <h1 className='post-title'>1. Intelligenza artificiale e agenti</h1>
+                    <h1 className='post-title'itemProp="headline">1. Intelligenza artificiale e agenti</h1>
                     <time dateTime="2022-12-30" className='post-date' temprop="datePublished" content="2022-12-30T08:00:00+08:00"> 30 Dicembre 2022</time>  <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span>
                     <p className='post-description' itemProp='description'> Introduzione all'ingegneria della conoscenza, andando a definire che cos'è l'intelligenza artificiale, gli agenti e l'ambiente in cui essi operano. Vedremo i vari algoritmi che vengono applicati in questo settore, 
                      in quali casi e le varie metodologie di ricerca della soluzione.</p>
@@ -180,9 +206,10 @@ function BlogBoxes() {
                 </article>
 
                 <article  itemScope  itemType="https://schema.org/Article" className='post-box uni all'>
+                    <meta itemProp="image" content="https://www.federicocalo.dev/static/media/ium_500.webp" />
                     <img loading="lazy" decoding="async" src={LogoIum} alt="Logo riferito ai post della materia interazione uomo macchina" className='post-img'title='interazione uomo macchina'/>
                     <h3 className='category'>Appunti Università - Interazione Uomo Macchina</h3>
-                    <h1 className='post-title'>3. Conoscere l'utente</h1>
+                    <h1 className='post-title' itemProp="headline">3. Conoscere l'utente</h1>
                     <time dateTime="2022-12-17" className='post-date' temprop="datePublished" content="2022-12-17T08:00:00+08:00"> 17 Dicembre 2022</time> <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span>
                     <p className='post-description' itemProp='description'> All'interno dello sviluppo incentrato sull'utente, possiamo visualizzare l'utente da molteplici punti di vista. E' fondamentale analizzare i processi cognitivi, le caratteristiche personali e il 
                     ruolo dei singoli utenti che interagiscono con il sistema. Il progettista di sistemi interattivi non deve perdere di vista questi obiettivi, vediamo come.</p>
@@ -192,9 +219,10 @@ function BlogBoxes() {
                 </article>
 
                 <article  itemScope  itemType="https://schema.org/Article" className='post-box casestudy all'>
+                    <meta itemProp="image" content="https://www.federicocalo.dev/static/media/caseStudy_500.webp" />
                     <img loading="lazy" decoding="async" src={LogoStudyCase} alt="Logo riferito ai post dello study case" className='post-img'title='study case'/>
                     <h3 className='category'>Case Study - Gestionale Associativo</h3>
-                    <h1 className='post-title'>2. Diagramma Entità Relazione</h1>
+                    <h1 className='post-title'itemProp="headline">2. Diagramma Entità Relazione</h1>
                     <time dateTime="2022-12-11" className='post-date' temprop="datePublished" content="2022-12-11T08:00:00+08:00"> 11 Dicembre 2022</time> <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span>
                     <p className='post-description' itemProp='description'> In relazione al caso di studio del gestionale associativo, in questo articolo entriamo nel dettaglio di uno schema entità relazione delle entità e delle relazioni che dovranno
                      essere implementate all'interno del database e che rappresentano una prima fotografia di com'è organizzata l'associazione in questa fase.</p>
@@ -204,9 +232,10 @@ function BlogBoxes() {
                 </article>
                 
                 <article  itemScope  itemType="https://schema.org/Article" className='post-box casestudy all'>
+                    <meta itemProp="image" content="https://www.federicocalo.dev/static/media/caseStudy_500.webp" />
                     <img loading="lazy" decoding="async" src={LogoStudyCase} alt="Logo riferito ai post dello study case" className='post-img'title='study case'/>
                     <h3 className='category'>Case Study - Gestionale Associativo</h3>
-                    <h1 className='post-title'>1. Introduzione allo sviluppo del gestionale associativo</h1>
+                    <h1 className='post-title'itemProp="headline">1. Introduzione allo sviluppo del gestionale associativo</h1>
                     <time dateTime="2022-12-04" className='post-date' temprop="datePublished" content="2022-12-04T08:00:00+08:00"> 04 Dicembre 2022</time> <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span>
                     <p className='post-description' itemProp='description'> Avviamo questo nuovo progetto per la creazione di un gestionale associativo. In questa prima fase analizziamo i requisiti richiesti e abbozziamo uno 
                      schema ER del database.</p>
@@ -216,9 +245,10 @@ function BlogBoxes() {
                 </article>
 
                 <article  itemScope  itemType="https://schema.org/Article" className='post-box uni all'>
+                    <meta itemProp="image" content="https://www.federicocalo.dev/static/media/ium_500.webp" />
                     <img loading="lazy" decoding="async" src={LogoIum} alt="Logo riferito ai post della materia interazione uomo macchina" className='post-img' title='interazione uomo macchina'/>
                     <h3 className='category'>Appunti Universitari - Interazione Uomo macchina</h3>
-                    <h1 className='post-title'>2. Interazione Uomo Macchina - L'usabilità </h1>
+                    <h1 className='post-title'itemProp="headline">2. Interazione Uomo Macchina - L'usabilità </h1>
                     <time dateTime="2022-12-01" className='post-date' temprop="datePublished" content="2022-12-01T08:00:00+08:00"> 01 Dicembre 2022</time> <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span>
                     <p className='post-description' itemProp='description'> Dopo una breve overview della materia, descritta nel primo articolo, iniziamo ad approfondire i vari argomenti, iniziando dal concetto di <strong>usabilità</strong> e del modello di interazione, fino 
                     ad addentrarci nel golfo di esecuzione e nel golfo di valutazione.</p>
@@ -228,9 +258,10 @@ function BlogBoxes() {
                 </article>
 
                 <article  itemScope  itemType="https://schema.org/Article" className='post-box uni all'>
+                    <meta itemProp="image" content="https://www.federicocalo.dev/static/media/RetiDiCalcolatori_500.webp" />
                     <img loading="lazy" decoding="async" src={LogoRDC} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img' title='reti di calcolatori'/>
                     <h3 className='category'>Appunti Universitari - Reti di Calcolatori</h3>
-                    <h1 className='post-title'>2. I due tipi di commutazione </h1>
+                    <h1 className='post-title'itemProp="headline">2. I due tipi di commutazione </h1>
                     <time dateTime="2022-11-20" className='post-date' temprop="datePublished" content="2022-11-20T08:00:00+08:00"> 20 Novembre 2022</time> <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span>
                     <p className='post-description' itemProp='description'>Analizziamo come le applicazioni si scambiano i pacchetti, esaminando la commutazione di circuito e la commutazione di pacchetto. Confrontiamo i due tipi di commutazione ed esminiamo le varie problematiche di ciascuno </p>
                     <div className='link'>
@@ -239,9 +270,10 @@ function BlogBoxes() {
                 </article>
 
                 <article  itemScope  itemType="https://schema.org/Article" className='post-box uni all'>
+                    <meta itemProp="image" content="https://www.federicocalo.dev/static/media/ium_500.webp" />
                     <img loading="lazy" decoding="async" src={LogoIum} alt="Logo riferito ai post della materia interazione uomo macchina" className='post-img'title='interazione uomo macchina'/>
                     <h3 className='category'>Appunti Universitari - Interazione Uomo macchina</h3>
-                    <h1 className='post-title'>1. Introduzione all' Interazione Uomo Macchina </h1>
+                    <h1 className='post-title'itemProp="headline">1. Introduzione all' Interazione Uomo Macchina </h1>
                     <time dateTime="2022-11-12" className='post-date'temprop="datePublished" content="2022-11-12T08:00:00+08:00"> 12 Novembre 2022</time> <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span>
                     <p className='post-description' itemProp='description'>Primo articolo dedicato agli appunti relativi alla materia Interazione Uomo Macchina, il cui studio si incentra sul ruolo dell'utente all'interno dello sviluppo del software, ponendo una nuova visione incentrata
                     sui suoi bisogni e necessità.</p>
@@ -251,9 +283,10 @@ function BlogBoxes() {
                 </article>
 
                 <article  itemScope  itemType="https://schema.org/Article" className='post-box libri all'>
+                    <meta itemProp="image" content="https://www.federicocalo.dev/static/media/libri_500.webp" />
                     <img loading="lazy" decoding="async" src={LogoLibri} alt="Logo riferito ai post dei libri consigliati" className='post-img' title='libri consigliati'/>
                     <h3 className='category'>Libri</h3>
-                    <h1 className='post-title'>Consigli su libri settoriali - Pt. 1 </h1>
+                    <h1 className='post-title' itemProp="headline">Consigli su libri settoriali - Pt. 1 </h1>
                     <time dateTime="2022-11-05" className='post-date' temprop="datePublished" content="2022-11-05T08:00:00+08:00"> 5 Novembre 2022</time> <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span>
                     <p className='post-description' itemProp='description'>Primo articolo dedicato a consigli su libri settoriali per migliorare le proprie hard skills e soft skills legate al mondo della programmazione.</p>
                     <div className='link'>
@@ -262,9 +295,10 @@ function BlogBoxes() {
                 </article>
 
                 <article  itemScope  itemType="https://schema.org/Article" className='post-box uni all'>
+                    <meta itemProp="image" content="https://www.federicocalo.dev/static/media/RetiDiCalcolatori_500.webp" />
                     <img loading="lazy" decoding="async" src={LogoRDC} alt="Logo riferito ai post della materia reti di calcolatori" className='post-img'title='reti di calcolatori'/>
                     <h3 className='category'>Appunti Universitari - Reti di Calcolatori</h3>
-                    <h1 className='post-title'>1. Introduzione alle reti </h1>
+                    <h1 className='post-title' itemProp="headline">1. Introduzione alle reti </h1>
                     <time dateTime="2022-11-01" className='post-date' temprop="datePublished" content="2022-11-01T08:00:00+08:00"> 1 Novembre 2022</time> <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span>
                     <p className='post-description' itemProp='description'>Introduzione alle reti di calcolatori, fornendo un'immagine di come si è evoluta l'infrastruttura di Internet, analizzando i due tipi di commutazione delle informazioni presenti in essa e i vari parametri di valutazione.</p>
                     <div className='link'>

@@ -184,6 +184,9 @@ function CC8() {
                     Se M su w non si è fermata entro <InlineMath math='qng^n'/> passi, deve ripetere una configurazione, quindi entra in un ciclo e allora rifiuta. Non tutti i problemi che coinvolgono gli LBA sono dedicibili, esistono alcuni che in realtà non lo sono, ad esempio il problema del vuoto che enuncia come segue <InlineMath math='E_{LBA}'/> = {"{"} {"<"} M {">"} | M è un LBA dove L(M) = <InlineMath math='\emptyset'/>{"}"}. 
                 </p>
 
+                <div className="succ-post">
+                    <Link to="/Riducibilità-Pt-2">Post successivo &#8594;</Link>
+                </div>
             </section>
         </article>
         <Footer/>

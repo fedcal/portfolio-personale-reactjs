@@ -32,7 +32,7 @@ function CC9() {
             <meta name="apple-mobile-web-app-title" content="Federico Calò Blog - 9. Riducibilità Pt. 2"/> 
             <meta name='apple-mobile-web-app-capable' content='yes'/>
             <meta name='apple-touch-fullscreen' content='yes'/>
-            <link rel="canonical" href="https://www.federicocalo.dev/Riducibilità-Pt-1" />
+            <link rel="canonical" href="https://www.federicocalo.dev/Riducibilità-Pt-2" />
         </Helmet>
         <Navbar/>
         <article itemScope itemType="https://schema.org/Article">
@@ -47,10 +47,10 @@ function CC9() {
             <section className='post-content post-container'>
 
               <div className="prec-post">
-                  <Link to="/Le-macchine-di-Turing"> &#8592; Post precendente</Link>
+                  <Link to="/Riducibilità-Pt-1"> &#8592; Post precendente</Link>
               </div>
 
-              <h1 className='header-title' itemProp="headline">8. Riducibilità Pt. 1</h1>
+              <h1 className='header-title' itemProp="headline">9. Riducibilità Pt. 2</h1>
               <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span> <time dateTime="2023-01-24" className='data' itemProp="datePublished" content="2023-01-24T07:30:00+08:00">24/01/2023</time>
                               
               <p className='post-text first-text' itemProp='description'>
