@@ -30,6 +30,7 @@ import CC7 from "./components/Blog/articoli/CC/CC7/CC7";
 import CC8 from "./components/Blog/articoli/CC/CC8/CC8";
 import CC9 from "./components/Blog/articoli/CC/CC9/CC9";
 import CC10 from "./components/Blog/articoli/CC/CC10/CC10";
+import CC11 from "./components/Blog/articoli/CC/CC11/CC11";
 
 function App() {
   return (
@@ -66,6 +67,7 @@ function App() {
         <Route path='/Riducibilità-Pt-1' element={<CC8/>}/>
         <Route path='/Riducibilità-Pt-2' element={<CC9/>}/>
         <Route path='/Complessità-temporale' element={<CC10/>}/>
+        <Route path='/Complessità-di-spazio' element={<CC11/>}/>
 
         
 

@@ -207,7 +207,9 @@ function CC10() {
                     Per dimostrare questo teorema si deve dimostrare inizialmente che SAT appartiene a NP, per poi dimostrare che qualsiasi linguaggio che appartiene a NP è riducibile in tempo polinomiale a SAT. Quest'ultima dimostrazione può essere condotta attraverso una riduzione di tempo polinomiale per ciascun linguaggio A appartenente 
                     a NP a SAT.
                 </p>
-
+                <div className="succ-post">
+                  <Link to="/Complessità-temporale">Post successivo &#8594;</Link>
+                </div>
               
             </section>
         </article>
