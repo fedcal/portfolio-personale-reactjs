@@ -31,6 +31,7 @@ import CC8 from "./components/Blog/articoli/CC/CC8/CC8";
 import CC9 from "./components/Blog/articoli/CC/CC9/CC9";
 import CC10 from "./components/Blog/articoli/CC/CC10/CC10";
 import CC11 from "./components/Blog/articoli/CC/CC11/CC11";
+import Corsi from "./routes/Corsi";
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
         <Route path='/servizi'element={<Servizi/>}/>
         <Route path='/blog'element={<Blog/>}/>
         <Route path='/contatti'element={<Contatti/>}/>
+        <Route path='/corsi'element={<Corsi/>}/>
 
         
         <Route path='/Reti-di-Calcolatori-Introduzione'element={<Reti01/>}/>

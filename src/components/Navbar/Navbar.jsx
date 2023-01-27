@@ -36,6 +36,9 @@ function Navbar() {
                 <Link to={"/blog"}>Blog</Link>
             </li>
             <li>
+                <Link to={"/corsi"}>Corsi</Link>
+            </li>
+            <li>
                 <Link to={"/contatti"}>Contatti</Link>
             </li>
         </ul>
