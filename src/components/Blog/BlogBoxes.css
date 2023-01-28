@@ -60,7 +60,8 @@ section{
 }
 
 .post .post-box .post-img{
-    width: 100%;
+    margin: 5%;
+    width: 90%;
     height: 200px;
     object-position: center;
     border-radius: 0.5rem;

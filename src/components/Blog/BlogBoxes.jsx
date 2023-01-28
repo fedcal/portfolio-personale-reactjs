@@ -1,7 +1,7 @@
 import React from 'react';
 import './BlogBoxes.css';
 import {Link} from "react-router-dom";
-import LogoRDC from '../assets/RetiDiCalcolatori_500.webp';
+import LogoRDC from '../assets/rdc_500.webp';
 import LogoLibri from '../assets/libri_500.webp';
 import LogoIum from '../assets/ium_500.webp';
 import LogoIcon from '../assets/icon_500.webp';
@@ -126,7 +126,7 @@ function BlogBoxes() {
                     <time dateTime="2023-01-16" className='post-date' temprop="datePublished" content="2023-01-16T08:00:00+08:00"> 16 Gennaio 2023</time> <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span>
                     <p className='post-description' itemProp='description'>Questo articolo nasce dall'esigenza di avere una tabella di simboli matematici e corrispettivi comandi in Latex da poter copiare e incolalre velocemente.</p>
                     <div className='link'>
-                        <Link to="/Latex-simboli-e-sintassi" className="btn">Leggi Post</Link>
+                        <Link to="/Latex-Comandi-e-simboli-matematici" className="btn">Leggi Post</Link>
                     </div>
                 </article>
 

@@ -2,7 +2,7 @@ import React from 'react';
 import {Helmet} from "react-helmet";
 import Navbar from '../../../Navbar/Navbar';
 import Footer from '../../../Footer/Footer';
-import LatexImg from '../../../assets/LaTeX_logo.webp';
+import LatexImg from '../../../assets/latex_1900.webp';
 import '../Articoli.css';
 import 'katex/dist/katex.min.css';
 import './latex.css';
@@ -15,7 +15,7 @@ function LatexArticolo() {
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9556331893712433"
             crossorigin="anonymous"></script>
             <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <title>Federico Calò Blog - Latex: simboli e sintassi</title>
+            <title>Federico Calò Blog - Latex: Comandi e simboli matematici</title>
             <meta name='keywords' content='latex, simboli latex, frecce latex, simboli matematici latex, alfabeto greco latex, lettere greche latex'/>
             <meta name='description' content='Questo articolo nasce dall&#39;esigenza di avere una tabella di simboli matematici e corrispettivi comandi in Latex da poter copiare e incolalre velocemente.'/>
             <meta name="robots" content="index, follow, max-snippet:[100]" />
@@ -25,14 +25,14 @@ function LatexArticolo() {
             <meta name='language' content='IT'/>
             <meta name='topic' content='Programmazione e Sviluppo'/>
             <meta name='author' content='Federico Calò, fedcal01@gmail.com'/>
-            <meta name='og:title' content='Federico Calò Blog - Latex: simboli e sintassi'/>
+            <meta name='og:title' content='Federico Calò Blog - Latex: Comandi e simboli matematici'/>
             <meta name='og:description' content='Questo articolo nasce dall&#39;esigenza di avere una tabella di simboli matematici e corrispettivi comandi in Latex da poter copiare e incolalre velocemente.'/>
             <meta name='og:email' content='fedcal01@gmail.com'/>
             <meta name='og:phone_number' content='+39 3332673965'/>
-            <meta name="apple-mobile-web-app-title" content="Federico Calò Blog - Latex: simboli e sintassi"/> 
+            <meta name="apple-mobile-web-app-title" content="Federico Calò Blog - Latex: Comandi e simboli matematici"/> 
             <meta name='apple-mobile-web-app-capable' content='yes'/>
             <meta name='apple-touch-fullscreen' content='yes'/>
-            <link rel="canonical" href="https://www.federicocalo.dev//Latex-simboli-e-sintassi" />
+            <link rel="canonical" href="https://www.federicocalo.dev/Latex-Comandi-e-simboli-matematici" />
         </Helmet>
         <Navbar/>
         <article itemScope itemType="https://schema.org/Article">
@@ -47,7 +47,7 @@ function LatexArticolo() {
             <section className='post-content post-container'>
 
                 
-                <h1 className='header-title' itemProp="headline">Latex: simboli e sintassi</h1>
+                <h1 className='header-title' itemProp="headline">Latex: Comandi e simboli matematici</h1>
                 <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span> <time dateTime="2023-01-16" className='data' itemProp="datePublished" content="2023-01-16T07:30:00+08:00">16/01/2023</time>
                                 
                 <p itemProp='description'className='post-text first-text'>
