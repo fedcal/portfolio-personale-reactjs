@@ -1,0 +1,26 @@
+.latexTable{
+    color: white;
+    border: 1px solid rgb(248, 217, 15);
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.titolo-tabella{
+    color: white;
+    margin-bottom: 15px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.latexTable tr th{
+    color: rgb(248, 217, 15);
+    border: 1px solid rgb(248, 217, 15);
+    padding: 15px;
+   
+}
+
+.latexTable tr td{
+    padding: 15px;
+    border: 1px solid;
+    width:25%; 
+}

@@ -1,0 +1,37 @@
+# The following redirect is intended for use with most SPAs
+# that handle routing internally.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+  [[redirects]]
+  from = "/Latex-Comandi-e-simboli-matematici"
+  to = "/Latex-simboli-e-sintassi"
+  status = 301
+
+[[redirects]]
+ from = "http://www.federicocalo.dev/"
+  to = "https://www.federicocalo.dev/"
+  status = 301
+  force = true 
+
+[[redirects]]
+ from = "http://federicocalo.dev/"
+  to = "https://www.federicocalo.dev/"
+  status = 301
+  force = true
+
+[[redirects]]
+ from = "https://federicocalo.dev/"
+  to = "https://www.federicocalo.dev/"
+  status = 301
+  force = true
+
+[[redirects]]
+ from = "https://www.federicocalo.dev/Introduzione-alla-ricenca:-un-algoritmo-di-ricerca-generico"
+  to = "https://www.federicocalo.dev/Introduzione-alla-ricerca:-un-algoritmo-di-ricerca-generico"
+  status = 301
+  force = true
+
+
