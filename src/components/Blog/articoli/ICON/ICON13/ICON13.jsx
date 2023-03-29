@@ -32,7 +32,7 @@ function ICON13() {
             <meta name="apple-mobile-web-app-title" content="Federico Calò Blog - 13. Metodi basati sulla popolazione e ottimizzazione"/> 
             <meta name='apple-mobile-web-app-capable' content='yes'/>
             <meta name='apple-touch-fullscreen' content='yes'/>
-            <link rel="canonical" href="https://www.federicocalo.dev/Ragionamento-con-vincoli-parte-3" />
+            <link rel="canonical" href="https://www.federicocalo.dev/Metodi-basati-sulla-popolazione-e-ottimizzazione" />
         </Helmet>
         <Navbar/>
         <article itemScope itemType="https://schema.org/Article">
@@ -58,16 +58,16 @@ function ICON13() {
                 <p className='post-text'>
                     Questo algoritmo termina con successo quando trova un'assegnazione soddisfacente. Ad ogni step vengono selezionati i k possibili successori e in caso di pareggio sceglie in maniera casuale. Questa operazione viene ripetuta ogni volta per un nuovo insieme di k assegnazioni. Inoltre, come detto prima, questo algoritmo riesce a gestire 
                     multiple assegnazioni allo stesso tempo ed è molto utile. La sua utilità maggiore si ha quando vi sono particolari limit di memoria, in quanto dipendendo dalla variabile k, si può impostare per gestire insiemi minori.  Le varianti della ricerca locale stocastica sono applicabili anche alla ricerca del raggio, cercando di ottimizzare per trovare 
-                    il miglior valore di k o aprossimarlo.
+                    il miglior valore di k o approssimarlo.
                 </p>
 
                 <p className='post-text'>
-                    La <strong>ricerca stocastica del raggio</strong>, o <i>stochastic beam search</i>, è un algoritmo di riceca alternativo a quello di beam search. In questo algoritmo, invece di selezionare  i k individui migliori, venogno selezionati k individui casuali. Gli individui con una valutazione migliore hanno maggiori probabilità di essere scelti. Per fare 
+                    La <strong>ricerca stocastica del raggio</strong>, o <i>stochastic beam search</i>, è un algoritmo di ricerca alternativo a quello di beam search. In questo algoritmo, invece di selezionare  i k individui migliori, vengono selezionati k individui casuali. Gli individui con una valutazione migliore hanno maggiori probabilità di essere scelti. Per fare 
                     ciò viene utilizzata una <i>distribuzione di Gibbs</i> o una <i>distribuzione di Boltzmann</i>.
                 </p>
 
                 <p className='post-text'>
-                    La ricerca del raggio stocastico tende a consentire una maggiore diversità dei k indibidui reispetto alla ricerca a fscio semplice.  Si noti che durante la ricerca stocastica del raggio è possibile che un individuo venga selezionato più volte a caso.
+                    La ricerca del raggio stocastico tende a consentire una maggiore diversità dei k individui rispetto alla ricerca a fascio semplice.  Si noti che durante la ricerca stocastica del raggio è possibile che un individuo venga selezionato più volte a caso.
                 </p>
 
                 <h2>Ottimizzazione</h2>
@@ -94,8 +94,8 @@ function ICON13() {
                 <h3>Metodi sistematici per l'ottimizzazione</h3>
 
                 <p className='post-text'>
-                    Un modo per trovare l'assegnazione minima è calcolare la somma dei vincoli soft e selezionare un'assegnazione con valore minimo. Questo non è fattibile per problemi di grandi dimensioni. <strong>La coerenza dell'arco</strong>
-                    può essere generalizzata ai problemi di ottimizzazione consentendo la potatura delle assegnazioni dominate.
+                    Un modo per trovare l'assegnazione minima è calcolare la somma dei vincoli soft e selezionare un'assegnazione con valore minimo. Questo non è fattibile per problemi di grandi dimensioni. <strong>La coerenza dell'arco</strong> può  
+                    essere generalizzata ai problemi di ottimizzazione consentendo la potatura delle assegnazioni dominate.
                 </p>
 
                 <p className='post-text'>

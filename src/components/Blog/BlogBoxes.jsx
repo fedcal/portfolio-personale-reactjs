@@ -25,6 +25,18 @@ function BlogBoxes() {
                     <meta itemProp="image" content="https://www.federicocalo.dev/static/media/icon_500.webp" />
                     <img loading="lazy" decoding="async" src={LogoIcon} alt="Logo riferito ai post della materia ingnegneria della conoscenza" className='post-img' title='ingegneria della conoscenza'/>
                     <h3 className='category'>Appunti Università - Ingegneria della conoscenza</h3>
+                    <h1 className='post-title'itemProp="headline">14. Introduzione alle proposizioni</h1>
+                    <time dateTime="2023-03-29" className='post-date' temprop="datePublished" content="2023-03-29T08:00:00+08:00"> 29 Marzo 2023</time>  <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span>
+                    <p className='post-description' itemProp='description'> Oltre alla base di conoscenza, un'agente ha a sua disposizione un insieme di proposizioni e inferenze tramite le quali decide cosa è vero e cosa no nel mondo.</p>
+                    <div className='link'>
+                        <Link to="/Introduzione-alle-proposizioni" className="btn">Leggi Post</Link>
+                    </div>
+                </article>
+
+                <article  itemScope  itemType="https://schema.org/Article" className='post-box uni all'>
+                    <meta itemProp="image" content="https://www.federicocalo.dev/static/media/icon_500.webp" />
+                    <img loading="lazy" decoding="async" src={LogoIcon} alt="Logo riferito ai post della materia ingnegneria della conoscenza" className='post-img' title='ingegneria della conoscenza'/>
+                    <h3 className='category'>Appunti Università - Ingegneria della conoscenza</h3>
                     <h1 className='post-title'itemProp="headline">13. Metodi basati sulla popolazione e ottimizzazione</h1>
                     <time dateTime="2023-02-18" className='post-date' temprop="datePublished" content="2023-02-18T08:00:00+08:00"> 18 Febbraio 2023</time>  <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span>
                     <p className='post-description' itemProp='description'> Analizziamo gli algoritmi di ragionamento con i vincoli che si basano principalmente sulla popolazione e affrontiamo il tema dell'ottimizazione.</p>

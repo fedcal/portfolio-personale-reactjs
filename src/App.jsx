@@ -40,6 +40,7 @@ import ICON10 from "./components/Blog/articoli/ICON/ICON10/ICON10";
 import ICON11 from "./components/Blog/articoli/ICON/ICON11/ICON11";
 import ICON12 from "./components/Blog/articoli/ICON/ICON12/ICON12";
 import ICON13 from "./components/Blog/articoli/ICON/ICON13/ICON13";
+import ICON14 from "./components/Blog/articoli/ICON/ICON14/ICON14";
 
 function App() {
   return (
@@ -88,6 +89,7 @@ function App() {
         <Route path='/Ragionamento-con-vincoli-parte-2' element={<ICON11/>}/>
         <Route path='/Ragionamento-con-vincoli-parte-3' element={<ICON12/>}/>
         <Route path='/Metodi-basati-sulla-popolazione-e-ottimizzazione' element={<ICON13/>}/>
+        <Route path='/Introduzione-alle-proposizioni' element={<ICON14/>}/>
         
 
 

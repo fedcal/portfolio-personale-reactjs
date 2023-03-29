@@ -510,4 +510,15 @@
     </image:image>
     <lastmod>2023-02-18</lastmod>
   </url>
+
+  <!-- Immagini /Metodi-basati-sulla-popolazione-e-ottimizzazione -->
+  <url>
+    <loc>https://www.federicocalo.dev/Introduzione-alle-proposizioni</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/cc_1900.webp</image:loc>
+    </image:image>
+    <lastmod>2023-03-29</lastmod>
+  </url>
 </urlset>
