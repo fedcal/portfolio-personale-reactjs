@@ -31,6 +31,16 @@ import CC8 from "./components/Blog/articoli/CC/CC8/CC8";
 import CC9 from "./components/Blog/articoli/CC/CC9/CC9";
 import CC10 from "./components/Blog/articoli/CC/CC10/CC10";
 import CC11 from "./components/Blog/articoli/CC/CC11/CC11";
+import ICON5 from "./components/Blog/articoli/ICON/ICON5/ICON5";
+import ICON6 from "./components/Blog/articoli/ICON/ICON6/ICON6";
+import ICON7 from "./components/Blog/articoli/ICON/ICON7/ICON7";
+import ICON8 from "./components/Blog/articoli/ICON/ICON8/ICON8";
+import ICON9 from "./components/Blog/articoli/ICON/ICON9/ICON9";
+import ICON10 from "./components/Blog/articoli/ICON/ICON10/ICON10";
+import ICON11 from "./components/Blog/articoli/ICON/ICON11/ICON11";
+import ICON12 from "./components/Blog/articoli/ICON/ICON12/ICON12";
+import ICON13 from "./components/Blog/articoli/ICON/ICON13/ICON13";
+import ICON14 from "./components/Blog/articoli/ICON/ICON14/ICON14";
 
 function App() {
   return (
@@ -45,21 +55,18 @@ function App() {
 
         
         <Route path='/Reti-di-Calcolatori-Introduzione'element={<Reti01/>}/>
-        <Route path='/Libri-consigliati-01'element={<Libri01/>}/>
-        <Route path='/Interazione-uomo-macchina-Introduzione'element={<IUM1/>}/>
         <Route path='/Reti-di-Calcolatori-Vari-Tipi-Di-Commutazione'element={<Reti02/>}/>
+        
+        <Route path='/Interazione-uomo-macchina-Introduzione'element={<IUM1/>}/>
         <Route path='/Interazione-uomo-macchina-Usabilita-e-Modello-di-iterazione'element={<IUM2/>}/>
+        <Route path='/Interazione-uomo-macchina-Conoscere-l-utente' element={<IUM3/>}/>
+        
         <Route path='/Gestionale-associazione-intro'element={<Intro/>}/>
         <Route path='/Gestionale-associazione-diagramma-entita-relazione'element={<Er/>}/>
-        <Route path='/Interazione-uomo-macchina-Conoscere-l-utente' element={<IUM3/>}/>
-        <Route path='/Introduzione-ingegneria-della-conoscenza' element={<ICON1/>}/>
-        <Route path='/Spazio-di-progettazione-di-un-agente' element={<ICON2/>}/>
-        <Route path='/All-interno-di-un-agente-architettura-e-le-funzioni-agente' element={<ICON3/>}/>
-        <Route path='/Controlli-e-azioni-di-un-agente' element={<ICON4/>}/>
+        
         <Route path='/Introduzione-alla-Calcolabilita-e-Complessita' element={<CC1/>}/>
         <Route path='/Automi-e-linguaggi-regolari' element={<CC2/>}/>
         <Route path='/Espressioni-regolari-e-linguaggi-non-regolari' element={<CC3/>}/>
-        <Route path='/Latex-Comandi-e-simboli-matematici' element={<LatexArticolo/>}/>
         <Route path='/Linguaggi-context-free-e-automi-a-pila' element={<CC4/>}/>
         <Route path='/Linguaggi-non-context-free-e-linguaggi-context-free-deterministici' element={<CC5/>}/>
         <Route path='/Le-macchine-di-Turing' element={<CC6/>}/>
@@ -69,6 +76,25 @@ function App() {
         <Route path='/Complessità-temporale' element={<CC10/>}/>
         <Route path='/Complessità-di-spazio' element={<CC11/>}/>
 
+        <Route path='/Introduzione-ingegneria-della-conoscenza' element={<ICON1/>}/>
+        <Route path='/Spazio-di-progettazione-di-un-agente' element={<ICON2/>}/>
+        <Route path='/All-interno-di-un-agente-architettura-e-le-funzioni-agente' element={<ICON3/>}/>
+        <Route path='/Controlli-e-azioni-di-un-agente' element={<ICON4/>}/>
+        <Route path='/Ricerca-di-soluzioni' element={<ICON5/>}/>
+        <Route path='/Introduzione-alla-ricerca:-un-algoritmo-di-ricerca-generico' element={<ICON6/>}/>
+        <Route path='/Strategie-di-ricerca-non-informate' element={<ICON7/>}/>
+        <Route path='/La-ricerca-euristica' element={<ICON8/>}/>
+        <Route path='/Eliminare-lo-spazio-di-ricerca' element={<ICON9/>}/>
+        <Route path='/Ragionamento-con-vincoli-parte-1' element={<ICON10/>}/>
+        <Route path='/Ragionamento-con-vincoli-parte-2' element={<ICON11/>}/>
+        <Route path='/Ragionamento-con-vincoli-parte-3' element={<ICON12/>}/>
+        <Route path='/Metodi-basati-sulla-popolazione-e-ottimizzazione' element={<ICON13/>}/>
+        <Route path='/Introduzione-alle-proposizioni' element={<ICON14/>}/>
+        
+
+
+        <Route path='/Latex-Comandi-e-simboli-matematici' element={<LatexArticolo/>}/>
+        <Route path='/Libri-consigliati-01'element={<Libri01/>}/>
         
 
       </Routes>

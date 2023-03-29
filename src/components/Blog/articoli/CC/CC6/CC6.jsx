@@ -12,8 +12,7 @@ function CC6() {
   return (
     <div>
         <Helmet>
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9556331893712433"
-            crossorigin="anonymous"></script>
+            
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <title>Federico Calò Blog - 6. Le macchine di Turing</title>
             <meta name='keywords' content='una macchina di Turing,Definizione formale di una macchina di Turing,configurazione,configurazione iniziale,configurazione di accettazione,configurazione di rifiuto,Definizione formale di un linguaggio Turing-riconoscibile,Definizione formale di un linguaggio Turing-dedicibile,linguaggio Turing-riconoscibile,linguaggio Turing-riconoscibile, linguaggio Turing-riconoscibile,Definizione di linguaggio Turing-riconoscibile,macchina di Turing non deterministica'/>

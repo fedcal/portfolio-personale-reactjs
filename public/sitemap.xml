@@ -118,7 +118,7 @@
     <image:image>
        <image:loc>https://www.federicocalo.dev/static/media/cc_500.webp</image:loc>
     </image:image>
-    <lastmod>2023-01-21</lastmod>
+    <lastmod>2023-02-07</lastmod>
   </url>
   <!-- Immagini /Reti-di-Calcolatori-Introduzione -->
   <url>
@@ -260,7 +260,7 @@
     <lastmod>2023-01-28</lastmod>
   </url>
 
-   <!-- Immagini /Controlli-e-azioni-di-un-agente -->
+   <!-- Immagini /All-interno-di-un-agente-architettura-e-le-funzioni-agente -->
   <url>
     <loc>https://www.federicocalo.dev/All-interno-di-un-agente-architettura-e-le-funzioni-agente</loc>
     <changefreq>daily</changefreq>
@@ -413,9 +413,111 @@
     <lastmod>2023-01-26</lastmod>
   </url>
 
+  <!-- Immagini /Ricerca-di-soluzioni -->
+  <url>
+    <loc>https://www.federicocalo.dev/Ricerca-di-soluzioni</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/cc_1900.webp</image:loc>
+    </image:image>
+    <lastmod>2023-01-29</lastmod>
+  </url>
 
+  <!-- Immagini /Introduzione-alla-ricerca:-un-algoritmo-di-ricerca-generico -->
+  <url>
+    <loc>https://www.federicocalo.dev/Introduzione-alla-ricerca:-un-algoritmo-di-ricerca-generico</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/cc_1900.webp</image:loc>
+    </image:image>
+    <lastmod>2023-02-04</lastmod>
+  </url>  
 
+  <!-- Immagini /Strategie-di-ricerca-non-informate -->
+  <url>
+    <loc>https://www.federicocalo.dev/Strategie-di-ricerca-non-informate</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/cc_1900.webp</image:loc>
+    </image:image>
+    <lastmod>2023-02-05</lastmod>
+  </url>
+  <!-- Immagini /La-ricerca-euristica -->
+  <url>
+    <loc>https://www.federicocalo.dev/La-ricerca-euristica</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/cc_1900.webp</image:loc>
+    </image:image>
+    <lastmod>2023-02-07</lastmod>
+  </url>  
 
-  
-  
+  <!-- Immagini /Eliminare-lo-spazio-di-ricerca -->
+  <url>
+    <loc>https://www.federicocalo.dev/Eliminare-lo-spazio-di-ricerca</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/cc_1900.webp</image:loc>
+    </image:image>
+    <lastmod>2023-02-07</lastmod>
+  </url>
+
+  <!-- Immagini /Ragionamento-con-vincoli-parte-1 -->
+  <url>
+    <loc>https://www.federicocalo.dev/Ragionamento-con-vincoli-parte-1</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/cc_1900.webp</image:loc>
+    </image:image>
+    <lastmod>2023-02-07</lastmod>
+  </url>
+
+  <!-- Immagini /Ragionamento-con-vincoli-parte-2 -->
+  <url>
+    <loc>https://www.federicocalo.dev/Ragionamento-con-vincoli-parte-2</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/cc_1900.webp</image:loc>
+    </image:image>
+    <lastmod>2023-02-07</lastmod>
+  </url>
+  <!-- Immagini /Ragionamento-con-vincoli-parte-3 -->
+  <url>
+    <loc>https://www.federicocalo.dev/Ragionamento-con-vincoli-parte-3</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/cc_1900.webp</image:loc>
+    </image:image>
+    <lastmod>2023-02-18</lastmod>
+  </url>
+
+  <!-- Immagini /Metodi-basati-sulla-popolazione-e-ottimizzazione -->
+  <url>
+    <loc>https://www.federicocalo.dev/Metodi-basati-sulla-popolazione-e-ottimizzazione</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/cc_1900.webp</image:loc>
+    </image:image>
+    <lastmod>2023-02-18</lastmod>
+  </url>
+
+  <!-- Immagini /Metodi-basati-sulla-popolazione-e-ottimizzazione -->
+  <url>
+    <loc>https://www.federicocalo.dev/Introduzione-alle-proposizioni</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/cc_1900.webp</image:loc>
+    </image:image>
+    <lastmod>2023-03-29</lastmod>
+  </url>
 </urlset>

@@ -12,8 +12,7 @@ function ICON1() {
   return (
     <div>
         <Helmet>
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9556331893712433"
-            crossorigin="anonymous"></script>
+            
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <title>Federico Calò Blog - 1 - Introduzione all' ingegneria della conoscenza</title>
             <meta name='keywords' content='ingegneria della conoscenza, intelligenza artificiale, ai, agente, agente computazionale, sistemi empirici, applicazioni, conoscenza preliminare, cronologia delle interazioni, obiettivi, abilità, belief state, stato interno delle credenze, agenti intenzionali, purposive agents, linguaggio di rappresentazione, knowledge base
@@ -160,7 +159,7 @@ function ICON1() {
                 </p>
 
                 <div className="succ-post">
-                    <Link to="/All-interno-di-un-agente:-architettura-e-controllo-gerarchico">Post successivo &#8594;</Link>
+                    <Link to="/Spazio-di-progettazione-di-un-agente">Post successivo &#8594;</Link>
                  </div>
                 
                 </section>

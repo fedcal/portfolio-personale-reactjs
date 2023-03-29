@@ -10,37 +10,42 @@ import BlogPreview from '../components/BlogPreview/BlogPreview';
 function Home() {
   const schemaData={
     "@context": "https://schema.org",
-    "@type": "Person",
-    name: "Federico Calò",
-    birthDate: "07/051998",
-    email:"fedcal01@gmail.com",
-    jobTitle: "Software Developre",
-    knowsAbout: ["Developer", "Computer Science"],
-    telephone: "+39 3332673965",
-    url: "http://www.federicocalo.dev",
-    hasOccupation:[ {
-      "@type": "Occupation",
-      "name": "Software Developer",
-      "educationRequirements": "PhD in computer science"
+    "@type": ["Developer","LocalBusiness","Sviluppatore","Informatico"],
+    "image": [
+      "https://www.federicocalo.dev/static/media/profilo.webp",
+     ],
+    "name": "Federico Calò - Svlippatore",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Viale Italia 292",
+      "addressLocality": "Soleto",
+      "addressRegion": "LE",
+      "postalCode": "73010",
+      "addressCountry": "IT"
     },
-    {
-      "@type": "Software Developer",
-      "hasOccupation": {
-      "@type": "Occupation",
-      "name": "WebScience",
-      },
-      "startDate": "02022021",
-      "endDate": "29102021"
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.19083333333333,
+      "longitude": 18.2038888888888889,
     },
-    {
-      "@type": "Software Developer",
-      "hasOccupation": {
-      "@type": "Occupation",
-      "name": "Links Management and Tecnology",
+    "url": "https://www.federicocalo.dev",
+    "telephone": "+393332673965",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "18:30",
+        "closes": "23:00"
       },
-      "startDate": "14062022",
-    }
-  ]
+    ],
+    "acceptsReservations": "True"
+  
 
   }
 

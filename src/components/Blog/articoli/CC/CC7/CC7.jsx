@@ -12,8 +12,7 @@ function CC7() {
   return (
     <div>
         <Helmet>
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9556331893712433"
-            crossorigin="anonymous"></script>
+            
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <title>Federico Calò Blog - 7. Decidibilità e indecibilità</title>
             <meta name='keywords' content='Decidibilità, indecibilità, problema dell&#39;accettazione, Teorma DFA decidibile, Teorma NFA decidibile, Teorema di indecidibilità di una macchina di Turing,funzione iniettiva, funzione suriettiva, di funzione biettiva,tecnica della diagonalizzazione, Teoremma linguaggi non Turing-riconoscibili, sequenza binaria infinita, sequenza caratteristica'/>

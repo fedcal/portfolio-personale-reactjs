@@ -49,7 +49,7 @@ section{
 
 .post .post-box{
     background: #1a1919;
-    padding: 15px;
+    padding: 25px;
     border-radius: 0.5rem;
     border: 1px solid #fff;
     max-height: 850px;
@@ -57,11 +57,11 @@ section{
     margin: 10px 10px 30px 10px;
     flex-direction: column;
     display: flex;
+    text-align: justify;
 }
 
 .post .post-box .post-img{
-    margin: 5%;
-    width: 90%;
+    width: 100%;
     height: 200px;
     object-position: center;
     border-radius: 0.5rem;
@@ -116,6 +116,8 @@ section{
 .first-text{
     margin-top: 25px;
 }
+
+
 
 
 @media screen and (max-width:1150px){

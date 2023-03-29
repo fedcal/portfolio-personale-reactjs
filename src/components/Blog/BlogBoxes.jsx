@@ -16,11 +16,130 @@ function BlogBoxes() {
             <div className='post-filter container' >
                 <span className='filter-item active-filter' data-filter='all'>Tutti</span>
                 <span className='filter-item' data-filter='uni'>Appunti Università</span>
-                <span className='filter-item' data-filter='libri'>Libri</span>
                 <span className='filter-item' data-filter='casestudy'>Case Study</span>
                 <span className='filter-item' data-filter='altro'>Altro</span>
             </div>
             <section className='post container'>
+
+                <article  itemScope  itemType="https://schema.org/Article" className='post-box uni all'>
+                    <meta itemProp="image" content="https://www.federicocalo.dev/static/media/icon_500.webp" />
+                    <img loading="lazy" decoding="async" src={LogoIcon} alt="Logo riferito ai post della materia ingnegneria della conoscenza" className='post-img' title='ingegneria della conoscenza'/>
+                    <h3 className='category'>Appunti Università - Ingegneria della conoscenza</h3>
+                    <h1 className='post-title'itemProp="headline">14. Introduzione alle proposizioni</h1>
+                    <time dateTime="2023-03-29" className='post-date' temprop="datePublished" content="2023-03-29T08:00:00+08:00"> 29 Marzo 2023</time>  <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span>
+                    <p className='post-description' itemProp='description'> Oltre alla base di conoscenza, un'agente ha a sua disposizione un insieme di proposizioni e inferenze tramite le quali decide cosa è vero e cosa no nel mondo.</p>
+                    <div className='link'>
+                        <Link to="/Introduzione-alle-proposizioni" className="btn">Leggi Post</Link>
+                    </div>
+                </article>
+
+                <article  itemScope  itemType="https://schema.org/Article" className='post-box uni all'>
+                    <meta itemProp="image" content="https://www.federicocalo.dev/static/media/icon_500.webp" />
+                    <img loading="lazy" decoding="async" src={LogoIcon} alt="Logo riferito ai post della materia ingnegneria della conoscenza" className='post-img' title='ingegneria della conoscenza'/>
+                    <h3 className='category'>Appunti Università - Ingegneria della conoscenza</h3>
+                    <h1 className='post-title'itemProp="headline">13. Metodi basati sulla popolazione e ottimizzazione</h1>
+                    <time dateTime="2023-02-18" className='post-date' temprop="datePublished" content="2023-02-18T08:00:00+08:00"> 18 Febbraio 2023</time>  <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span>
+                    <p className='post-description' itemProp='description'> Analizziamo gli algoritmi di ragionamento con i vincoli che si basano principalmente sulla popolazione e affrontiamo il tema dell'ottimizazione.</p>
+                    <div className='link'>
+                        <Link to="/Metodi-basati-sulla-popolazione-e-ottimizzazione" className="btn">Leggi Post</Link>
+                    </div>
+                </article>
+
+                <article  itemScope  itemType="https://schema.org/Article" className='post-box uni all'>
+                    <meta itemProp="image" content="https://www.federicocalo.dev/static/media/icon_500.webp" />
+                    <img loading="lazy" decoding="async" src={LogoIcon} alt="Logo riferito ai post della materia ingnegneria della conoscenza" className='post-img' title='ingegneria della conoscenza'/>
+                    <h3 className='category'>Appunti Università - Ingegneria della conoscenza</h3>
+                    <h1 className='post-title'itemProp="headline">12. Ragionamento con vincoli PT. 3</h1>
+                    <time dateTime="2023-02-18" className='post-date' temprop="datePublished" content="2023-02-18T08:00:00+08:00"> 18 Febbraio 2023</time>  <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span>
+                    <p className='post-description' itemProp='description'> Affrontiamo le diverse varianti di ricerca locale precdentemente affrontate, per poi dare uno sguardo alla valutazione degli algoritmi randomizzati e infine vedremo come ottimizzare gli algoritmi che ragionano con vincoli.</p>
+                    <div className='link'>
+                        <Link to="/Ragionamento-con-vincoli-parte-3" className="btn">Leggi Post</Link>
+                    </div>
+                </article>
+
+                <article  itemScope  itemType="https://schema.org/Article" className='post-box uni all'>
+                    <meta itemProp="image" content="https://www.federicocalo.dev/static/media/icon_500.webp" />
+                    <img loading="lazy" decoding="async" src={LogoIcon} alt="Logo riferito ai post della materia ingnegneria della conoscenza" className='post-img' title='ingegneria della conoscenza'/>
+                    <h3 className='category'>Appunti Università - Ingegneria della conoscenza</h3>
+                    <h1 className='post-title'itemProp="headline">11. Ragionamento con vincoli PT. 2</h1>
+                    <time dateTime="2023-02-12" className='post-date' temprop="datePublished" content="2023-02-12T08:00:00+08:00"> 12 Febbraio 2023</time>  <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span>
+                    <p className='post-description' itemProp='description'> In questo secondo articolo relativo al ragionamento con vincoli, analizzeremo la divisione del domino, l'eliminazione delle variabili e un algoritmo di ricerca locale.</p>
+                    <div className='link'>
+                        <Link to="/Ragionamento-con-vincoli-parte-2" className="btn">Leggi Post</Link>
+                    </div>
+                </article>
+
+                <article  itemScope  itemType="https://schema.org/Article" className='post-box uni all'>
+                    <meta itemProp="image" content="https://www.federicocalo.dev/static/media/icon_500.webp" />
+                    <img loading="lazy" decoding="async" src={LogoIcon} alt="Logo riferito ai post della materia ingnegneria della conoscenza" className='post-img' title='ingegneria della conoscenza'/>
+                    <h3 className='category'>Appunti Università - Ingegneria della conoscenza</h3>
+                    <h1 className='post-title'itemProp="headline">10. Ragionamento con vincoli PT. 1</h1>
+                    <time dateTime="2023-02-11" className='post-date' temprop="datePublished" content="2023-02-11T08:00:00+08:00"> 11 Febbraio 2023</time>  <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span>
+                    <p className='post-description' itemProp='description'> In questo primo articolo articolo vedremo come basare il ragionamento di un agente sulle caratteristiche e sui vincoli del dominio, analizzando l'algoritmo di consistenza.</p>
+                    <div className='link'>
+                        <Link to="/Ragionamento-con-vincoli-parte-1" className="btn">Leggi Post</Link>
+                    </div>
+                </article>
+
+                <article  itemScope  itemType="https://schema.org/Article" className='post-box uni all'>
+                    <meta itemProp="image" content="https://www.federicocalo.dev/static/media/icon_500.webp" />
+                    <img loading="lazy" decoding="async" src={LogoIcon} alt="Logo riferito ai post della materia ingnegneria della conoscenza" className='post-img' title='ingegneria della conoscenza'/>
+                    <h3 className='category'>Appunti Università - Ingegneria della conoscenza</h3>
+                    <h1 className='post-title'itemProp="headline">9. Eliminare lo spazio di ricerca</h1>
+                    <time dateTime="2023-02-07" className='post-date' temprop="datePublished" content="2023-02-07T08:00:00+08:00"> 07 Febbraio 2023</time>  <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span>
+                    <p className='post-description' itemProp='description'> Abbiamo visto fin'ora svariati algoritmi di ricerca, i quali però possono essere migliorati prendendo in considerazione più percorsi verso un nodo. Introduciamo quindi una tecnica che si chiama potatura.</p>
+                    <div className='link'>
+                        <Link to="/Eliminare-lo-spazio-di-ricerca" className="btn">Leggi Post</Link>
+                    </div>
+                </article>
+
+                <article  itemScope  itemType="https://schema.org/Article" className='post-box uni all'>
+                    <meta itemProp="image" content="https://www.federicocalo.dev/static/media/icon_500.webp" />
+                    <img loading="lazy" decoding="async" src={LogoIcon} alt="Logo riferito ai post della materia ingnegneria della conoscenza" className='post-img' title='ingegneria della conoscenza'/>
+                    <h3 className='category'>Appunti Università - Ingegneria della conoscenza</h3>
+                    <h1 className='post-title'itemProp="headline">8. La ricerca euristica</h1>
+                    <time dateTime="2023-02-05" className='post-date' temprop="datePublished" content="2023-02-05T08:00:00+08:00"> 05 Febbraio 2023</time>  <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span>
+                    <p className='post-description' itemProp='description'> A differenza del precedente articolo in cui abbiamo visto diversi tipi di ricerca non informata, in questo articolo vedremo come alcuni algoritmi elaborano i percorsi in base alle informazioni sui nodi e sugli archi in loro possesso.</p>
+                    <div className='link'>
+                        <Link to="/La-ricerca-euristica" className="btn">Leggi Post</Link>
+                    </div>
+                </article>
+
+                <article  itemScope  itemType="https://schema.org/Article" className='post-box uni all'>
+                    <meta itemProp="image" content="https://www.federicocalo.dev/static/media/icon_500.webp" />
+                    <img loading="lazy" decoding="async" src={LogoIcon} alt="Logo riferito ai post della materia ingnegneria della conoscenza" className='post-img' title='ingegneria della conoscenza'/>
+                    <h3 className='category'>Appunti Università - Ingegneria della conoscenza</h3>
+                    <h1 className='post-title'itemProp="headline">7. Strategie di ricerca non informate</h1>
+                    <time dateTime="2023-02-04" className='post-date' temprop="datePublished" content="2023-02-04T08:00:00+08:00"> 04 Febbraio 2023</time>  <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span>
+                    <p className='post-description' itemProp='description'> A differenza del precedente articolo nel quale abbiamo analizzato un algoritmo di ricerca generico, in questo articolo affrontiamo alcune strategie di ricerca non informate. Ma cos'è una strategia di ricerca?</p>
+                    <div className='link'>
+                        <Link to="/Strategie-di-ricerca-non-informate" className="btn">Leggi Post</Link>
+                    </div>
+                </article>
+
+                <article  itemScope  itemType="https://schema.org/Article" className='post-box uni all'>
+                    <meta itemProp="image" content="https://www.federicocalo.dev/static/media/icon_500.webp" />
+                    <img loading="lazy" decoding="async" src={LogoIcon} alt="Logo riferito ai post della materia ingnegneria della conoscenza" className='post-img' title='ingegneria della conoscenza'/>
+                    <h3 className='category'>Appunti Università - Ingegneria della conoscenza</h3>
+                    <h1 className='post-title'itemProp="headline">6. Introduzione alla ricerca: un algoritmo di ricerca generico</h1>
+                    <time dateTime="2023-01-31" className='post-date' temprop="datePublished" content="2023-01-31T08:00:00+08:00"> 31 Gennaio 2023</time>  <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span>
+                    <p className='post-description' itemProp='description'> Nell'articolo precedente abbiamo parlato del problema di ricerca sfruttando la struttura del grafo, e in particolare quella dell'albero, tramite il quale possiamo trovare il percorso da un nodo di partenza a uno finale. In questo articolo ci concentriamo sull'algoritmo di ricerca generica.</p>
+                    <div className='link'>
+                        <Link to="/Introduzione-alla-ricerca:-un-algoritmo-di-ricerca-generico" className="btn">Leggi Post</Link>
+                    </div>
+                </article>
+
+                <article  itemScope  itemType="https://schema.org/Article" className='post-box uni all'>
+                    <meta itemProp="image" content="https://www.federicocalo.dev/static/media/icon_500.webp" />
+                    <img loading="lazy" decoding="async" src={LogoIcon} alt="Logo riferito ai post della materia ingnegneria della conoscenza" className='post-img' title='ingegneria della conoscenza'/>
+                    <h3 className='category'>Appunti Università - Ingegneria della conoscenza</h3>
+                    <h1 className='post-title'itemProp="headline">5. Ricerca di soluzioni</h1>
+                    <time dateTime="2023-01-28" className='post-date' temprop="datePublished" content="2023-01-28T08:00:00+08:00"> 28 Gennaio 2023</time>  <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span>
+                    <p className='post-description' itemProp='description'> Dopo aver visto negli articoli precedenti come un agente percepisce e agisce nel mondo, adesso cerchiamo di comprendere come i suoi obiettivi influenzano le sue azioni. Infatti un agente, per essere definito intelligente, deve saper ragionare sulle sue capacità e sui suoi obiettivi per determinare cosa fare.</p>
+                    <div className='link'>
+                        <Link to="/Ricerca-di-soluzioni" className="btn">Leggi Post</Link>
+                    </div>
+                </article> 
 
                 <article  itemScope  itemType="https://schema.org/Article" className='post-box uni all'>
                     <meta itemProp="image" content="https://www.federicocalo.dev/static/media/cc_500.webp" />
@@ -294,7 +413,7 @@ function BlogBoxes() {
                     </div>
                 </article>
 
-                <article  itemScope  itemType="https://schema.org/Article" className='post-box libri all'>
+                <article  itemScope  itemType="https://schema.org/Article" className='post-box altro all'>
                     <meta itemProp="image" content="https://www.federicocalo.dev/static/media/libri_500.webp" />
                     <img loading="lazy" decoding="async" src={LogoLibri} alt="Logo riferito ai post dei libri consigliati" className='post-img' title='libri consigliati'/>
                     <h3 className='category'>Libri</h3>

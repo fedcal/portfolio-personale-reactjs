@@ -82,8 +82,7 @@ function Intro() {
     <div>
         <Helmet>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9556331893712433"
-            crossorigin="anonymous"></script>
+            
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <title>Federico Calò Blog - 1. Introduzione allo sviluppo del gestionale associativo</title>
             <meta name='keywords' content='gestionale, gestionale associativo, java, javafx, sql, modello er, modello entità relazione, requisiti, fase implementativa, stack tecnologico, integrità '/>

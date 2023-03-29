@@ -11,19 +11,27 @@
   status = 301
 
 [[redirects]]
- from = "http://www.federicocalo.dev/*"
-  to = "https://www.federicocalo.dev/*"
+ from = "http://www.federicocalo.dev/"
+  to = "https://www.federicocalo.dev/"
   status = 301
   force = true 
 
 [[redirects]]
- from = "http://federicocalo.dev/*"
-  to = "https://www.federicocalo.dev/*"
+ from = "http://federicocalo.dev/"
+  to = "https://www.federicocalo.dev/"
   status = 301
   force = true
 
 [[redirects]]
- from = "https://federicocalo.dev/*"
-  to = "https://www.federicocalo.dev/*"
+ from = "https://federicocalo.dev/"
+  to = "https://www.federicocalo.dev/"
   status = 301
-  force = true 
+  force = true
+
+[[redirects]]
+ from = "https://www.federicocalo.dev/Introduzione-alla-ricenca:-un-algoritmo-di-ricerca-generico"
+  to = "https://www.federicocalo.dev/Introduzione-alla-ricerca:-un-algoritmo-di-ricerca-generico"
+  status = 301
+  force = true
+
+

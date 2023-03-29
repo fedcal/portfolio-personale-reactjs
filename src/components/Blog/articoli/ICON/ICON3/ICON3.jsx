@@ -24,8 +24,7 @@ function ICON3() {
   return (
     <div>
         <Helmet>
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9556331893712433"
-            crossorigin="anonymous"></script>
+            
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <title>Federico Calò Blog - 3. All'interno di un agente: architettura e le funzioni agenti</title>
             <meta name='keywords' content='ingegneria della conoscenza, intelligenza artificiale, ai, agente, agente computazionale,effettori,attuatori,sistema ad agenti, stimoli,body,percezioni ,body ,comandi,percept trace,percept stram,traccia di comando,trasduzione,funzione commando '/>

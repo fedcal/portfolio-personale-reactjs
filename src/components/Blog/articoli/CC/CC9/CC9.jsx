@@ -12,8 +12,7 @@ function CC9() {
   return (
     <div>
       <Helmet>
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9556331893712433"
-            crossorigin="anonymous"></script>
+            
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <title>Federico Calò Blog - 9. Riducibilità Pt. 2</title>
             <meta name='keywords' content='Riducibilità, problema della corrispondenza di Post, riducibilità mediante funzione, terema PCP indecidibile,riducibilità mediante funzione, funzione calcolabile, Definizione di funzione calcolabile, Definizione di riducibilità mediante funzione, riducibile mediante funzione, riduzione, Teorema Riduzione '/>

@@ -21,8 +21,7 @@ function ICON4() {
   return (
     <div>
         <Helmet>
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9556331893712433"
-            crossorigin="anonymous"></script>
+            
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <title>Federico Calò Blog - 4. Controlli e azioni di un agente</title>
             <meta name='keywords' content='ingegneria della conoscenza, intelligenza artificiale, ai, agente, agente computazionale, orizzonte progettuale, funzione di transizione dello stato di credenza, a funzione di commando, funzione di percezione,
@@ -57,7 +56,7 @@ function ICON4() {
             </section>
             <section className='post-content post-container'>
                 <div className="prec-post">
-                    <Link to="/All-interno-di-un-agente:-architettura-e-le-funzioni-agente"> &#8592; Post precendente</Link>
+                    <Link to="/All-interno-di-un-agente-architettura-e-le-funzioni-agente"> &#8592; Post precendente</Link>
                 </div>
                 <h1 className='header-title' itemProp="headline">4. Controlli e azioni di un agente</h1>
                 <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span> <time dateTime="2023-01-07" className='data' itemProp="datePublished" content="2023-01-07T07:30:00+08:00">07/01/2023</time>
@@ -181,8 +180,10 @@ function ICON4() {
                     <li><strong>una fonte di conoscenza esterna</strong>, come un sito web o un database.</li>
                 </ul>
 
-                
-                </section>
+                <div className="succ-post">
+                    <Link to="/Ricerca-di-soluzioni">Post successivo &#8594;</Link>
+                 </div>
+            </section>
         </article>
         <Footer/>
     </div>

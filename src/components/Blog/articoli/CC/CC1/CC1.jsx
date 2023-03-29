@@ -22,8 +22,7 @@ function CC1() {
   return (
     <div>
         <Helmet>
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9556331893712433"
-            crossorigin="anonymous"></script>
+            
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <title>Federico Calò Blog - 1. Introduzione alla calcolabilità e alla complessità</title>
             <meta name='keywords' content='calcolabilità, complessità, computabilità, teoria della computabilità, teoria della complessità, teoria degli automi, automi, insime, elementi, prodotto cartesiano, stringhe, grafo non orientato, grafo orientato, mappa, grado, alfabeto, stringa vuota, linguaggio'/>

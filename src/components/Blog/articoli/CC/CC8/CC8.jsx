@@ -12,8 +12,7 @@ function CC8() {
   return (
     <div>
         <Helmet>
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9556331893712433"
-            crossorigin="anonymous"></script>
+            
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <title>Federico Calò Blog - 8. Riducibilità Pt. 1</title>
             <meta name='keywords' content='riducibilità, riduzione, problema della fermata, Teorma HALT indecidibile, metodo mediante storie di computazione, Definizione di storia di computazione accettante,storia di computazione accettante,storia di computazione di rifiuto,automa linearmente limitato, Definizione di automa linearmente limitato, Teorema dedicibilità'/>

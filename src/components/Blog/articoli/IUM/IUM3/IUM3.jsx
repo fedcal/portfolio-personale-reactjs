@@ -18,8 +18,7 @@ function IUM3() {
   return (
     <div>
         <Helmet>
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9556331893712433"
-            crossorigin="anonymous"></script>
+            
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <title>Federico Calò Blog -  3. Interazione Uomo Macchina - Conoscere l&#39;utente</title>
             <meta name='keywords' content='interazione uomo macchina, ium, appunti universitari, usabilità, conoscere l&#39;utente, attenzione, task analysis, GOMS, goals, operators, Methods, Selection rules, attenzione selettiva, attenzione divisiva, fattori esogeni, fattori endogeni, memoria sensoriale, memoria a breve termine, memoria a lungo termine, short time memory, STM, legge di potenza della pratica, Power Law of Practice,  learning curve, curva di apprendimento media, Legge di Fitts'/>

@@ -11,8 +11,7 @@ function ICON2() {
   return (
     <div>
         <Helmet>
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9556331893712433"
-            crossorigin="anonymous"></script>
+            
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <title>Federico Calò Blog - 2. Spazio di progettazione di un agente</title>
             <meta name='keywords' content='ingegneria della conoscenza, intelligenza artificiale, ai, agente, agente computazionale, modularità, spazio di progettazione, struttura piatta, struttura modulare, agente non pianificatore, orizzonte di pianificazione, pianificatore a orizzonte finito, pianifgicatore a orizzonte indefinito, pianificatore a orizzonte infinito, dimensione della conoscenza,
@@ -121,7 +120,7 @@ function ICON2() {
                     di stati, mentre altri livelli di astrazione possono richiedere ragionamenti su individui e relazioni. La dimensione della modularità può relazionarsi con la <i>dimensione dell'orizzonte progettuale</i>.
                 </p>
                 <div className="succ-post">
-                    <Link to="/All-interno-di-un-agente:-architettura-e-le-funzioni-agente">Post successivo &#8594;</Link>
+                    <Link to="/All-interno-di-un-agente-architettura-e-le-funzioni-agente">Post successivo &#8594;</Link>
                  </div>
                 </section>
         </article>

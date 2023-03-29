@@ -12,8 +12,7 @@ function CC4() {
   return (
     <div>
         <Helmet>
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9556331893712433"
-            crossorigin="anonymous"></script>
+            
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <title>Federico Calò Blog - 4. Linguaggi context-free</title>
             <meta name='keywords' content='grammatiche context-free, linguaggi context-free, automi a pila, regole di sostituzione, produzioni, terminali, variabili, derivazioni, albero sintattico, derivata ambiguamente, grammatica ambigua, derivazione a sinistra, forma normale di Chomsky, pushdown automa, pila, stack, push,pop'/>

@@ -12,8 +12,7 @@ function CC5() {
   return (
     <div>
         <Helmet>
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9556331893712433"
-            crossorigin="anonymous"></script>
+            
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <title>Federico Calò Blog - 5. Linguaggi non context-free e linguaggi context-free deterministici</title>
             <meta name='keywords' content='teorema del pumping lemma per i linguaggi context-free, linguaggi non context-free, linguaggi context-free deterministici,lunghezza del pumping,automi a pila deterministici,DPDA, linguaggi context-free determinisitici,DCFL,Definizione di automa a pila deterministico,linguaggio context-free deterministico'/>

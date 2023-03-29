@@ -12,8 +12,7 @@ function LatexArticolo() {
   return (
     <div>
         <Helmet>
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9556331893712433"
-            crossorigin="anonymous"></script>
+            
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <title>Federico Calò Blog - Latex: Comandi e simboli matematici</title>
             <meta name='keywords' content='latex, simboli latex, frecce latex, simboli matematici latex, alfabeto greco latex, lettere greche latex'/>

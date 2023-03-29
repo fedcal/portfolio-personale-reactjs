@@ -14,6 +14,7 @@ function CC10() {
         <Helmet>
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9556331893712433"
             crossorigin="anonymous"></script>
+            
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <title>Federico Calò Blog - 10. Complessità temporale</title>
             <meta name='keywords' content='complessità temporale, tempo di esecuzione, complessità di tempo, analisi asintotica, notazione asintotica, notazione O-grande, limite superiore, limite superiore asintotico,limiti esponenziali,limiti polinomiali,asintoticamente non più grande, notazione o-piccolo, asintoticamente più piccola, Definizione notazione o-piccola, classe di complessità di tempo,funzione di esecuzione, classe polinomiale,classe non polinomiale,polinomialmente equivalenti,Definizione della classe polinomiale P,Definizione della classe polinomiale NP,
@@ -208,7 +209,7 @@ function CC10() {
                     a NP a SAT.
                 </p>
                 <div className="succ-post">
-                  <Link to="/Complessità-temporale">Post successivo &#8594;</Link>
+                  <Link to="/Complessità-di-spazio">Post successivo &#8594;</Link>
                 </div>
               
             </section>

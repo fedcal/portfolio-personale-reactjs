@@ -12,8 +12,7 @@ function Er() {
   return (
     <div>
        <Helmet>
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9556331893712433"
-            crossorigin="anonymous"></script>
+            
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <title>Federico Calò Blog - 2. Diagramma Entità Relazione</title>
             <meta name='keywords' content='gestionale, gestionale associativo, java, javafx, sql, modello er, modello entità relazione, requisiti, fase implementativa, stack tecnologico, integrità, foreign key, primary key, int, varchar, relazione molti a molti, entità, logica di business, relazione '/>
