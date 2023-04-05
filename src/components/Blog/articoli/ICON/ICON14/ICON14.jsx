@@ -168,7 +168,9 @@ function ICON14() {
             </p>
 
 
-
+            <div className="succ-post">
+                <Link to="/Metodi-basati-sulla-popolazione-e-ottimizzazione">Post successivo &#8594;</Link>
+            </div>
                 
             </section>
         </article>

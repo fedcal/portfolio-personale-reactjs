@@ -149,7 +149,9 @@ function ICON13() {
                     Quando sono presenti più minimi locali, non tutti minimi globali, potrebbe essere necessario eseguire una ricerca per trovare un minimo globale, ad esempio eseguendo un riavvio casuale o una passeggiata casuale. Questi non sono garantiti per trovare un minimo globale a meno che l'intero spazio di ricerca non sia esaurito, ma spesso sono i migliori che possiamo ottenere.
                 </p>
 
-                
+                <div className="succ-post">
+                    <Link to="/Introduzione-alle-proposizioni">Post successivo &#8594;</Link>
+                </div>
             </section>
         </article>
         <Footer/>
