@@ -47,7 +47,7 @@ function ICON15() {
                     <Link to="/Introduzione-alle-proposizioni"> &#8592; Post precendente</Link>
                 </div>
                 <h1 className='header-title' itemProp="headline">15. Clausole e vincoli proposizionali</h1>
-                <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span> <time dateTime="2023-03-29" className='data' itemProp="datePublished" content="2023-03-29T07:30:00+08:00">29/03/2023</time>
+                <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span> <time dateTime="2023-03-29" className='data' itemProp="datePublished" content="2023-04-05T07:30:00+08:00">05/04/2023</time>
                                 
                 <p itemProp='description' className='post-text first-text'>
                     Dopo aver introdotto nel precedente articolo le proposizioni, in questo articolo approfondiamo le clausole e i vincoli proposizionali. Avevamo introdotto il ragionamento con vincoli sin dall'<Link to="/Ragionamento-con-vincoli-parte-1" className='link'>articolo 10</Link>, approfondiamo i vincoli proposizionali e le formule logiche, le quali forniscono una 
