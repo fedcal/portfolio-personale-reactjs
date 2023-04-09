@@ -31,7 +31,7 @@ function ICON16() {
             <meta name="apple-mobile-web-app-title" content="Federico Calò Blog - 16. Problemi di rappresentazione della conoscenza"/> 
             <meta name='apple-mobile-web-app-capable' content='yes'/>
             <meta name='apple-touch-fullscreen' content='yes'/>
-            <link rel="canonical" href="https://www.federicocalo.dev/Clausole-e-vincoli-proposizionali" />
+            <link rel="canonical" href="https://www.federicocalo.dev/Problemi-di-rappresentazione-della-conoscenza" />
         </Helmet>
         <Navbar/>
         <article itemScope itemType="https://schema.org/Article">
