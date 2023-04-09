@@ -34,6 +34,8 @@
     "@types/react-dom": "^18.0.9",
     "@types/react-latex": "^2.0.0",
     "@vitejs/plugin-react": "^3.0.0",
-    "vite": "^4.0.0"
+    "vite": "^4.0.0",
+    "vite-plugin-babel": "^1.1.3",
+    "vite-plugin-transform-css-modules": "^1.0.3"
   }
 }
