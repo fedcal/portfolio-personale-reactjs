@@ -42,6 +42,7 @@ import ICON12 from "./components/Blog/articoli/ICON/ICON12/ICON12";
 import ICON13 from "./components/Blog/articoli/ICON/ICON13/ICON13";
 import ICON14 from "./components/Blog/articoli/ICON/ICON14/ICON14";
 import ICON15 from "./components/Blog/articoli/ICON/ICON15/ICON15";
+import ICON16 from "./components/Blog/articoli/ICON/ICON16/ICON16";
 
 function App() {
   return (
@@ -92,12 +93,10 @@ function App() {
         <Route path='/Metodi-basati-sulla-popolazione-e-ottimizzazione' element={<ICON13/>}/>
         <Route path='/Introduzione-alle-proposizioni' element={<ICON14/>}/>
         <Route path='/Clausole-e-vincoli-proposizionali' element={<ICON15/>}/>
-        
+        <Route path='/Problemi-di-rappresentazione-della-conoscenza' element={<ICON16/>}/>
 
         <Route path='/Latex-Comandi-e-simboli-matematici' element={<LatexArticolo/>}/>
         <Route path='/Libri-consigliati-01'element={<Libri01/>}/>
-        
-
       </Routes>
     </>
   );
