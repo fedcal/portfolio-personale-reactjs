@@ -47,7 +47,7 @@ function ICON15() {
                     <Link to="/Introduzione-alle-proposizioni"> &#8592; Post precendente</Link>
                 </div>
                 <h1 className='header-title' itemProp="headline">15. Clausole e vincoli proposizionali</h1>
-                <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span> <time dateTime="2023-03-29" className='data' itemProp="datePublished" content="2023-04-05T07:30:00+08:00">05/04/2023</time>
+                <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span> <time dateTime="2023-04-05" className='data' itemProp="datePublished" content="2023-04-05T07:30:00+08:00">05/04/2023</time>
                                 
                 <p itemProp='description' className='post-text first-text'>
                     Dopo aver introdotto nel precedente articolo le proposizioni, in questo articolo approfondiamo le clausole e i vincoli proposizionali. Avevamo introdotto il ragionamento con vincoli sin dall'<Link to="/Ragionamento-con-vincoli-parte-1" className='link'>articolo 10</Link>, approfondiamo i vincoli proposizionali e le formule logiche, le quali forniscono una 
@@ -92,9 +92,10 @@ function ICON15() {
                     Nella <i>procedura di dimostrazione top-down</i> si parte dalla query per determinare se questa è una conseguenza logica delle clausole definite nella KB. Generalmente questo processo prende il nome di <strong>risoluzione SLD</strong>. Data una clausola di risposta, l'algoritmo top-down seleziona un atomo nel corpo della clausola di risposta, definito <strong>sotto obiettivo</strong>.
                 </p>
 
-                
-
-                
+                <div className="succ-post">
+                    <Link to="/Problemi-di-rappresentazione-della-conoscenza">Post successivo &#8594;</Link>
+                </div>
+                                
             </section>
         </article>
         <Footer/>

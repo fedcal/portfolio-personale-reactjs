@@ -1,4 +1,4 @@
-import React from 'react';
+import {React, lazy, Suspense} from 'react';
 import {Helmet} from "react-helmet";
 import Navbar from '../../../../Navbar/Navbar';
 import Footer from '../../../../Footer/Footer';
@@ -10,6 +10,7 @@ import { InlineMath } from 'react-katex';
 
 function ICON16() {
   return (
+
     <div>
         <Helmet>
             
@@ -31,7 +32,7 @@ function ICON16() {
             <meta name="apple-mobile-web-app-title" content="Federico Calò Blog - 16. Problemi di rappresentazione della conoscenza"/> 
             <meta name='apple-mobile-web-app-capable' content='yes'/>
             <meta name='apple-touch-fullscreen' content='yes'/>
-            <link rel="canonical" href="https://www.federicocalo.dev/Clausole-e-vincoli-proposizionali" />
+            <link rel="canonical" href="https://www.federicocalo.dev/Problemi-di-rappresentazione-della-conoscenza" />
         </Helmet>
         <Navbar/>
         <article itemScope itemType="https://schema.org/Article">
@@ -47,20 +48,20 @@ function ICON16() {
                     <Link to="/Introduzione-alle-proposizioni"> &#8592; Post precendente</Link>
                 </div>
                 <h1 className='header-title' itemProp="headline">16. Problemi di rappresentazione della conoscenza</h1>
-                <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span> <time dateTime="2023-03-29" className='data' itemProp="datePublished" content="2023-04-05T07:30:00+08:00">05/04/2023</time>
+                <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span> <time dateTime="2023-04-13" className='data' itemProp="datePublished" content="2023-04-05T07:30:00+08:00">13/04/2023</time>
                                 
                 <p itemProp='description' className='post-text first-text'>
-                    La conoscenza di abse di una KB consente all'agente di agire in maniera utile attraverso le osservazioni. Quest'ultime sono costituite da informazioni ricevute online dagli utenti, da sensori o da latre risorse di conoscenza. Vi sono casi in cui le osservazioni sono incluse nella base di conoscenza, mentre in altri casi sono 
+                    La conoscenza di base di una KB consente all'agente di agire in maniera utile attraverso le osservazioni. Quest'ultime sono costituite da informazioni ricevute online dagli utenti, da sensori o da altre risorse di conoscenza. Vi sono casi in cui le osservazioni sono incluse nella base di conoscenza, mentre in altri casi sono 
                     separate.
                 </p>
 
                 <p className='post-text'>
-                   Non sempre gli utenti dicono ciò che è vero e ciò che non lo è. Vi sono diversi motivi, tra i quali non sanno ciò che è rilevante e non conoscono il vocabolario da usare. Questi problemi possono però essere risolti attraverso un'ontologia che specifica il significato dei simboli e un'interfaccia utente grafica per facilitare l'utente. 
-                   Anche i sensori passivi sono in grado di fornire oservazioni dirette, mentre i sensori attivi necessitano di essere interrogati per un compito.
+                        Non sempre gli utenti dicono ciò che è vero e ciò che non lo è. Vi sono diversi motivi, tra i quali non sanno ciò che è rilevante e non conoscono il vocabolario da usare. Questi problemi possono però essere risolti attraverso un'ontologia che specifica il significato dei simboli e un'interfaccia utente grafica per facilitare l'utente. 
+                        Anche i sensori passivi sono in grado di fornire osservazioni dirette, mentre i sensori attivi necessitano di essere interrogati per un compito.
                 </p>
 
                 <p className='post-text'>
-                    Un modo semplice per aquisire informazioni da un utente consiste nell'icorporare le sue informazioni attraverso un meccanismo denominato <strong>ask-to-user</strong> nella fase di prova top-down. Un atomo è definito <strong>askable</strong> se in fase di esecuzione l'utente può conoscere il valore di verità. La procedura di dimostrazione 
+                    Un modo semplice per acquisire informazioni da un utente consiste nell'incorporare le sue informazioni attraverso un meccanismo denominato <strong>ask-to-user</strong> nella fase di prova top-down. Un atomo è definito <strong>askable</strong> se in fase di esecuzione l'utente può conoscere il valore di verità. La procedura di dimostrazione 
                     top down, quando seleziona un atomo da dimostrare, può utilizzare una clausola nella base di conoscenza per dimostrarlo oppure, se l'atomo è interrogabile, può chiedere all'utente se esso è vero o meno.
                 </p>
 
@@ -78,7 +79,7 @@ function ICON16() {
                 </p>
 
                 <p className='post-text'>
-                    L'uso esplicito della semantica consente di spiegare e di effettuare il debugging della base di conoscenza. Per rendere un sistema utilizzabile dalle persone, il sistema non può limitarsi a dare una risposta e aspettarsi che l'utente ci creda. Vi sono tre tipi di domande per interrogare la base di conoscenza e ottenre una spiegazione:
+                    L'uso esplicito della semantica consente di spiegare e di effettuare il debugging della base di conoscenza. Per rendere un sistema utilizzabile dalle persone, il sistema non può limitarsi a dare una risposta e aspettarsi che l'utente ci creda. Vi sono tre tipi di domande per interrogare la base di conoscenza e ottenere una spiegazione:
                 </p>
 
                 <ul>
@@ -93,7 +94,7 @@ function ICON16() {
                 </p>
 
                 <p className='post-text'>
-                    La spiegazione del sistema dimostra come un atomo è stato dimostrato. Se c'è una prova per g, allora g è una clausola aotmica o una regola <InlineMath math='g \leftarrow a_1 \wedge \dots \wedge a_k'/> tale che ogni <InlineMath math='a_i'/> è stata provata. Se il sistema ha provato g e l'utente chiede come, il sistema può visualizzare la clausola che è stata uata per provare g. Se 
+                    La spiegazione del sistema dimostra come un atomo è stato dimostrato. Se c'è una prova per g, allora g è una clausola atomica o una regola <InlineMath math='g \leftarrow a_1 \wedge \dots \wedge a_k'/> tale che ogni <InlineMath math='a_i'/> è stata provata. Se il sistema ha provato g e l'utente chiede come, il sistema può visualizzare la clausola che è stata usata per provare g. Se 
                     la clausola è una regola, l'utente può chiedere <i>how i</i> per ricevere la regola usata per provare <InlineMath math='a_i'/>. Utilizzando questa tecnica ricorsivamente, l'utente può esplorare g come è stato dimostrato.
                 </p>
 
@@ -111,7 +112,7 @@ function ICON16() {
 
                 <ul>
                     <li>Viene prodotta una risposta errata in seguito a una derivazione errata su un atomo falso nell'interpretazione </li>
-                    <li>Una risposta che non è stata prodotta a vausa di una dimostrazionne fallimentare su un atomo che avrebbe dovuto aver successo</li>
+                    <li>Una risposta che non è stata prodotta a causa di una dimostrazione fallimentare su un atomo che avrebbe dovuto aver successo</li>
                     <li>Il programma entra in un ciclo infinito</li>
                     <li>Il sistema pone domande irrilevanti</li>
                 </ul>
@@ -122,9 +123,14 @@ function ICON16() {
                 </p>
 
                 <ul>
-                    <li>una delle <InlineMath mmath='a_i'/> è falsa all'interno dell'implementazione</li>
-                    <li>tutte le <InlineMath mmath='a_i'/> sono vere all'interno dell'interpretazione e quindi la clausola <InlineMath math='g \leftarrow a_i\wedge \dots \wedge a_k'/> è incorretta</li>
+                    <li>una delle <InlineMath math='a_i'/> è falsa all'interno dell'implementazione</li>
+                    <li>tutte le <InlineMath math='a_i'/> sono vere all'interno dell'interpretazione e quindi la clausola <InlineMath math='g \leftarrow a_i\wedge \dots \wedge a_k'/> è incorretta</li>
                 </ul>
+
+                <p className='post-name'>
+                    Quando non riceviamo una risposta appropriata, ci troviamo difronte a un <strong>errore falso negativo</strong> e si verifica quando un atomo g è vero nel dominio, ma non è una conseguenza logica della base di conoscenza. Una risposta appropriata non viene prodotta solo se dalla base di conoscenza mancano una o più clausole definite. Conoscendo l'interpretazione prevista dei simboli e conoscendo quali interrogazioni dovrebbero avere successo 
+                    un esperto di dominio può eseguire il debug di una risposta mancante.
+                </p>
                 
 
                 
@@ -132,6 +138,8 @@ function ICON16() {
         </article>
         <Footer/>
     </div>
+
+ 
   )
 }
 

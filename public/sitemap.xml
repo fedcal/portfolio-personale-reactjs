@@ -531,4 +531,14 @@
     </image:image>
     <lastmod>2023-04-05</lastmod>
   </url>
+
+    <url>
+    <loc>https://www.federicocalo.dev/Problemi-di-rappresentazione-della-conoscenza</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/cc_1900.webp</image:loc>
+    </image:image>
+    <lastmod>2023-04-13</lastmod>
+  </url>
 </urlset>

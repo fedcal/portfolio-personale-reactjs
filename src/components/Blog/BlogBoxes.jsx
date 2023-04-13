@@ -26,7 +26,7 @@ function BlogBoxes() {
                     <img loading="lazy" decoding="async" src={LogoIcon} alt="Logo riferito ai post della materia ingnegneria della conoscenza" className='post-img' title='ingegneria della conoscenza'/>
                     <h3 className='category'>Appunti Università - Ingegneria della conoscenza</h3>
                     <h1 className='post-title'itemProp="headline">16. Problemi di rappresentazione della conoscenza</h1>
-                    <time dateTime="2023-04-05" className='post-date' temprop="datePublished" content="2023-04-05T08:00:00+08:00"> 05 Aprile 2023</time>  <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span>
+                    <time dateTime="2023-04-13" className='post-date' temprop="datePublished" content="2023-04-13T08:00:00+08:00"> 13 Aprile 2023</time>  <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span>
                     <p className='post-description' itemProp='description'> In questo articolo andiamo ad analizzare i problemi relativi alla rappresentazione della conoscenza, andando dapprima a definire un background per poi seguire con le domande all'utente, la presentazione della base di conoscenza e il suo debugging.</p>
                     <div className='link'>
                         <Link to="/Problemi-di-rappresentazione-della-conoscenza" className="btn">Leggi Post</Link>
