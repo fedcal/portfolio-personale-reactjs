@@ -36,7 +36,7 @@ function AboutContent() {
                     <br/>
                     <br/>
                     <div className='cv-dw'>
-                        <a href="../assets/CV_Federico_Calò.pdf" className='btn' download>Scarica CV</a>
+                        <a href="../assets/CV_Federico_Calo.pdf" className='btn' download>Scarica CV</a>
                     </div>
             </div>
             
