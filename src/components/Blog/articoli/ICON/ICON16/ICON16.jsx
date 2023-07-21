@@ -127,7 +127,7 @@ function ICON16() {
                     <li>tutte le <InlineMath math='a_i'/> sono vere all'interno dell'interpretazione e quindi la clausola <InlineMath math='g \leftarrow a_i\wedge \dots \wedge a_k'/> è incorretta</li>
                 </ul>
 
-                <p className='post-name'>
+                <p className='post-text'>
                     Quando non riceviamo una risposta appropriata, ci troviamo difronte a un <strong>errore falso negativo</strong> e si verifica quando un atomo g è vero nel dominio, ma non è una conseguenza logica della base di conoscenza. Una risposta appropriata non viene prodotta solo se dalla base di conoscenza mancano una o più clausole definite. Conoscendo l'interpretazione prevista dei simboli e conoscendo quali interrogazioni dovrebbero avere successo 
                     un esperto di dominio può eseguire il debug di una risposta mancante.
                 </p>
