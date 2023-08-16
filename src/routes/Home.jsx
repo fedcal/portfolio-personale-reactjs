@@ -5,7 +5,7 @@ import Navbar from '../components/Navbar/Navbar';
 import AboutContent from '../components/About/AboutContent';
 import WorkCardPreview from '../components/Progetti/WorkCardPreview';
 import {Helmet} from "react-helmet";
-import BlogPreview from '../components/BlogPreview/BlogPreview';
+import UniversitaPreview from '../components/UniversitaPreview/UniversitaPreview';
 
 function Home() {
   const schemaData={
@@ -82,7 +82,7 @@ function Home() {
       <HeroImg/> 
       <AboutContent/>
       <WorkCardPreview/>
-      <BlogPreview/>
+      <UniversitaPreview/>
       <Footer/>
     </>
   )

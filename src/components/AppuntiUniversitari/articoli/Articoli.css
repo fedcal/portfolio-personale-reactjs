@@ -216,8 +216,9 @@ dl ul{
 .pre{
     margin: auto;
     color:rgb(255, 255, 255);
-    width:400px;
+    max-width:800px;
     text-align: justify;
+    
     padding: 10px;
     border: 1px solid #dedcdc;
     background-color: rgb(43, 44, 44);
@@ -225,6 +226,9 @@ dl ul{
     margin-bottom: 20px;
     margin-top: 20px;
     
+}
+.pre p{
+    margin-left:3%;
 }
 .number-row{
     color: rgb(15, 152, 198);

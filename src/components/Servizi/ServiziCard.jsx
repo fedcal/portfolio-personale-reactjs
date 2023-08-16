@@ -10,25 +10,22 @@ function ServiziCArd() {
             <div className='card'>
                 <h3>Copywriter</h3>
                 <p>
-                    Redazione e ottimizzazione di testi per blog, testate giornalistiche o contenuti per finalità pubblicitarie. Tutti i testi sono ottimizzati attraverso l'utilizzo corretto di varie tecniche 
-                    SEO.
+                    Dalla mia penna nascono testi che risplendono su blog, fanno eco nelle testate giornalistiche e brillano nei contenuti pubblicitari. Ogni parola è forgiata con cura, infusa con la magia dell'ottimizzazione e modellata grazie a una danza armoniosa con le tecniche SEO. Il risultato? Testi che non solo comunicano, ma che si alzano in piedi e si fanno notare. Benvenuti nel mondo in cui le parole prendono vita e si trasformano in autentiche stelle dei contenuti.
                 </p>
                 <Link to="/contatti" className='btn btn-container'>Info</Link>
             </div>
             <div className='card'>
                 <h3>Social Management</h3>
                 <p>
-                    Gestione dei profili social, gestione della pubblicazione dei post in base al proprio target, descrizioni create seguendo la SEO e analisi dei dati della dashboard. Tutte le attività 
-                    sono finalizzate al raggiungimento di un pubblico sempre più vasto e all'aumento del numero di followers, delle visualizzazioni e delle interazione in generale.
+                    Nel vortice dei social media, plasmo profili che catturano l'attenzione. Scelgo i post con la precisione di un archer, mirando al cuore del mio target. Le descrizioni danzano al ritmo dell'ottimizzazione SEO, mentre la dashboard rivelatrice svela i segreti dei dati. La mia missione? Portare il tuo pubblico in un crescendo di connessioni: followers che crescono come stelle, visualizzazioni che sfiorano l'infinito e interazioni che scatenano un applauso virtuale.
                 </p>
                 <Link to="/contatti" className='btn'>Info</Link>
             </div>
 
             <div className='card'>
-                <h3>Digital Education</h3>
+                <h3>Help Informatico</h3>
                 <p>
-                    Aiuto a comprendere i prodotti digitali con cui si viene a contatto durante la quotidinianità e a riconoscere i link di phishing o altre tipologie di minacce nelle quali si può incappare in 
-                    rete.
+                Quando l'informatica ti sfida, io sono qui per rendere ogni ostacolo un ricordo lontano. Sia che tu sia uno studente in cerca di luce nel labirinto digitale o un qualcuno che desidera domare il proprio pc ribelle, il mio aiuto è a portata di clic. Abbatti le barriere dell'incertezza e affida i tuoi problemi a me. Insieme, trasformeremo la frustrazione in soluzioni e lasceremo alle spalle ogni dubbio. Non esitare: il mondo digitale è nostro da conquistare!
                 </p>
                 <Link to="/contatti" className='btn'>Info</Link>
             </div>

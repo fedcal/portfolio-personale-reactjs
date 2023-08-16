@@ -20,7 +20,7 @@
       <image:image>
         <image:loc>https://www.federicocalo.dev/static/media/tree3.webp</image:loc>
       </image:image>
-      <lastmod>2023-01-28</lastmod>
+      <lastmod>2023-08-16</lastmod>
   </url>
   <!-- Immagini /presentazioni -->
   <url>
@@ -92,6 +92,34 @@
     </image:image>
     <lastmod>2023-01-28</lastmod>
   </url>
+  <!-- Immagini /appunti-universitari -->
+  <url>
+    <loc>https://www.federicocalo.dev/appunti-universitari</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+        <image:loc>https://www.federicocalo.dev/static/media/progetti-img.webp</image:loc>
+    </image:image>
+    <image:image>
+        <image:loc>https://www.federicocalo.dev/static/media/RetiDiCalcolatori 500.webp</image:loc>
+    </image:image>
+    <image:image>
+        <image:loc>https://www.federicocalo.dev/static/media/libri_500.webp</image:loc>
+    </image:image>
+    <image:image>
+        <image:loc>https://www.federicocalo.dev/static/media/ium_500.webp</image:loc>
+    </image:image>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/caseStudy_500.webp</image:loc>
+    </image:image>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/icon_500.webp</image:loc>
+    </image:image>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/cc_500.webp</image:loc>
+    </image:image>
+    <lastmod>2023-08-16</lastmod>
+  </url>
   <!-- Immagini /blog -->
   <url>
     <loc>https://www.federicocalo.dev/blog</loc>
@@ -118,7 +146,7 @@
     <image:image>
        <image:loc>https://www.federicocalo.dev/static/media/cc_500.webp</image:loc>
     </image:image>
-    <lastmod>2023-02-07</lastmod>
+    <lastmod>2023-08-16</lastmod>
   </url>
   <!-- Immagini /Reti-di-Calcolatori-Introduzione -->
   <url>

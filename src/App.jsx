@@ -6,43 +6,45 @@ import Contatti from "./routes/Contact";
 import Progetti from "./routes/Project";
 import Servizi from "./routes/Servizi";
 import { Routes, Route } from "react-router-dom";
+import AppuntiUniversitari from "./routes/AppuntiUniversitari";
 import Blog from "./routes/Blog";
-import Reti01 from "./components/Blog/articoli/Reti/Reti01/Reti01";
-import Libri01 from "./components/Blog/articoli/Libri/Libri01/Libri01";
-import IUM1 from "./components/Blog/articoli/IUM/IUM1/IUM1";
-import Reti02 from "./components/Blog/articoli/Reti/Reti02/Reti02";
-import IUM2 from "./components/Blog/articoli/IUM/IUM2/IUM2";
-import Intro from "./components/Blog/articoli/StudyCase/GestionaleAssociativo/Intro";
-import Er from "./components/Blog/articoli/StudyCase/GestionaleAssociativo/2_ER/Er";
-import IUM3 from "./components/Blog/articoli/IUM/IUM3/IUM3";
-import ICON1 from "./components/Blog/articoli/ICON/ICON1/ICON1";
-import ICON2 from "./components/Blog/articoli/ICON/ICON2/ICON2";
-import ICON3 from "./components/Blog/articoli/ICON/ICON3/ICON3";
-import ICON4 from "./components/Blog/articoli/ICON/ICON4/ICON4";
-import CC1 from "./components/Blog/articoli/CC/CC1/CC1";
-import CC2 from "./components/Blog/articoli/CC/CC2/CC2";
-import CC3 from "./components/Blog/articoli/CC/CC3/CC3";
-import LatexArticolo from "./components/Blog/articoli/latex/latex";
-import CC4 from "./components/Blog/articoli/CC/CC4/CC4";
-import CC5 from "./components/Blog/articoli/CC/CC5/CC5";
-import CC6 from "./components/Blog/articoli/CC/CC6/CC6";
-import CC7 from "./components/Blog/articoli/CC/CC7/CC7";
-import CC8 from "./components/Blog/articoli/CC/CC8/CC8";
-import CC9 from "./components/Blog/articoli/CC/CC9/CC9";
-import CC10 from "./components/Blog/articoli/CC/CC10/CC10";
-import CC11 from "./components/Blog/articoli/CC/CC11/CC11";
-import ICON5 from "./components/Blog/articoli/ICON/ICON5/ICON5";
-import ICON6 from "./components/Blog/articoli/ICON/ICON6/ICON6";
-import ICON7 from "./components/Blog/articoli/ICON/ICON7/ICON7";
-import ICON8 from "./components/Blog/articoli/ICON/ICON8/ICON8";
-import ICON9 from "./components/Blog/articoli/ICON/ICON9/ICON9";
-import ICON10 from "./components/Blog/articoli/ICON/ICON10/ICON10";
-import ICON11 from "./components/Blog/articoli/ICON/ICON11/ICON11";
-import ICON12 from "./components/Blog/articoli/ICON/ICON12/ICON12";
-import ICON13 from "./components/Blog/articoli/ICON/ICON13/ICON13";
-import ICON14 from "./components/Blog/articoli/ICON/ICON14/ICON14";
-import ICON15 from "./components/Blog/articoli/ICON/ICON15/ICON15";
-import ICON16 from "./components/Blog/articoli/ICON/ICON16/ICON16";
+import Reti01 from "./components/AppuntiUniversitari/articoli/Reti/Reti01/Reti01";
+import Libri01 from "./components/AppuntiUniversitari/articoli/Libri/Libri01/Libri01";
+import IUM1 from "./components/AppuntiUniversitari/articoli/IUM/IUM1/IUM1";
+import Reti02 from "./components/AppuntiUniversitari/articoli/Reti/Reti02/Reti02";
+import IUM2 from "./components/AppuntiUniversitari/articoli/IUM/IUM2/IUM2";
+import Intro from "./components/AppuntiUniversitari/articoli/StudyCase/GestionaleAssociativo/Intro";
+import Er from "./components/AppuntiUniversitari/articoli/StudyCase/GestionaleAssociativo/2_ER/Er";
+import IUM3 from "./components/AppuntiUniversitari/articoli/IUM/IUM3/IUM3";
+import ICON1 from "./components/AppuntiUniversitari/articoli/ICON/ICON1/ICON1";
+import ICON2 from "./components/AppuntiUniversitari/articoli/ICON/ICON2/ICON2";
+import ICON3 from "./components/AppuntiUniversitari/articoli/ICON/ICON3/ICON3";
+import ICON4 from "./components/AppuntiUniversitari/articoli/ICON/ICON4/ICON4";
+import CC1 from "./components/AppuntiUniversitari/articoli/CC/CC1/CC1";
+import CC2 from "./components/AppuntiUniversitari/articoli/CC/CC2/CC2";
+import CC3 from "./components/AppuntiUniversitari/articoli/CC/CC3/CC3";
+import LatexArticolo from "./components/AppuntiUniversitari/articoli/latex/latex";
+import CC4 from "./components/AppuntiUniversitari/articoli/CC/CC4/CC4";
+import CC5 from "./components/AppuntiUniversitari/articoli/CC/CC5/CC5";
+import CC6 from "./components/AppuntiUniversitari/articoli/CC/CC6/CC6";
+import CC7 from "./components/AppuntiUniversitari/articoli/CC/CC7/CC7";
+import CC8 from "./components/AppuntiUniversitari/articoli/CC/CC8/CC8";
+import CC9 from "./components/AppuntiUniversitari/articoli/CC/CC9/CC9";
+import CC10 from "./components/AppuntiUniversitari/articoli/CC/CC10/CC10";
+import CC11 from "./components/AppuntiUniversitari/articoli/CC/CC11/CC11";
+import ICON5 from "./components/AppuntiUniversitari/articoli/ICON/ICON5/ICON5";
+import ICON6 from "./components/AppuntiUniversitari/articoli/ICON/ICON6/ICON6";
+import ICON7 from "./components/AppuntiUniversitari/articoli/ICON/ICON7/ICON7";
+import ICON8 from "./components/AppuntiUniversitari/articoli/ICON/ICON8/ICON8";
+import ICON9 from "./components/AppuntiUniversitari/articoli/ICON/ICON9/ICON9";
+import ICON10 from "./components/AppuntiUniversitari/articoli/ICON/ICON10/ICON10";
+import ICON11 from "./components/AppuntiUniversitari/articoli/ICON/ICON11/ICON11";
+import ICON12 from "./components/AppuntiUniversitari/articoli/ICON/ICON12/ICON12";
+import ICON13 from "./components/AppuntiUniversitari/articoli/ICON/ICON13/ICON13";
+import ICON14 from "./components/AppuntiUniversitari/articoli/ICON/ICON14/ICON14";
+import ICON15 from "./components/AppuntiUniversitari/articoli/ICON/ICON15/ICON15";
+import ICON16 from "./components/AppuntiUniversitari/articoli/ICON/ICON16/ICON16";
+import ICON17 from "./components/AppuntiUniversitari/articoli/ICON/ICON17/ICON17";
 
 function App() {
   return (
@@ -52,7 +54,8 @@ function App() {
         <Route path='/progetti'element={<Progetti/>}/>
         <Route path='/presentazioni'element={<About/>}/>
         <Route path='/servizi'element={<Servizi/>}/>
-        <Route path='/blog'element={<Blog/>}/>
+        <Route path='/appunti-universitari'element={<AppuntiUniversitari/>}/>
+        <Route path='/Blog'element={<Blog/>}/>
         <Route path='/contatti'element={<Contatti/>}/>
 
         
@@ -94,6 +97,7 @@ function App() {
         <Route path='/Introduzione-alle-proposizioni' element={<ICON14/>}/>
         <Route path='/Clausole-e-vincoli-proposizionali' element={<ICON15/>}/>
         <Route path='/Problemi-di-rappresentazione-della-conoscenza' element={<ICON16/>}/>
+        {/*<Route path='/Dimostrazione-per-contraddizione' element={<ICON17/>}/>*/}
 
         <Route path='/Latex-Comandi-e-simboli-matematici' element={<LatexArticolo/>}/>
         <Route path='/Libri-consigliati-01'element={<Libri01/>}/>

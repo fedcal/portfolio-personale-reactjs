@@ -35,6 +35,20 @@ function AboutContent() {
                     </ul> 
                     <br/>
                     <br/>
+                    <p>Tools che utilizzo:</p>
+                    <ul>
+                        <li>Confluence</li>
+                        <li>Jira</li>
+                        <li>Office</li>
+                        <li>Git</li>                      
+                    </ul>
+                    <p>Metodologie lavorative:</p>
+                    <ul>
+                        <li>Metodologia Agile</li>
+                        <li>Metodologia Waterfall</li>
+                    </ul>
+                    <br/>
+                    <br/>
                     <div className='cv-dw'>
                         <a href="../assets/CV_Federico_Calo.pdf" className='btn' download>Scarica CV</a>
                     </div>
