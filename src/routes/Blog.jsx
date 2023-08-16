@@ -32,7 +32,7 @@ function Blog() {
         <link rel="canonical" href="https://www.federicocalo.dev/appunti-universitari" />
       </Helmet>
       <Navbar/>
-      <HeroImg2 heading="Appunti Universitari,"text="la codivisione come forma di open source."/>
+      <HeroImg2 heading="Blog,"text="il mio piccolo universo"/>
       <BlogBoxes/>
       <Footer/>
      
