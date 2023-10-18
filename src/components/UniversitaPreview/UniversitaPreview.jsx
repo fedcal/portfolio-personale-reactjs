@@ -24,7 +24,7 @@ function UniversitaPreview() {
       <div className='blog-text'>
           <p className='text'>Qui puoi trovare una serie di appunti di diverse materie:</p>
           <ul>
-              <li><i><a href="../assets/appunti_data_mining_Federico_Calo.pdf" target='_blank'>Data Mining</a></i> </li>
+              <li><i><a href="../assets/appunti_data_mining_Federico_Calo.pdf" download>Data Mining</a></i> </li>
           </ul>
       </div>
     </div>
