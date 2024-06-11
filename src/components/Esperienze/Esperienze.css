@@ -27,15 +27,15 @@
 .container .row .timeline-box{
     flex: 0 0 100%;
     max-width: 100%;
-    color: white;
+    color: rgb(0, 0, 0);
 
 
 }
 
 .container .row .timeline{
-    background-color: #1a1919;
+    background-color: #ffffff;
     padding: 30px 15px;
-    border: 1px solid white;
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 10px;
     width: 100%;
     position: relative;
@@ -45,6 +45,10 @@
    position: relative;
    padding-left: 37px;
    padding-bottom: 50px; 
+}
+
+.container .row .timeline .timeline-item p,.container .row .timeline .timeline-item h4{
+    color: black;
 }
 
 .container .row .timeline .timeline-item:last-child{
@@ -57,7 +61,7 @@
     height: 100%;
     left: 7px;
     top: 0;
-    background-color: rgb(162, 122, 3);
+    background-color: rgb(150, 124, 46);
 }
 .container .row .timeline .circle-dot{
     position: absolute;

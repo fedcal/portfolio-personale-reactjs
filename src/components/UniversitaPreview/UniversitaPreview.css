@@ -6,18 +6,24 @@
 
 .blog-preview .title .blog-heading{
     text-align: center;
+    color: rgb(248, 217, 15); 
 }
-.blog-text{
+.blog-text p{
     margin: auto;   
     max-width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
+    color: black;
 }
 .blog-preview .text{
     text-align: justify;
     margin-top:20px;
     width:100%;
     font-size: 1.25rem;
+}
+
+.blog-preview .blog-text ul li a{
+    color: black;
 }
 
 .blog-preview ul{
@@ -32,6 +38,7 @@
 .blog-preview ul li{
     margin-bottom: 5px;
     line-height: 25px;
+    color: black;
 }
 .blog-preview ul {
     font-size: 1.15rem!important;

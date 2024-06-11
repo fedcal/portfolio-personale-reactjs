@@ -18,6 +18,8 @@
     justify-content: center;
 }
 
+.contact-info .card a{ color: black;}
+
 .contact-info .card .card-icon{
     background-color: white;
     text-align: center;

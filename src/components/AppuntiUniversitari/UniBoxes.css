@@ -5,7 +5,7 @@
     --bg-color: #fff;
     --post-categori:rgb(248, 186, 15);
     --post-title:rgb(248, 217, 15);
-    --post-date:rgb(74, 185, 250);
+    --post-date:rgb(32, 79, 106);
 }
 
 section{
@@ -32,6 +32,7 @@ section{
     font-weight: 600;
     cursor: pointer;
     margin: 5px;
+    color: black;
 }
 .post-filter  .active-filter{
     background: var(--second-color);
@@ -48,16 +49,28 @@ section{
 }
 
 .post .post-box{
-    background: #1a1919;
+    background: #ffffff;
     padding: 25px;
     border-radius: 0.5rem;
-    border: 1px solid #fff;
+    border: 1px solid #000000;
     max-height: 850px;
     width: 380px;
     margin: 10px 10px 30px 10px;
     flex-direction: column;
     display: flex;
     text-align: justify;
+}
+
+.post .post-box p{
+    color: #000;
+}
+
+article span a{
+    color: black;
+}
+
+.post-content p, .name{
+    color: #000;
 }
 
 .post .post-box .post-img{
@@ -123,8 +136,9 @@ section{
     margin-right: 15px;
     margin-left: 15px;
     font-size: 1.2rem;
-}
 
+    color: black;
+}
 
 
 

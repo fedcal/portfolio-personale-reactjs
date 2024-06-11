@@ -17,17 +17,17 @@
     border-radius: 48%;
 }
 
-.about .text{
+.about .text p{
     width: 700px;
     max-width: 100%;
     padding: 0 10px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .text  ul{
     margin-left: 15px;
     margin-top: 15px;
     list-style: none;
-    color:white;
+    color:rgb(0, 0, 0);
     font-size: 1.1rem;
 }
 .text  ul li::before{

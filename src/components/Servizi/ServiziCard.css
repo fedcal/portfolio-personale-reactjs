@@ -1,7 +1,7 @@
 .servizi{
     width: 100%;
     padding: 6rem 1rem;
-    background: #000;
+    background: #ffffff;
 }
 .card-container{
     max-width: 1140px;
@@ -20,9 +20,17 @@
     flex-direction: column;
     line-height: 22px;
     word-spacing: 2px;
+    color: black;
+}
+
+.card p{
+    color: #141414;
 }
 .card:hover{
     background-color: #141414;
+}
+.card:hover p{
+    color: white;
 }
 .card h3{
     font-size: 1.4rem;
