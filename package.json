@@ -21,6 +21,7 @@
     "react-latex-next": "^2.2.0",
     "react-router-dom": "^6.6.2",
     "react-script-hook": "^1.7.2",
+    "react-snap": "^1.23.0",
     "usescript-hook": "^1.0.5"
   },
   "devDependencies": {

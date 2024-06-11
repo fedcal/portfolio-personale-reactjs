@@ -136,25 +136,28 @@ function ICON17() {
                     </p>
 
                     <div className='pre'>
-                    <div className='code'>
-                        <h3>Pseudocodice</h3>
-                        <h3>Ragionamento bottom-up</h3>
-                        <h3>Prova_Conflitto_BU ( KB, Assunzioni )</h3>
-                        <p>
-                            <span className='number-row'>1.</span> Se Vs contiene solo un elemento allora<br/>
-                            <span className='number-row'>2.</span> &emsp;restituisce l'unione di tutte le relazioni in Cs<br/>
-                            <span className='number-row'>3.</span> altrimenti <br/>
-                            <span className='number-row'>4.</span> &emsp; seleziona una variabile Xs da eliminare<br/>
-                            <span className='number-row'>5.</span> &emsp;Vs' = Vs \ {"{"}X{"}"}<br/> 
-                            <span className='number-row'>6.</span> &emsp;T <InlineMath math='\in'/> Cs : T coinvolge X <br/>
-                            <span className='number-row'>7.</span> &emsp;definiamo R come l'unione di tutti i vincoli in <InlineMath math='Cs_X'/><br/>
-                            <span className='number-row'>8.</span> &emsp;definiamo R' come proiezione di R sulle variabili diverse da X<br/> 
-                            <span className='number-row'>9.</span> &emsp;S = VE_CSP(Vs',(Cs\<InlineMath math='Cs_X) \cup'/>{"{"}R'{"}"})<br/>
-                            <span className='number-row'>10.</span> &emsp;restituisci R<InlineMath math='\bowtie'/>S<br/>   
-                        </p>
+                        <div className='code'>
+                            <h3>Pseudocodice</h3>
+                            <h3>Ragionamento bottom-up</h3>
+                            <h3>Prova_Conflitto_BU ( KB, Assunzioni )</h3>
+                            <p>
+                                <span className='number-row'>1.</span> C := {"{"}<InlineMath math='< a,'/>{"{"}a{"}"}<InlineMath math='>'/>: a è assumibile{"}"} <br/>
+                                <span className='number-row'>2.</span> ripetere:<br/>
+                                <span className='number-row'>3.</span> &emsp; seleziona la clausola <InlineMath math = '"h \leftarrow b_1 \land \dots \land b_m"'/> in KB tale che <br/>
+                                <span className='number-row'>4.</span> &emsp; <InlineMath math = '<b_i, A_i> \in C'/> per ogni i<br/>
+                                <span className='number-row'>5.</span> &emsp;<InlineMath math = '<h, A> \notin C'/> dove <br/> 
+                                <span className='number-row'>6.</span> &emsp;T <InlineMath math='\in'/> Cs : T coinvolge X <br/>
+                                <span className='number-row'>7.</span> &emsp;definiamo R come l'unione di tutti i vincoli in <InlineMath math='Cs_X'/><br/>
+                                <span className='number-row'>8.</span> &emsp;definiamo R' come proiezione di R sulle variabili diverse da X<br/> 
+                                <span className='number-row'>9.</span> &emsp;S = VE_CSP(Vs',(Cs\<InlineMath math='Cs_X) \cup'/>{"{"}R'{"}"})<br/>
+                                <span className='number-row'>10.</span> &emsp;restituisci R<InlineMath math='\bowtie'/>S<br/>   
+                            </p>
+                        </div>
                     </div>
-                </div>
-                    
+
+                    <p className='post-text'>
+                        Questo algoritmo è talvolta chiamato sistema di mantenimento della verità basato sui presupposti ( ATMS ), in particolare quando è combinato con l'aggiunta incrementale di clausole e assunzioni.
+                    </p>
                 </section>
             </article>
             <Footer/>

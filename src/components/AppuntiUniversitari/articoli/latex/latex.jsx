@@ -612,7 +612,7 @@ function LatexArticolo() {
                             <td>\equiv</td>
                         </tr>
                         <tr>
-                            <td><InlineMath math="\not \equiv"/></td>
+                            <td><InlineMath math=" \not \equiv"/></td>
                             <td>\not \equiv</td>
                         </tr>
                         <tr>
@@ -720,8 +720,8 @@ function LatexArticolo() {
                             <td>\in</td>
                         </tr>
                         <tr>
-                            <td><InlineMath math="\not \in"/></td>
-                            <td>\not \in</td>
+                            <td><InlineMath math="\notin"/></td>
+                            <td>\notin</td>
                         </tr>
                         <tr>
                             <td><InlineMath math="\ni"/></td>

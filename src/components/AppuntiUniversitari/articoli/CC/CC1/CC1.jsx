@@ -10,7 +10,7 @@ import {Link} from "react-router-dom";
 
 function CC1() {
   const inSimbolo = `\\in`;
-  const outSimbolo = `\\not \\in`;
+  const outSimbolo = `\\notin`;
   const sottoinsiemeSimnolo = `A \\subset B`;
   const insiemeVuoto = `\\emptyset`;
   const prodottoCartesiano = `A \\times B`;

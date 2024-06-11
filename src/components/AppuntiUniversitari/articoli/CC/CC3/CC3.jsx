@@ -192,7 +192,7 @@ function CC3() {
                         <p className='post-text'>
                             Per usare il pumping lemma per provare che un linguaggio B non è regolare, in primo luogo si assume che B sia regolare per ottenere una contraddizione. Successivamente si usa il pumping lemma per assicurare l'esistenza di una lunghezza del pumping p tale che tutte le stringhe 
                             di lunghezza maggiore o uguale a p in B possano essere iterate. In seguito occorre trovare una stringa s in B che ha una lunghezza maggiore o uguale a p, ma che non può essere iterata. Infine bisogna dimostrare che s non può essere iterata considerando tutti i modi di dividerla e per ogni divisione 
-                            trovando un valore di i tale che <InlineMath math="xy^iz \not \in B"/>.
+                            trovando un valore di i tale che <InlineMath math="xy^iz \notin B"/>.
                         </p>
 
                         <div className="succ-post">

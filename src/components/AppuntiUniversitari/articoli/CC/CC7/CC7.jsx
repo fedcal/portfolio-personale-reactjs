@@ -186,7 +186,7 @@ function CC7() {
                 <p className='post-text'>
                     Una <i>sequenza binaria infinita</i> è una sequenza senza fine di 0 e 1. Sia B l'insieme di tutte le sequenze binarie infinite, possiamo dimostrare che B è non numerabile. Per farlo si può utilizzare una dimostrazione mediante diagonalizzazione. Inoltre 
                     L è non-numerabile e lo mostriamo dando una corrispondenza con B, dimostrando così che i due insiemi hanno la stessa cardinalità. Sia <InlineMath math='\sum * = \{s_1,s_2,s_3, ... \}'/>. Ogni linguaggio <InlineMath math='A \in L'/> ha un'unica sequenza 
-                    in B. Il bit i-esimo della sequenza è 1 se <InlineMath math='s_i \in A'/> ed è uno 0 se <InlineMath math='s_i \not \in A'/>; questa è definita quindi <strong>sequenza caratteristica</strong> di A. La funzione <InlineMath math='f : L \longrightarrow B'/>, 
+                    in B. Il bit i-esimo della sequenza è 1 se <InlineMath math='s_i \in A'/> ed è uno 0 se <InlineMath math='s_i \notin A'/>; questa è definita quindi <strong>sequenza caratteristica</strong> di A. La funzione <InlineMath math='f : L \longrightarrow B'/>, 
                     dove f(A) è uguale alla squenza caratteristica di A è una funzione biettiva. Pertanto essendo B non numerabile, anche L è non numerabile.
                 </p>
 
