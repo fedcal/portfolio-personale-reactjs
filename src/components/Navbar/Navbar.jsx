@@ -34,7 +34,8 @@ function Navbar() {
             </li>            
             {/*<li>
                 <Link to={"/appunti-universitari"}>Appunti Universitari</Link>
-            </li>*/}
+            </li>
+            */}
             <li>
                 <Link to={"/blog"}>Blog</Link>
             </li>
