@@ -13,14 +13,28 @@ function Esperienze() {
 
                             <div className='timeline-item'>
                                 <div className='circle-dot'></div>
-                                <h4 className='timeline-date'><AiOutlineCalendar size={18} style={{color: "#fff", marginRight:'0.5rem'}}/>27/12/2022 - Attualmente ricopro questo ruolo</h4>
-                                <h2 className='timeline-title'>Links Management and Technology SPA</h2>
-                                <p className='timeline-text'>Apprendistato nel ruolo di Backend developer:
-                                <ul>
-                                    <li>Sviluppo backend di applicazioni attraverso il framework SpringBoot</li>
-                                </ul>
-                                </p>
-                            </div>
+                                    <h4 className='timeline-date'><AiOutlineCalendar size={18} style={{color: "#fff", marginRight:'0.5rem'}}/>09/12/2024 - Attualmente ricopro questo ruolo</h4>
+                                    <h2 className='timeline-title'>Accenture</h2>
+                                    <p className='timeline-text'>Custom Software Engineering Analyst
+                                    <ul>
+                                        <li>Analisi e sviluppo funzionalità in Quarkus</li>
+                                        <li>Progettazione database Oracle</li>
+                                    </ul>
+                                    </p>
+                                </div>
+
+                                <div className='timeline-item'>
+                                    <div className='circle-dot'></div>
+                                    <h4 className='timeline-date'><AiOutlineCalendar size={18} style={{color: "#fff", marginRight:'0.5rem'}}/>27/12/2022 - 08/12/2024</h4>
+                                    <h2 className='timeline-title'>Links Management and Technology SPA</h2>
+                                    <p className='timeline-text'>Apprendistato nel ruolo di Backend Developer
+                                    <ul>
+                                        <li>Sviluppo backend di applicazioni attraverso il framework SpringBoot</li>
+                                        <li>Struts 2 e Vaadin</li> 
+                                        <li>Progettazione database Sql</li>
+                                    </ul>
+                                    </p>
+                                </div>
 
                             <div className='timeline-item'>
                                 <div className='circle-dot'></div>
