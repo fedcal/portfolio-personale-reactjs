@@ -29,7 +29,7 @@ function Esperienze() {
                                 <p className='timeline-text'>Apprendistato nel ruolo di Backend developer:
                                 <ul>
                                     <li>Sviluppo backend di applicazioni attraverso il framework SpringBoot</li>
-                                    <li>Struts 2 e Vaadin</li>
+                                    <li>Struts 2 e Vaadin</li> 
                                     <li>Analisi e sviluppo tramite Sql</li>
                                 </ul>
                                 </p>
