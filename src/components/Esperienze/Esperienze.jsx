@@ -75,9 +75,9 @@ function Esperienze() {
 
                             <div className='timeline-item'>
                                 <div className='circle-dot'></div>
-                                <h4 className='timeline-date'><AiOutlineCalendar size={18} style={{color: "#fff", marginRight:'0.5rem'}}/>2017</h4>
+                                <h4 className='timeline-date'><AiOutlineCalendar size={18} style={{color: "#fff", marginRight:'0.5rem'}}/>2017-2025</h4>
                                 <h2 className='timeline-title'> Inizio studi universitari in Informatic</h2>
-                                <p className='timeline-text'>Immatricolazione presso l'università Aldo Moro di Bari, facoltà di Informatica. Classe di laurea L31</p>
+                                <p className='timeline-text'>Laureato in Informatica presso l’Università degli Studi di Bari Aldo Moro (classe L-31)</p>
                             </div>
 
                             <div className='timeline-item'>
